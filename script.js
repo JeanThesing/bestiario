@@ -7,7 +7,9 @@ function createCard(criatura) {
     card.dataset.tipagem = criatura.classificacao.tipagem;
     card.dataset.tamanho = criatura.classificacao.tamanho;
     card.dataset.comportamento = criatura.classificacao.comportamento;
-    card.dataset.id = criatura.id;
+    card.dataset.nome = criatura.nome;
+    card.dataset.hp = criatura.hp;
+    card.dataset.nd = criatura.nd;
 
     // Cria o card html
     // Imagem: <img src="${criatura.imagem.principal}" alt="${criatura.nome}">
@@ -39,6 +41,31 @@ fetch('./criaturas.json')
 
 
 /*====================PESQUISA=============================*/
+// SORTING CARDS POR SELECT
+const selectOrdenar = document.getElementById('ordenar');
+
+selectOrdenar.addEventListener('change', () => {
+    const criterio = selectOrdenar.value;
+    const [campo, direcao] = criterio.split('-');
+
+    const cards = Array.from(container.children);
+
+    cards.sort((a, b) => {
+        const valorA = a.dataset[campo];
+        const valorB = b.dataset[campo];
+
+        const resultado = valorA.localeCompare(valorB, undefined, { numeric: true });
+        // asc: mantém o resultado; desc: inverte
+        if (direcao === 'asc') {
+            return resultado;
+        }
+        else {
+            return -resultado;
+        }
+    });
+    //reposiciona os cards na página na nova ordem
+    cards.forEach(card => container.appendChild(card));
+});
 // FILTRAGENS DE QUAIS CARDS DEVEM APARECER POR MEIO DOS CHECKBOXES
 //card.classList.add("invisivel")
 //card.classList.remove("invisivel");
@@ -48,6 +75,7 @@ fetch('./criaturas.json')
 const filtros = document.querySelectorAll('.filtro input[type="checkbox"]')
 
 function filtrarCards() {
+    const cards = document.querySelectorAll('.card');
     // quais checkboxes estão selecionados
     const selecionados = {
         tipagem: [],
@@ -55,13 +83,13 @@ function filtrarCards() {
         comportamento: []
     };
     filtros.forEach(cb => {
-        if (cb.checked){
+        if (cb.checked) {
             selecionados[cb.name].push(cb.value);
         }
     });
 
     //verifica cada card para saber se ele atende aos filtros
-    document.querySelectorAll('.card').forEach(card => {
+    cards.forEach(card => {
         let corresponde = true; // caso base: card aparece
 
         for (const grupo in selecionados) {
@@ -86,8 +114,6 @@ function filtrarCards() {
 }
 // toda vez que altera um checkbox chama a fncao de filtro
 filtros.forEach(cb => cb.addEventListener('change', filtrarCards));
-
-
 
 // Range input event listener
 const searchRange = document.getElementById('searchRange');

@@ -36,11 +36,11 @@
             "imagem": {
                 "principal": "assets/criaturas/paquintos/paquintos.png",
                 "galeria": [
-                    "assets/criaturas/paquintos/galeria-01.png",
-                    "assets/criaturas/paquintos/galeria-02.png",
-                    "assets/criaturas/paquintos/galeria-03.png",
-                    "assets/criaturas/paquintos/galeria-04.png",
-                    "assets/criaturas/paquintos/galeria-05.png"
+                    "assets/criaturas/paquintos/paquintos1.png",
+                    "assets/criaturas/paquintos/paquintos2.png",
+                    "assets/criaturas/paquintos/paquintos3.png",
+                    "assets/criaturas/paquintos/paquintos4.png",
+                    "assets/criaturas/paquintos/paquintos5.png"
                 ]
             },
             "hp": 15,
@@ -55,6 +55,30 @@
             ],
             "habilidades": [],
             "descricao": "Os Paquintos são criaturas terrestres de tamanho médio, conhecidas por sua natureza neutra. Eles vivem em campos floridos e são reconhecidos por sua habilidade de forragear em grupo. Seu comportamento é geralmente pacífico, mas podem se defender quando ameaçados.",
+            "notasMestre": ""
+        },
+        "reclama-reclama": {
+            "id": "reclama-reclama",
+            "nome": "Reclama-Reclama",
+            "imagem": {
+                "principal": "assets/criaturas/reclama-reclama/reclama-reclama.png",
+                "galeria": [
+                    "assets/criaturas/reclama-reclama/reclama-reclama1.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "comportamento": "Pacífico"
+            },
+            "habitat": [
+                "Qualquer Lugar"
+            ],
+            "habilidades": [],
+            "descricao": "Os Reclama-Reclamas são criaturas voadoras de tamanho pequeno, conhecidas por sua natureza pacífica. Eles vivem em qualquer lugar e são reconhecidos por sua habilidade de voar em grupo. Seu comportamento é geralmente pacífico, mas podem se defender quando ameaçados.",
             "notasMestre": ""
         }
     }
