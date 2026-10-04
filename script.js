@@ -134,6 +134,14 @@ selectOrdenar.addEventListener('change', () => {
     //reposiciona os cards na página na nova ordem
     cards.forEach(card => container.appendChild(card));
 });
+//// SEARCH BAR APLICACAO:
+function normalizar(texto) {
+    return texto
+        .normalize('NFD')                 // "á" vira "a" + o acento solto
+        .replace(/[\u0300-\u036f]/g, '')  // remove os acentos soltos
+        .toLowerCase();
+}
+
 // FILTRAGENS DE QUAIS CARDS DEVEM APARECER POR MEIO DOS CHECKBOXES
 //card.classList.add("invisivel")
 //card.classList.remove("invisivel");
@@ -141,9 +149,12 @@ selectOrdenar.addEventListener('change', () => {
 //<ul class="cards-container"
 // relação: se checkbox com data-(tamanho/temperamento/tipagem) estiver selecionado, então o card com a mesma informação deve aparecer, se não tiver, o card deve sumir
 const filtros = document.querySelectorAll('.filtro input[type="checkbox"]')
+const searchInput = document.getElementById('searchInput');
 
 function filtrarCards() {
     const cards = document.querySelectorAll('.card');
+    const textoBusca = normalizar(searchInput.value.trim());
+
     // quais checkboxes estão selecionados
     const selecionados = {
         tipagem: [],
@@ -159,6 +170,9 @@ function filtrarCards() {
     //verifica cada card para saber se ele atende aos filtros
     cards.forEach(card => {
         let corresponde = true; // caso base: card aparece
+         if (textoBusca !== '' && !normalizar(card.dataset.nome).includes(textoBusca)) {
+            corresponde = false;
+        }
 
         for (const grupo in selecionados) {
             const valores = selecionados[grupo];// filtros selecionados (ex: terreste, voador, etc)   
@@ -180,6 +194,10 @@ function filtrarCards() {
         }
     });
 }
+
+//Toda vez que digita na search bar chama a função de filtro
+searchInput.addEventListener('input', filtrarCards);
+
 // toda vez que altera um checkbox chama a fncao de filtro
 filtros.forEach(cb => cb.addEventListener('change', filtrarCards));
 
