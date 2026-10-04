@@ -1,15 +1,17 @@
 const container = document.querySelector('.cards-container');
 
-function createCard(criatura) {
+function createCards(criatura) {
     const card = document.createElement('li');
     card.classList.add('card');
     // metadados do card para filtragem
     card.dataset.tipagem = criatura.classificacao.tipagem;
     card.dataset.tamanho = criatura.classificacao.tamanho;
-    card.dataset.comportamento = criatura.classificacao.comportamento;
+    card.dataset.temperamento = criatura.classificacao.temperamento;
     card.dataset.nome = criatura.nome;
+    card.dataset.id = criatura.id;
     card.dataset.hp = criatura.hp;
     card.dataset.nd = criatura.nd;
+    card.dataset.mov = criatura.mov;
 
     // Cria o card html
     // Imagem: <img src="${criatura.imagem.principal}" alt="${criatura.nome}">
@@ -17,26 +19,92 @@ function createCard(criatura) {
         <h3>${criatura.nome}</h3>
         <p>HP: ${criatura.hp}</p>
         <p>ND: ${criatura.nd}</p>
-        <p>Tamanho: ${criatura.classificacao.tamanho}</p>
-        <p>Tipagem: ${criatura.classificacao.tipagem}</p>
-        <p>Comportamento: ${criatura.classificacao.comportamento}</p>
+        <p>MOV: ${criatura.mov}m</p>
     `;
     return card;
 }
+
+let criaturasPorId = {};
 
 fetch('./criaturas.json')
     .then(response => response.json())
     .then(dados => {
         const criaturas = Object.values(dados.criaturas);
 
+        criaturasPorId = dados.criaturas;
         preencheDataList(Object.values(criaturas)); // Preenche o datalist com as opções de criaturas
 
         // Cria e adiciona os cards ao container
-        criaturas.forEach(criatura => {
-            const card = createCard(criatura);
+        Object.entries(dados.criaturas).forEach(([id, criatura]) => {
+            const card = createCards(criatura);
+            card.dataset.id = id;
             container.appendChild(card);
         });
     });
+
+function createFicha(criatura) {
+    return `
+        <h2 id="fichaTitulo">${criatura.nome}</h2>
+        <img class="ficha-imagem-principal" src="${criatura.imagem.principal}" alt="${criatura.nome}">
+        <section id="fichaDetalhes">
+            <h3>Detalhes</h3>
+            <p>HP: ${criatura.hp}</p>
+            <p>ND: ${criatura.nd}</p>
+            <p>MOV: ${criatura.mov}m</p>
+            <p>Tamanho: ${criatura.classificacao.tamanho}</p>
+            <p>Tipagem: ${criatura.classificacao.tipagem}</p>
+            <p>Temperamento: ${criatura.classificacao.temperamento}</p>
+        </section>
+        <section class="fichaEcologia">
+            <h3>Ecologia</h3>
+            <p>Habitat: ${criatura.ecologia.habitat.join(', ')}</p>
+            <p>Dieta: ${criatura.ecologia.dieta.join(', ')}</p>
+            <p>Atividade: ${criatura.ecologia.atividade}</p>
+            <p>Organização: ${criatura.ecologia.organizacao.tipo} (${criatura.ecologia.organizacao.quantidade})</p>
+            <p>Reprodução: ${criatura.ecologia.reproducao}</p>
+            <p>Expectativa de Vida: ${criatura.ecologia.expectativaDeVida || 'Desconhecida'}</p>
+        </section>
+        <section class="fichaHabilidades">
+            <h3>Habilidades</h3>
+            <ul>
+                ${criatura.habilidades.map(hab => `<li><h4>${hab.nome}</h4><p>${hab.descricao}</p></li>`).join('')}
+            </ul>
+        </section>
+        <section class="fichaDescricao">
+            <h3>Descrição</h3>
+            <p>${criatura.descricao}</p>
+        </section>
+        <section class="galeria">
+            <h3>Galeria de Imagens</h3>
+            ${criatura.imagem.galeria.map(img => `<img src="${img}" alt="${criatura.nome}">`).join('')}
+        </section>
+    `;
+}
+
+const ficha = document.getElementById('ficha');
+const fichaConteudo = document.getElementById('fichaConteudo');
+
+container.addEventListener('click', (e) => {
+    const card = e.target.closest('.card'); //sobe do elemento clicado até o card
+    if (!card) return;                      // clicou fora de um card
+    const criatura = criaturasPorId[card.dataset.id];
+    fichaConteudo.innerHTML = createFicha(criatura);
+    ficha.showModal();
+});
+
+// Abre ficha quando clica no card
+container.addEventListener('click', (e) => {
+    const card = e.target.closest('.card'); // sobe do elemento clicado até o card
+    if (!card) return;                      // clicou fora de um card
+
+    const criatura = criaturasPorId[card.dataset.id];
+    fichaConteudo.innerHTML = createFicha(criatura);
+    ficha.showModal();
+});
+//fecha ficha quando clica fora do card
+ficha.addEventListener('click', (e) => {
+    if (e.target === ficha) ficha.close();
+});
 
 
 
@@ -71,7 +139,7 @@ selectOrdenar.addEventListener('change', () => {
 //card.classList.remove("invisivel");
 // procura card por card de criatura quais tem as informações que estão nos filtros selecionados, se tiver, mostra o card, se não tiver, esconde o car
 //<ul class="cards-container"
-// relação: se checkbox com data-(tamanho/comportamento/tipagem) estiver selecionado, então o card com a mesma informação deve aparecer, se não tiver, o card deve sumir
+// relação: se checkbox com data-(tamanho/temperamento/tipagem) estiver selecionado, então o card com a mesma informação deve aparecer, se não tiver, o card deve sumir
 const filtros = document.querySelectorAll('.filtro input[type="checkbox"]')
 
 function filtrarCards() {
@@ -80,7 +148,7 @@ function filtrarCards() {
     const selecionados = {
         tipagem: [],
         tamanho: [],
-        comportamento: []
+        temperamento: []
     };
     filtros.forEach(cb => {
         if (cb.checked) {

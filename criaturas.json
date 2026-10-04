@@ -3,6 +3,9 @@
         "alanzelha": {
             "id": "alanzelha",
             "nome": "Alanzelha",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
             "imagem": {
                 "principal": "assets/criaturas/alanzelha/alanzelha.png",
                 "galeria": [
@@ -17,69 +20,133 @@
             },
             "hp": 6,
             "nd": 10,
+            "mov": 6,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
-                "comportamento": "Neutro"
+                "temperamento": "Neutro"
             },
-            "habitat": [
-                "Campos Floridos",
-                "Perto de Árvores"
+            "ecologia": {
+                "habitat": [
+                    "Campos Floridos",
+                    "Perto de Árvores"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Fazer Caldo",
+                    "descricao": "Produz o característico caldo das Alanzelhas nas Alandocas."
+                },
+                {
+                    "nome": "Defesa Coletiva",
+                    "descricao": "Quando uma Alanzelha é atacada, indivíduos próximos podem se juntar ao combate."
+                }
             ],
-            "habilidades": [],
-            "descricao": "As Alanzelhas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Alanzelhas também são conhecidas como \"Abelhas da Terra\". Atacar uma Alanzelha pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos.",
-            "notasMestre": ""
+            "descricao": "As Alanzelhas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Alanzelhas também são conhecidas como \"Abelhas da Terra\". Atacar uma Alanzelha pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
         },
         "paquintos": {
             "id": "paquintos",
             "nome": "Paquintos",
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/paquintos/paquintos.png",
                 "galeria": [
-                    "assets/criaturas/paquintos/paquintos1.png",
-                    "assets/criaturas/paquintos/paquintos2.png",
-                    "assets/criaturas/paquintos/paquintos3.png",
-                    "assets/criaturas/paquintos/paquintos4.png",
-                    "assets/criaturas/paquintos/paquintos5.png"
+                    "assets/criaturas/paquintos/paquintos2.png"
                 ]
             },
             "hp": 15,
             "nd": 13,
+            "mov": 15,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
-                "comportamento": "Neutro"
+                "temperamento": "Neutro"
             },
-            "habitat": [
-                "Campos Floridos"
+            "ecologia": {
+                "habitat": [
+                    "Campos Floridos",
+                    "Perto de Árvores"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Farejador de Trufas",
+                    "descricao": "Fareja trufas e outros alimentos subterrâneos com grande precisão."
+                }
             ],
-            "habilidades": [],
-            "descricao": "Os Paquintos são criaturas terrestres de tamanho médio, conhecidas por sua natureza neutra. Eles vivem em campos floridos e são reconhecidos por sua habilidade de forragear em grupo. Seu comportamento é geralmente pacífico, mas podem se defender quando ameaçados.",
-            "notasMestre": ""
+            "descricao": "As Paquintos correm pelos campos em busca de trufas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Paquintos também são conhecidas como \"Abelhas da Terra\". Atacar uma Paquintos pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
         },
         "reclama-reclama": {
             "id": "reclama-reclama",
             "nome": "Reclama-Reclama",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
             "imagem": {
                 "principal": "assets/criaturas/reclama-reclama/reclama-reclama.png",
                 "galeria": [
-                    "assets/criaturas/reclama-reclama/reclama-reclama1.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama2.png"
+                    "assets/criaturas/reclama-reclama/reclama-reclama2.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama3.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama4.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama5.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama6.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama7.png",
+                    "assets/criaturas/reclama-reclama/reclama-reclama8.png"
                 ]
             },
             "hp": 1,
             "nd": 2,
+            "mov": 10,
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
-                "comportamento": "Pacífico"
+                "temperamento": "Pacífico"
             },
-            "habitat": [
-                "Qualquer Lugar"
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
             ],
-            "habilidades": [],
-            "descricao": "Os Reclama-Reclamas são criaturas voadoras de tamanho pequeno, conhecidas por sua natureza pacífica. Eles vivem em qualquer lugar e são reconhecidos por sua habilidade de voar em grupo. Seu comportamento é geralmente pacífico, mas podem se defender quando ameaçados.",
-            "notasMestre": ""
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
         }
     }
 }
