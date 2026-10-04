@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bestiário</title>
+    <meta name="description" content="Bestiario de criaturas do 80's RPG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bestiário</h1>
+    </header>
+    <main>
+        <search>
+            <!--barra de pesquisa-->
+            <label for="searchInput">Pesquisar Criaturas:</label>
+            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <!--cards por linha-->
+            <label for="searchRange">Quantidade de Criaturas por Linha:</label>
+            <input type="range" id="searchRange" min="1" max="10" value="5">
+            <!--filtragem por checkboxes-->
+            <fieldset class="filtro" tag="geral">
+                <legend>Filtrar por Geral:</legend>
+                <label>
+                    <input type="checkbox" id="filtrarTodos" data-geral="Todos">
+                    Todos
+                </label>
+                <label>
+                    <imput type="checkbox" id="Nenhum" data-geral="Nenhum">
+                </label>
+            <fieldset class="filtro" tag="tipagem">
+                <legend>Filtrar por Tipagem:</legend>
+                <label>
+                    <input type="checkbox" id="filtrarTerrestre" data-tipagem="Terrestre">
+                    Terrestre
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarVoador" data-tipagem="Voador">
+                    Voador
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarAquatico" data-tipagem="Aquático">
+                    Aquático
+                </label>
+            </fieldset>
+            <fieldset class="filtro" tag="tamanho">
+                <legend>Filtrar por Tamanho:</legend>
+                <label>
+                    <input type="checkbox" id="filtrarPequeno" data-tamanho="Pequeno">
+                    Pequeno
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarMedio" data-tamanho="Médio">
+                    Médio
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarGrande" data-tamanho="Grande">
+                    Grande
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarGigante" data-tamanho="Gigante">
+                    Gigante
+                </label>
+            </fieldset>
+            <fieldset class="filtro" tag="comportamento">
+                <legend>Filtrar por Comportamento:</legend>
+                <label>
+                    <input type="checkbox" id="filtrarPacifico" data-comportamento="Pacífico">
+                    Pacífico
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarNeutro" data-comportamento="Neutro">
+                    Neutro
+                </label>
+                <label>
+                    <input type="checkbox" id="filtrarHostil" data-comportamento="Hostil">
+                    Hostil
+                </label>
+        </search>
+        <div class="cards-container">
+            <!-- Cards serão inseridos aqui pelo JavaScript -->
+        </div>
+        <!-- Páginas ao abrir os cards (mostrarão mais informações)-->
+    </main>
+    <footer>
+        <p>&copy; 2067 Bestiário. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

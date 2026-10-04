@@ -1,0 +1,61 @@
+{
+    "criaturas": {
+        "alanzelha": {
+            "id": "alanzelha",
+            "nome": "Alanzelha",
+            "imagem": {
+                "principal": "assets/criaturas/alanzelha/alanzelha.png",
+                "galeria": [
+                    "assets/criaturas/alanzelha/alanzelha2.png",
+                    "assets/criaturas/alanzelha/alanzelha3.png",
+                    "assets/criaturas/alanzelha/alanzelha4.png",
+                    "assets/criaturas/alanzelha/alanzelha5.png",
+                    "assets/criaturas/alanzelha/alanzelha6.png",
+                    "assets/criaturas/alanzelha/alanzelha7.png",
+                    "assets/criaturas/alanzelha/alanzelha8.png"
+                ]
+            },
+            "hp": 6,
+            "nd": 10,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "comportamento": "Neutro"
+            },
+            "habitat": [
+                "Campos Floridos",
+                "Perto de Árvores"
+            ],
+            "habilidades": [],
+            "descricao": "As Alanzelhas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Alanzelhas também são conhecidas como \"Abelhas da Terra\". Atacar uma Alanzelha pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos.",
+            "notasMestre": ""
+        },
+        "paquintos": {
+            "id": "paquintos",
+            "nome": "Paquintos",
+            "imagem": {
+                "principal": "assets/criaturas/paquintos/paquintos.png",
+                "galeria": [
+                    "assets/criaturas/paquintos/galeria-01.png",
+                    "assets/criaturas/paquintos/galeria-02.png",
+                    "assets/criaturas/paquintos/galeria-03.png",
+                    "assets/criaturas/paquintos/galeria-04.png",
+                    "assets/criaturas/paquintos/galeria-05.png"
+                ]
+            },
+            "hp": 15,
+            "nd": 13,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "comportamento": "Neutro"
+            },
+            "habitat": [
+                "Campos Floridos"
+            ],
+            "habilidades": [],
+            "descricao": "As Alanzelhas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Alanzelhas também são conhecidas como \"Abelhas da Terra\". Atacar uma Alanzelha pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos.",
+            "notasMestre": ""
+        }
+    }
+}
