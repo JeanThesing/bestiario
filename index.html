@@ -18,20 +18,18 @@
         <search>
             <!--barra de pesquisa-->
             <label for="searchInput">Pesquisar Criaturas:</label>
-            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <input type="search" id="searchInput" placeholder="Pesquisar..." list="listaCriaturas">
+            <datalist id="listaCriaturas">
+                <!--opções serão inseridas aqui pelo JavaScript-->
+            </datalist>
             <!--cards por linha-->
-            <label for="searchRange">Quantidade de Criaturas por Linha:</label>
+            <!--output muda de acordo com o range selcionado-->
+            <label for="searchRange"><output id="searchRangeValor">5</output></label>
             <input type="range" id="searchRange" min="1" max="10" value="5">
+
             <!--filtragem por checkboxes-->
-            <fieldset class="filtro" tag="geral">
-                <legend>Filtrar por Geral:</legend>
-                <label>
-                    <input type="checkbox" id="filtrarTodos" data-geral="Todos">
-                    Todos
-                </label>
-                <label>
-                    <imput type="checkbox" id="Nenhum" data-geral="Nenhum">
-                </label>
+            <button type="button" id="limparFiltros">Limpar Filtros</button>
+            </fieldset>
             <fieldset class="filtro" tag="tipagem">
                 <legend>Filtrar por Tipagem:</legend>
                 <label>
@@ -80,10 +78,12 @@
                     <input type="checkbox" id="filtrarHostil" data-comportamento="Hostil">
                     Hostil
                 </label>
+            </fieldset>
         </search>
-        <div class="cards-container">
+        <h2>Criaturas</h2>
+        <ul class="cards-container">
             <!-- Cards serão inseridos aqui pelo JavaScript -->
-        </div>
+        </ul>
         <!-- Páginas ao abrir os cards (mostrarão mais informações)-->
     </main>
     <footer>
