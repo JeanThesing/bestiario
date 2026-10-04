@@ -24,58 +24,58 @@
             </datalist>
             <!--cards por linha-->
             <!--output muda de acordo com o range selcionado-->
-            <label for="searchRange"><output id="searchRangeValor">5</output></label>
+            <label for="searchRange">Criaturas por linha: <output id="searchRangeValor">5</output></label>
             <input type="range" id="searchRange" min="1" max="10" value="5">
 
             <!--filtragem por checkboxes-->
             <button type="button" id="limparFiltros">Limpar Filtros</button>
-            </fieldset>
+
             <fieldset class="filtro" tag="tipagem">
                 <legend>Filtrar por Tipagem:</legend>
                 <label>
-                    <input type="checkbox" id="filtrarTerrestre" data-tipagem="Terrestre">
+                    <input type="checkbox" name="tipagem" value="Terrestre">
                     Terrestre
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarVoador" data-tipagem="Voador">
+                    <input type="checkbox" name="tipagem" value="Voador">
                     Voador
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarAquatico" data-tipagem="Aquático">
+                    <input type="checkbox" name="tipagem" value="Aquático">
                     Aquático
                 </label>
             </fieldset>
             <fieldset class="filtro" tag="tamanho">
                 <legend>Filtrar por Tamanho:</legend>
                 <label>
-                    <input type="checkbox" id="filtrarPequeno" data-tamanho="Pequeno">
+                    <input type="checkbox" name="tamanho" value="Pequeno">
                     Pequeno
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarMedio" data-tamanho="Médio">
+                    <input type="checkbox" name="tamanho" value="Médio">
                     Médio
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarGrande" data-tamanho="Grande">
+                    <input type="checkbox" name="tamanho" value="Grande">
                     Grande
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarGigante" data-tamanho="Gigante">
+                    <input type="checkbox" name="tamanho" value="Gigante">
                     Gigante
                 </label>
             </fieldset>
             <fieldset class="filtro" tag="comportamento">
                 <legend>Filtrar por Comportamento:</legend>
                 <label>
-                    <input type="checkbox" id="filtrarPacifico" data-comportamento="Pacífico">
+                    <input type="checkbox" name="comportamento" value="Pacífico">
                     Pacífico
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarNeutro" data-comportamento="Neutro">
+                    <input type="checkbox" name="comportamento" value="Neutro">
                     Neutro
                 </label>
                 <label>
-                    <input type="checkbox" id="filtrarHostil" data-comportamento="Hostil">
+                    <input type="checkbox" name="comportamento" value="Hostil">
                     Hostil
                 </label>
             </fieldset>
