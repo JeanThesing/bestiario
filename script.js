@@ -17,9 +17,12 @@ function createCards(criatura) {
     // Imagem: <img src="${criatura.imagem.principal}" alt="${criatura.nome}">
     card.innerHTML = `
         <h3>${criatura.nome}</h3>
-        <p>HP: ${criatura.hp}</p>
-        <p>ND: ${criatura.nd}</p>
-        <p>MOV: ${criatura.mov}m</p>
+        <img src="${criatura.imagem.principal}" alt="${criatura.nome}" class="card-imagem">
+        <section class="card-detalhes">
+            <p id="hp">HP: ${criatura.hp}</p>
+            <p id="nd">ND: ${criatura.nd}</p>
+            <p id="mov">MOV: ${criatura.mov}m</p>
+        </section>
     `;
     return card;
 }
@@ -170,7 +173,7 @@ function filtrarCards() {
     //verifica cada card para saber se ele atende aos filtros
     cards.forEach(card => {
         let corresponde = true; // caso base: card aparece
-         if (textoBusca !== '' && !normalizar(card.dataset.nome).includes(textoBusca)) {
+        if (textoBusca !== '' && !normalizar(card.dataset.nome).includes(textoBusca)) {
             corresponde = false;
         }
 
@@ -204,9 +207,10 @@ filtros.forEach(cb => cb.addEventListener('change', filtrarCards));
 // Range input event listener
 const searchRange = document.getElementById('searchRange');
 const searchRangeValor = document.getElementById('searchRangeValor');
-
+const cardContainer = document.querySelector('.cards-container');
 searchRange.addEventListener('input', () => {
     searchRangeValor.textContent = searchRange.value;
+    cardContainer.style.setProperty('--colunas', searchRange.value);
 }
 );
 

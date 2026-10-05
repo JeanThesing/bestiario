@@ -7,6 +7,7 @@
     <title>Bestiário</title>
     <meta name="description" content="Bestiario de criaturas do 80's RPG">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,7 +26,7 @@
             <!--cards por linha-->
             <!--output muda de acordo com o range selcionado-->
             <label for="searchRange">Criaturas por linha: <output id="searchRangeValor">5</output></label>
-            <input type="range" id="searchRange" min="1" max="10" value="5">
+            <input type="range" id="searchRange" min="3" max="7" value="5">
             <!--ordenar cards por select-->
             <label for="ordenar">Ordenar por:</label>
             <select id="ordenar">
@@ -93,12 +94,8 @@
         </search>
         <h2>Criaturas</h2>
         <ul class="cards-container">
-            <!-- Cards serão inseridos aqui pelo JavaScript -->
+            <!--CARDS PELO JS-->
         </ul>
-        <ul class="pages-container">
-            <!-- Cards serão inseridos aqui pelo JavaScript -->
-        </ul>
-        <!-- Páginas ao abrir os cards (mostrarão mais informações)-->
     </main>
     <footer>
         <p>&copy; 2067 Bestiário. Todos os direitos reservados.</p>
@@ -109,7 +106,7 @@
             <button>Fechar</button>
         </form>
         <article id="fichaConteudo">
-            <!-- conteúdo inserido pelo JS -->
+            <!--FICHA PELO JS-->
         </article>
     </dialog>
     <script src="script.js" defer></script>

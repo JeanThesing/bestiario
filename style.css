@@ -1,3 +1,115 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2b2b2b;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #FFEED6;
+    --cor-secundaria: #A5AF79;
+    --cor-terciaria: #827148;
+    --cor-quaternaria:#E8A07C;
+}
+
+header {
+    padding: 24px 32px;
+    background-color: #8d7747;
+    border-bottom: 3px solid #5e4d2e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: #122d15;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+}
+
+main 
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 28px 32px 50px;
+}
+
+.cards-container {
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(var(--colunas, 5), minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    container-type: inline-size;
+    /* habilita cqw nos elementos de dentro */
+    padding: 4%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15%;
+    background-color: var(--cor-terciaria);
+    aspect-ratio: 1 / 1;
+    border-color: var(--cor-terciaria);
+    border:1px solid;
+}
+
+.card h3 {
+    margin: 0;
+    padding-bottom: 2%;
+    font-size: clamp(0.7rem, 9cqw, 2rem);
+    font-weight: bolder;
+}
+
+#hp {
+    /*color: #8d1414;*/
+}
+
+#nd {
+    /*color: #9c8515;*/
+}
+
+#mov {
+    /*color: #276d9c;*/
+}
+
+.card-detalhes {
+    font-size: clamp(0.6rem, 6cqw, 1.5rem);
+    font-weight: bold;
+    gap: 3cqw;
+    padding: 2cqw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-imagem {
+    width: 100%;
+    flex: 1;
+    /* ocupa o espaço que sobrar no card */
+    min-height: 0;
+    /* sem isso, o flex não deixa a imagem encolher */
+    object-fit: fill;
+    /* corta em vez de deformar */
+    border-radius: 8cqw;
+}
+
 .invisivel {
     display: none;
+}
+
+footer {
+    /*rodape*/
+    background-color: var(--cor-primaria);
+    margin: 0 -4rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: var(--cor-secundaria);
 }
