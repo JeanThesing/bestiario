@@ -16,13 +16,15 @@ function createCards(criatura) {
     // Cria o card html
     // Imagem: <img src="${criatura.imagem.principal}" alt="${criatura.nome}">
     card.innerHTML = `
-        <h3>${criatura.nome}</h3>
         <img src="${criatura.imagem.principal}" alt="${criatura.nome}" class="card-imagem">
-        <section class="card-detalhes">
-            <p id="hp">HP: ${criatura.hp}</p>
-            <p id="nd">ND: ${criatura.nd}</p>
-            <p id="mov">MOV: ${criatura.mov}m</p>
-        </section>
+        <div class="card-conteudo">
+            <h3>${criatura.nome}</h3>
+            <section class="card-detalhes">
+                <span class="stat">HP: ${criatura.hp}</span>
+                <span class="stat">ND: ${criatura.nd}</span>
+                <span class="stat">MOV: ${criatura.mov}m</span>
+            </section>
+        </div>
     `;
     return card;
 }

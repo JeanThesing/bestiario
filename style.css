@@ -1,16 +1,35 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
-    color: #2b2b2b;
+     font-family: 'Times New Roman', Times, serif;
+    color: var(--cor-texto);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --cor-primaria: #FFEED6;
+    --cor-primaria: #E8DDBD;   /* pergaminho claro */
+    --cor-secundaria: #B2B986; /* verde envelhecido */
+    --cor-terciaria: #7A6840;  /* marrom oliva */
+    --cor-quaternaria: #5D4B31; /* marrom escuro */
+    --cor-texto: #2F2B24;      /* quase preto quente */
+}
+
+/*--cor-primaria: #FFEED6;
     --cor-secundaria: #A5AF79;
     --cor-terciaria: #827148;
-    --cor-quaternaria:#E8A07C;
+    --cor-quaternaria: #E8A07C;*/
+
+
+html, body {
+    min-height: 100%;
+}
+body {
+    background-color: var(--cor-secundaria);
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -25,16 +44,116 @@ header h1 {
     color: #122d15;
 }
 
-body {
-    background-color: var(--cor-secundaria);
-}
+main {
+    flex: 1;
 
-main 
-{
+    width: 100%;
     max-width: 1400px;
+
     margin: 0 auto;
     padding: 28px 32px 50px;
+
+    min-width: 0;
 }
+
+search {
+    display: block;
+
+    background-color: rgba(245, 238, 208, 0.85);
+
+    padding: 20px;
+    margin-bottom: 30px;
+
+    border: 1px solid #71633f;
+    border-radius: 12px;
+}
+
+search form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 20px;
+    align-items: center;
+}
+
+search label {
+    font-weight: bold;
+}
+
+#searchInput,
+#ordenar {
+    padding: 8px 10px;
+
+    border: 1px solid #6a6045;
+    border-radius: 6px;
+
+    background-color: #fffaf0;
+}
+
+#searchInput {
+    min-width: 220px;
+}
+
+#searchRange {
+    accent-color: #66512d;
+}
+
+fieldset {
+    flex: 1 1 100%;
+
+    border: 1px solid #827652;
+    border-radius: 8px;
+
+    padding: 10px 14px;
+    margin: 0;
+}
+
+legend {
+    padding: 0 6px;
+    font-weight: bold;
+}
+
+fieldset label {
+    display: inline-flex;
+    align-items: center;
+
+    margin-right: 16px;
+
+    font-weight: normal;
+}
+
+button {
+    font: inherit;
+
+    padding: 7px 12px;
+
+    border: 1px solid var(--cor-quaternaria);
+    border-radius: 6px;
+
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d6c89e;
+}
+
+/* =========================
+   TÍTULO DA LISTA
+   ========================= */
+
+.criaturas h2,
+main>h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+
+    font-size: 2rem;
+}
+
+/* =========================
+   CARDS
+   ========================= */
 
 .cards-container {
     list-style: none;
@@ -43,22 +162,24 @@ main
     display: grid;
     grid-template-columns: repeat(var(--colunas, 5), minmax(0, 1fr));
     gap: 1rem;
+    min-width: 0;
 }
 
 .card {
     container-type: inline-size;
-    /* habilita cqw nos elementos de dentro */
-    padding: 4%;
     position: relative;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     text-align: center;
+
     border-radius: 15%;
     background-color: var(--cor-terciaria);
     aspect-ratio: 1 / 1;
-    border-color: var(--cor-terciaria);
-    border:1px solid;
+
+    border: 0.2cqw solid var(--cor-quaternaria);
+    overflow: hidden; /* importante para a imagem respeitar as bordas arredondadas */
 }
 
 .card h3 {
@@ -68,15 +189,15 @@ main
     font-weight: bolder;
 }
 
-#hp {
+.hp {
     /*color: #8d1414;*/
 }
 
-#nd {
+.nd {
     /*color: #9c8515;*/
 }
 
-#mov {
+.mov {
     /*color: #276d9c;*/
 }
 
@@ -91,25 +212,29 @@ main
 }
 
 .card-imagem {
+    display: block;
     width: 100%;
-    flex: 1;
-    /* ocupa o espaço que sobrar no card */
-    min-height: 0;
-    /* sem isso, o flex não deixa a imagem encolher */
-    object-fit: fill;
-    /* corta em vez de deformar */
-    border-radius: 8cqw;
+    height: 68%;
+
+    object-fit: cover;
+
+    border-radius: 0;
+    height: 75%;;
 }
 
 .invisivel {
     display: none;
 }
 
+/* =========================
+   FOOTER
+   ========================= */
+
 footer {
-    /*rodape*/
     background-color: var(--cor-primaria);
-    margin: 0 -4rem;
-    padding: 1rem 2rem;
+    border-top: 2px solid var(--cor-quaternaria);
+    padding: 22px;
     text-align: center;
-    color: var(--cor-secundaria);
+
+    margin-top: auto;
 }
