@@ -18,7 +18,7 @@
                     "assets/criaturas/alanzelha/alanzelha8.png"
                 ]
             },
-            "hp": 6,
+            "hp": 8,
             "nd": 10,
             "mov": 6,
             "classificacao": {
@@ -67,7 +67,7 @@
             },
             "hp": 15,
             "nd": 13,
-            "mov": 15,
+            "mov": 17,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -101,9 +101,7 @@
         "reclama-reclama": {
             "id": "reclama-reclama",
             "nome": "Reclama-Reclama",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/reclama-reclama/reclama-reclama.png",
                 "galeria": [
@@ -123,13 +121,13 @@
                     "Qualquer Lugar"
                 ],
                 "dieta": [
-                    "Pólen",
+                    "Restos de Alimentos",
                     "Néctar"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Indivíduos Solitários",
+                    "quantidade": "1"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
@@ -146,7 +144,7 @@
             "id": "porco_da_viela",
             "nome": "Porco da Viela",
             "nomesAlternativos": [
-                "Maminha"
+                "Porco da Maminha"
             ],
             "imagem": {
                 "principal": "assets/criaturas/porco_da_viela/porco_da_viela.png",
@@ -155,9 +153,9 @@
                     "assets/criaturas/porco_da_viela/porco_da_viela3.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 18,
+            "nd": 8,
+            "mov": 7,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -165,27 +163,34 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Áreas Rurais",
+                    "Fazendas",
+                    "Vilas",
+                    "Campos",
+                    "Arredores de Assentamentos"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Onívora"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Rebanho",
+                    "quantidade": "2 a 12 indivíduos"
                 },
                 "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "expectativaDeVida": "50 anos"
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Corpo Pesado",
+                    "descricao": "O Porco da Viela possui vantagem em testes para resistir a efeitos que tentem empurrá-lo ou derrubá-lo."
+                },
+                {
+                    "nome": "Maminha",
+                    "descricao": "Um Porco da Viela muito assustado pode tentar chicotear sua maminha em direção ao alvo, causando 1d4 de dano."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Porcos da Viela são costumamente dóceis e comem de tudo. São criados como animais de abate, e são muito apreciados por sua maminha, uma massa de carne marmoreada suspensa que fica pendurada ao lado de suas cabeças. Esses animais não param de crescer enquanto envelhecem. Animais mais velhos são maiores e mais gordos, porcos envelhecidos costumam ter uma maminha mais avantajada e mais saborosa. Porcos da Viela que costumam fugir de ambientes de criação, ao não serem abatidos, podem acabar ficando gordos demais, o que os impedem de andar, servindo de preça fácil e calórica para outros animais. A pelagem superior desses animais, que é grossa e enrolada, costumamente é usada para preencher travesseiros ou oferecer isolamento térmico para roupas."
         },
         "betassauro": {
             "id": "betassauro",
@@ -200,37 +205,51 @@
                     "assets/criaturas/betassauro/betassauro3.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 12,
+            "nd": 12,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Áreas Rurais",
+                    "Fazendas",
+                    "Brejos",
+                    "Mangues",
+                    "Estradas",
+                    "Vilas",
+                    "Cidades"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Herbívoro",
+                    "Tubérculos"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Doméstico",
+                    "quantidade": "1 a 4 indivíduos"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Proteger o Mestre",
+                    "descricao": "O Betassauro fica agressivo quando seu dono está em perigo. Enquanto estiver defendendo seu mestre, ele ignora seu comportamento normalmente dócil e tentará atacar ou afastar a ameaça."
+                },
+                {
+                    "nome": "Investida Poderosa",
+                    "descricao": "O Betassauro dispara em linha reta contra um alvo usando a força de suas pernas e o peso do corpo. A investida causa forte impacto e pode derrubar ou empurrar o alvo."
+                },
+                {
+                    "nome": "Dentada",
+                    "descricao": "Os Dentes dos Betassauros são bem proeminentes, uma mordida pode ser dolorida, causando 1d6 de dano."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Betassauros são uma das principais forças animais utilizadas para mover carroças e carruagens por diversas regiões. Seu porte, aliado à facilidade de domesticação e à grande força de suas pernas, faz deles excelentes animais de trabalho, especialmente como animais de carga e tração. Costumam ser criados desde filhotes ao lado de seus futuros donos, formando fortes vínculos com aqueles que cuidam deles até atingirem idade suficiente para trabalhar. São herbívoros e demonstram preferência particular por tubérculos. Apesar de sua natureza pacífica, Betassauros podem assumir um comportamento agressivo quando percebem que seu dono está sendo ameaçado. Mesmo sem possuir um verdadeiro instinto de combate, sua força física permite que realizem investidas extremamente poderosas para proteger seus mestres."
         },
         "levedor": {
             "id": "levedor",
@@ -247,57 +266,65 @@
                     "assets/criaturas/levedor/levedor5.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 30,
+            "nd": 10,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Rios de Líquens",
+                    "Campos de Líquens",
+                    "Regiões Próximas a Poliporias"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Líquens Luminescentes"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Noturna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Rebanho",
+                    "quantidade": "4 a 15 indivíduos"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Pólipos Luminescentes",
+                    "tipo": "Passiva",
+                    "descricao": "Após se alimentar de líquens luminescentes, o Levedor favorece o crescimento de bactérias fotossintetizantes que formam pólipos em suas costas. Quanto mais o animal se alimenta, mais intensamente esses pólipos brilham."
+                },
+                {
+                    "nome": "Luz da Colheita",
+                    "tipo": "Passiva",
+                    "descricao": "Quando os pólipos atingem luminosidade intensa, estão maduros para a colheita. Sua remoção não causa dano ao Levedor, e novos pólipos crescem novamente após alguns meses."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "O Levedor é um animal grande, pacífico, lento e de hábitos noturnos, encontrado principalmente próximo aos rios de líquens luminescentes. Alimenta-se desses líquens, cuja digestão favorece o desenvolvimento de bactérias fotossintetizantes que formam pólipos luminosos sobre suas costas. Esses pólipos são colhidos e utilizados na produção das Leveduras, bebidas alcoólicas de sabor terroso e levemente adocicado. A coloração da bebida varia conforme a espécie de líquen consumida pelo animal. Quanto mais o Levedor se alimenta, mais luminosos se tornam seus pólipos, indicando que estão maduros para a colheita. A retirada dos pólipos não prejudica o animal, e eles voltam a crescer após alguns meses. Em diversas culturas, os Levedores são considerados animais sagrados. Seus criadores, conhecidos como Levedouros, frequentemente pertencem a famílias que exercem essa atividade há muitas gerações. Essas comunidades costumam se estabelecer ao redor dos rios de líquens, onde protegem os rebanhos e mantêm as Poliporias, construções especializadas na produção e fermentação das Leveduras."
         },
         "dronalo": {
             "id": "dronalo",
             "nome": "Dronalo",
             "nomesAlternativos": [
-                "Abelha da Terra"
+                "Bicho do Djanho"
             ],
             "imagem": {
                 "principal": "assets/criaturas/dronalo/dronalo.png",
                 "galeria": [
-                    "assets/criaturas/dronalo/dronalo2.png"
+                    "assets/criaturas/dronalo/dronalo2.png",
+                    "assets/criaturas/dronalo/dronalo3.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 6,
+            "nd": 15,
+            "mov": 13,
             "classificacao": {
                 "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tamanho": "Médio",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -335,13 +362,13 @@
                     "assets/criaturas/himoor/himoor2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 10,
+            "nd": 13,
+            "mov": 15,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -370,18 +397,16 @@
         "beija-bundas": {
             "id": "beija-bundas",
             "nome": "Beija-bundas",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/beija-bundas/beija-bundas.png",
                 "galeria": [
                     "assets/criaturas/beija-bundas/beija-bundas2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 3,
+            "nd": 10,
+            "mov": 15,
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -389,33 +414,43 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Regiões Habitadas",
+                    "Áreas Rurais",
+                    "Estábulos",
+                    "Banheiros",
+                    "Locais com Grandes Animais"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Fezes",
+                    "Resíduos Fecais"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Bando",
+                    "quantidade": "2 a 10 indivíduos"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Parasitária. Os Beija-Bundas depositam suas estruturas reprodutivas no interior de um hospedeiro, onde os ovos permanecem protegidos e utilizam reservas nutritivas até completarem seu desenvolvimento. Quando maduros, são expelidos junto às fezes do hospedeiro.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Bico Coprófago",
+                    "tipo": "Passiva",
+                    "descricao": "O Beija-Bundas possui um bico altamente adaptado para alcançar e consumir resíduos fecais diretamente do corpo de outros animais, demonstrando preferência por fezes ainda aquecidas."
+                },
+                {
+                    "nome": "Postura Parasitária",
+                    "tipo": "Ação",
+                    "descricao": "O Beija-Bundas pode tentar utilizar uma criatura como hospedeira para seus ovos. Durante o processo, deixa no interior do hospedeiro seu aparato reprodutivo, que fornece proteção e nutrientes aos ovos até que estejam maduros."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Beija-Bundas são pássaros coprófagos. Geralmente introduzem seu bico adaptado no ânus de outros seres para se alimentar dos resíduos fecais ali presentes, pois preferem as fezes enquanto ainda estão quentes pelo contato com o corpo de animais endotérmicos. Dizem que, em algumas culturas orientais, Beija-Bundas são amplamente utilizados em banheiros para limpeza anal. Os Beija-Bundas também costumam colocar seus ovos no interior de outros seres. Para isso, desacoplam o bico e as duas estruturas brancas características de seu corpo no interior do hospedeiro. Os ovos ficam alojados dentro do bico e utilizam os nutrientes armazenados nessas estruturas brancas para se desenvolver. Quando maduros, os ovos deixam o bico, já ressecado, e são posteriormente expelidos junto às fezes do hospedeiro. Em regiões com uma grande população de Beija-Bundas, é comum que os habitantes utilizem rolhas anais para proteger seus corpos desses animais. Essas rolhas costumam ser ornamentadas com joias e metais preciosos, podendo também funcionar como demonstração do prestígio social de seu portador."
         },
         "barao-das-nozes": {
             "id": "barao-das-nozes",
-            "nome": "Barão-das-nozes",
+            "nome": "Barão-das-Nozes",
             "nomesAlternativos": [
-                "Abelha da Terra"
+                "Barão"
             ],
             "imagem": {
                 "principal": "assets/criaturas/barao-das-nozes/barao-das-nozes.png",
@@ -423,44 +458,53 @@
                     "assets/criaturas/barao-das-nozes/barao-das-nozes2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 7,
+            "nd": 13,
+            "mov": 15,
             "classificacao": {
                 "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tamanho": "Médio",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Florestas",
+                    "Bosques",
+                    "Matas de Castanheiras",
+                    "Regiões Arborizadas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Nozes",
+                    "Castanhas",
+                    "Pequenas criaturas"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Noturna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Solitário ou casal",
+                    "quantidade": "1 a 2 indivíduos"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Baixa taxa de reprodução.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Golpe nos Olhos",
+                    "tipo": "Ação",
+                    "descricao": "Quando ameaçado, o Barão-das-Nozes pode atacar os olhos de seu agressor com suas garras afiadas, buscando cegá-lo ou desorientá-lo para fugir em segurança."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Barões-das-Nozes são aves castanheiras majestosas. Seus lábios e seus olhos verdes são muito almejados por observadores e caçadores ilegais. A caça aos Barões-das-Nozes é estritamente proibida, devido à sua baixa taxa de reprodução e à grande estima que recebem entre as pessoas. Um grande rei e filósofo, Phillip III, chamava seus discípulos de Barões-das-Nozes, pois em muitas culturas nobres esse animal é símbolo de sabedoria e do ensino pedagógico. Essas aves são conhecidas por se alimentarem de nozes e outras castanhas, o que deu origem ao seu nome; também costumam, raramente, predar pequenas criaturas. Se ameaçados, os Barões-das-Nozes tendem a furar o olho de seus algozes com suas garras afiadas para poderem fugir em segurança.",
+            "subespecies": [
+                {
+                    "nome": "Barão-das-Nozes do Norte",
+                    "descricao": "Uma subespécie de Barão-das-Nozes adaptada aos climas gélidos do Norte. Em vez de comer nozes, alimenta-se de neve. Seus ninhos são feitos de gelo e ficam no alto de araucárias polares, sendo conhecidos como Iglus Suspensos."
+                }
+            ]
         },
         "beijoqueira": {
             "id": "beijoqueira",
             "nome": "Beijoqueira",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/beijoqueira/beijoqueira.png",
                 "galeria": [
@@ -477,27 +521,35 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Áreas Urbanas",
+                    "Festivais",
+                    "Eventos Esportivos",
+                    "Regiões Habitadas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Suor"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Variável",
+                    "quantidade": "Variável"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Beijoca",
+                    "tipo": "Ação",
+                    "descricao": "A Beijoqueira faz biquinho e beija uma criatura para beber seu suor. O beijo é quente e úmido, provocando uma sensação agradável e liberando uma pequena dose de dopamina. Beijocas recebidas em excesso podem provocar um inchaço temporário nos lábios do alvo."
+                },
+                {
+                    "nome": "Lábios Sensíveis",
+                    "tipo": "Passiva",
+                    "descricao": "Os lábios extremamente sensíveis da Beijoqueira conseguem perceber alterações incomuns no organismo de uma criatura. Por isso, esses animais podem ser utilizados para identificar o uso de Charrébolona e determinadas alterações mágicas."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "As Beijoqueiras são animais inofensivos que bebem suor. Elas fazem isso fazendo biquinho e \"beijando\" seus alvos. Os beijos desses animais são agradáveis, pois são quentinhos e molhados na medida certa. Seus beijos aplicam uma dose de dopamina e, quando dados em excesso, podem provocar um inchaço temporário nos lábios do beijado. São muito utilizadas em clínicas de estética conhecidas como \"Barracas do Beijo\", onde mulheres nobres costumam aplicar mensalmente essas \"beijocas\" para fins de beleza. Algumas pessoas viciadas em \"Beijocas\" são conhecidas como Lambe-Beiços e são facilmente identificadas por seus lábios divinos e enormes. As Beijoqueiras são muito comuns em épocas de festivais esportivos e são vistas como bons presságios. Seus lábios são tão sensíveis que muitas vezes são utilizados para realizar testes antidoping em atletas, identificando o uso da poção de Charrébolona ou determinadas alterações mágicas."
         },
         "bertoldi": {
             "id": "bertoldi",
@@ -511,13 +563,13 @@
                     "assets/criaturas/bertoldi/bertoldi2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 5,
+            "nd": 12,
+            "mov": 12,
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -555,13 +607,13 @@
                     "assets/criaturas/bufalote/bufalote2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 50,
+            "nd": 14,
+            "mov": 14,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Gigante",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -590,18 +642,16 @@
         "cacique": {
             "id": "cacique",
             "nome": "Cacique",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/cacique/cacique.png",
                 "galeria": [
                     "assets/criaturas/cacique/cacique2.png"
                 ]
             },
-            "hp": 1,
+            "hp": 2,
             "nd": 2,
-            "mov": 10,
+            "mov": 8,
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -609,27 +659,35 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Campos",
+                    "Bosques",
+                    "Jardins",
+                    "Regiões Úmidas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Água de Orvalho"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Grupo",
+                    "quantidade": "Vários indivíduos, sempre liderados por um Cacique Tupã"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Durante as chuvas, os machos liberam seus gametas nas poças de lama onde as fêmeas permanecem parcialmente submersas, permitindo a fecundação dos ovos.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Dança da Tempestade",
+                    "tipo": "Passiva",
+                    "descricao": "Quando uma chuva ou tempestade está prestes a ocorrer, um grupo de Caciques inicia uma dança característica. Observar corretamente essa dança permite prever mudanças no clima antes que elas aconteçam."
+                },
+                {
+                    "nome": "Maracas Naturais",
+                    "tipo": "Passiva",
+                    "descricao": "Durante suas danças, os exoesqueletos dos Caciques chocam-se uns contra os outros, produzindo sons semelhantes aos de maracás."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Caciques são besouros conhecidos por dançar quando uma chuva ou tempestade está por vir. São normalmente encontrados bebendo a água do orvalho das plantas. Reproduzem-se durante os períodos de chuva, quando os machos liberam seus gametas nas poças de lama recém-formadas. Nessas poças as fêmeas ficam parcialmente submersas, o que permite a fecundação de seus ovos. É nessas poças que ocorre a fecundação e se inicia o desenvolvimento dos filhotes. Dentro de um grupo de Caciques existe sempre o Cacique Tupã, que lidera o grupo, e muitos Caciqueólogos estipulam que são esses indivíduos que determinam a coreografia da próxima dança. Até hoje, nunca foi presenciado um momento de ensaio da dança, o que permanece um grande mistério para os estudiosos. A Caciqueologia está há muitos anos sem nenhum avanço considerável, sendo atualmente considerada uma ciência em decadência. Os Caciqueólogos são conhecidos como \"Videntes do Tempo\", provendo serviços de previsão meteorológica para bailios e donos latifundiários. Enquanto realizam suas danças, seus exoesqueletos acabam se chocando, produzindo sons parecidos com maracas."
         },
         "cavaleira": {
             "id": "cavaleira",
@@ -643,13 +701,13 @@
                     "assets/criaturas/cavaleira/cavaleira2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 15,
+            "nd": 13,
+            "mov": 12,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
@@ -678,52 +736,47 @@
         "fecalis": {
             "id": "fecalis",
             "nome": "Fecalis",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/fecalis/fecalis.png",
                 "galeria": [
                     "assets/criaturas/fecalis/fecalis2.png"
                 ]
             },
-            "hp": 1,
+            "hp": 14,
             "nd": 2,
-            "mov": 10,
+            "mov": 5,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Campos",
+                    "Planícies",
+                    "Terrenos Baldios",
+                    "Regiões Rurais"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Onívoro"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Rebanho",
+                    "quantidade": "Numerosos"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "habilidades": [],
+            "descricao": "Os Fecalis são animais melancólicos, numerosos e completamente inúteis. Sua carne é dura, cheia de nervos, possui gosto ruim e não há praticamente nada de valor que possa ser extraído dessa criatura. Eles se \"comunicam\" através de grunhidos de tristeza e depressão, formando uma sucessão monótona de sons lamentáveis quando estão próximos uns dos outros. Apesar de sua abundância, quase ninguém se interessa em caçá-los, domesticá-los ou estudá-los, pois raramente oferecem qualquer benefício que justifique o esforço. Ninguém jamais ousa perder seu tempo com um Fecalis. Ele é, simplesmente, um bosta."
         },
         "fizzgigs": {
             "id": "fizzgigs",
             "nome": "Fizzgigs",
             "nomesAlternativos": [
-                "Abelha da Terra"
+                "Puffle"
             ],
             "imagem": {
                 "principal": "assets/criaturas/fizzgigs/fizzgigs.png",
@@ -731,37 +784,46 @@
                     "assets/criaturas/fizzgigs/fizzgigs2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 6,
+            "nd": 8,
+            "mov": 8,
             "classificacao": {
-                "tipagem": "Voador",
+                "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Áreas Urbanas",
+                    "Bosques",
+                    "Regiões Habitadas",
+                    "Criadouros"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Carnívoro"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Casal",
+                    "quantidade": "2 indivíduos"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Sexuada; os Fizzgigs são estritamente monogâmicos e mantêm o mesmo parceiro por toda a vida.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Mordida",
+                    "tipo": "Ação",
+                    "dano": "1d8",
+                    "descricao": "Apesar do pequeno porte, o Fizzgig possui uma amplitude de mordida impressionante e pode causar ferimentos consideráveis com suas mandíbulas."
+                },
+                {
+                    "nome": "Rolamento",
+                    "tipo": "Movimento",
+                    "descricao": "Embora possua duas patas, o Fizzgig normalmente se locomove enrolando o corpo e rolando pelo chão."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Fizzgigs são animais carnívoros muito utilizados como animais de estimação. Embora tenham duas patas, essas criaturas rolam para se locomover. A amplitude de mordida desses animais é admirável quando comparada ao seu tamanho. Os Fizzgigs são estritamente monogâmicos, mantendo um único parceiro durante toda a vida. Em casos raros, é possível encontrar Fizzgigs de colorações mais exóticas na natureza. Fizzgigs provenientes de criadouros não possuem rabos e são comumente chamados de \"Puffles\", sendo selecionados ao longo das gerações para apresentar uma grande variedade de cores."
         },
         "hortensio": {
             "id": "hortensio",
@@ -775,13 +837,13 @@
                     "assets/criaturas/hortensio/hortensio2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 30,
+            "nd": 12,
+            "mov": 12,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
@@ -819,12 +881,12 @@
                     "assets/criaturas/jorrenilotre/jorrenilotre2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 13,
+            "nd": 3,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
@@ -865,13 +927,13 @@
                     "assets/criaturas/los_pes/los_pes4.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 25,
+            "nd": 12,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -909,13 +971,13 @@
                     "assets/criaturas/maninques/maninques2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 60,
+            "nd": 13,
+            "mov": 14,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Gigante",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
@@ -953,11 +1015,11 @@
                     "assets/criaturas/mooshritos/mooshritos2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 6,
+            "nd": 3,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
+                "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
                 "temperamento": "Pacífico"
             },
@@ -988,46 +1050,57 @@
         "mumijal": {
             "id": "mumijal",
             "nome": "Mumijal",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/mumijal/mumijal.png",
                 "galeria": [
                     "assets/criaturas/mumijal/mumijal2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 35,
+            "nd": 13,
+            "mov": 13,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Estepes",
+                    "Planícies",
+                    "Regiões Selvagens"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Herbívoro",
+                    "Capim"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Grupos separados por sexo",
+                    "quantidade": "Variável"
                 },
-                "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "reproducao": "Sexuada; machos e fêmeas vivem separados e se encontram apenas durante os períodos reprodutivos.",
+                "expectativaDeVida": null,
+                "dimorfismoSexual": {
+                    "macho": {
+                        "temperamento": "Hostil",
+                        "descricao": "Extremamente agressivo e pouco inteligente."
+                    },
+                    "femea": {
+                        "temperamento": "Pacífico",
+                        "descricao": "Calma e dócil."
+                    }
+                }
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Fúria do Macho",
+                    "tipo": "Passiva",
+                    "descricao": "Mumijais machos são extremamente agressivos e possuem pouca capacidade de avaliar ameaças ou consequências, atacando com facilidade outros indivíduos de sua espécie e criaturas próximas."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Mumijais são animais de dimorfismo sexual expressivo. São divididos em sociedades separadas de machos e de fêmeas, pois estes se odeiam, encontrando-se apenas nos períodos de reprodução. Os machos são conhecidos por serem extremamente burros e agressivos entre si e com outras espécies. Já as fêmeas são calmas e dóceis. Os testículos dos Mumijais são utilizados para fazer as poções de \"Charrébolona\", que provocam um aumento de força física em troca do controle emocional do utilizador. Pessoas muito parrudas e fortes são, popularmente, chamadas de \"Mumijais\". Certas culturas realizam as famosas \"Mumijadas\", eventos em que um Mumijal selvagem é colocado em uma arena com um Mumijão, homem responsável por tentar matar o Mumijal."
         },
         "nininho": {
             "id": "nininho",
@@ -1041,13 +1114,13 @@
                     "assets/criaturas/nininho/nininho2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
+            "hp": 6,
+            "nd": 8,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
@@ -1076,9 +1149,7 @@
         "nosfernando": {
             "id": "nosfernando",
             "nome": "Nosfernando",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/nosfernando/nosfernando.png",
                 "galeria": [
@@ -1086,36 +1157,50 @@
                 ]
             },
             "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "nd": 10,
+            "mov": 13,
             "classificacao": {
-                "tipagem": "Voador",
+                "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Brejos",
+                    "Casas",
+                    "Estábulos",
+                    "Alojamentos",
+                    "Regiões de Alta Concentração Populacional"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Desconhecida"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Infestação",
+                    "quantidade": "Variável"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Constroem ninhos em locais pequenos, escuros e protegidos, sendo especialmente comuns dentro de calçados.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Síndrome do Valquíria",
+                    "tipo": "Passiva",
+                    "descricao": "O Nosfernando pode transmitir uma praga que afeta o encéfalo de determinados indivíduos, causando alterações comportamentais associadas à chamada Síndrome do Valquíria. Mulheres e indivíduos naturalmente afeminados não são afetados."
+                },
+                {
+                    "nome": "Atração por Testosterona",
+                    "tipo": "Passiva",
+                    "descricao": "Nosfernandos são especialmente atraídos por indivíduos com altos níveis de testosterona, podendo persegui-los ou se concentrar em locais frequentados por eles."
+                },
+                {
+                    "nome": "Garras Afiadas",
+                    "tipo": "Ação",
+                    "descricao": "O Nosfernando possui pequenas garras extremamente afiadas, capazes de provocar cortes rápidos apesar do reduzido tamanho do animal."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Nosfernandos são pragas nojentas e repugnantes. Podem transmitir uma praga devastadora que causa a Síndrome do Valquíria. Essa síndrome afeta o encéfalo do indivíduo, tornando-o afeminado. Não afeta mulheres nem homens que já sejam afeminados. Esses insetos são atraídos por indivíduos com altos níveis de testosterona. Possuem pequenas garras extremamente afiadas, que utilizam quando ameaçados ou ao atacar. Costumam entrar em calçados para fazer seus ninhos. Por isso, é recomendado sempre olhar dentro dos calçados em regiões de alta concentração de Nosfernandos."
         },
         "nosquito": {
             "id": "nosquito",
@@ -1130,12 +1215,12 @@
                 ]
             },
             "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "nd": 10,
+            "mov": 15,
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -1165,7 +1250,7 @@
             "id": "pentis",
             "nome": "Pentis",
             "nomesAlternativos": [
-                "Abelha da Terra"
+                "Pentorrão Filhote"
             ],
             "imagem": {
                 "principal": "assets/criaturas/pentis/pentis.png",
@@ -1173,81 +1258,95 @@
                     "assets/criaturas/pentis/pentis2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 6,
+            "nd": 10,
+            "mov": 14,
             "classificacao": {
-                "tipagem": "Voador",
+                "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Ninhos de Pentorrões",
+                    "Campos",
+                    "Áreas Rurais",
+                    "Plantações",
+                    "Ruínas",
+                    "Locais Reclusos"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Onívoro"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Ninhada",
+                    "quantidade": "Vários indivíduos, geralmente acompanhados por Pentorrões adultos"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Não se reproduz neste estágio de desenvolvimento.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Corpo Juvenil",
+                    "tipo": "Passiva",
+                    "descricao": "O Pentis ainda não desenvolveu os braços característicos dos Pentorrões adultos. Seus membros anteriores surgem apenas em estágios posteriores de crescimento."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Pentorrões filhotes são comumente conhecidos como Pentis. São caracterizados principalmente pela ausência de braços, que surgem apenas em estágios posteriores de seu crescimento. Costumam permanecer próximos aos ninhos e aos bandos de Pentorrões adultos até alcançarem estágios mais avançados de desenvolvimento."
         },
         "pentorrao": {
             "id": "pentorrao",
             "nome": "Pentorrão",
-            "nomesAlternativos": [
-                "Abelha da Terra"
-            ],
+            "nomesAlternativos": [],
             "imagem": {
                 "principal": "assets/criaturas/pentorrao/pentorrao.png",
                 "galeria": [
                     "assets/criaturas/pentorrao/pentorrao2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 12,
+            "nd": 12,
+            "mov": 12,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Campos",
+                    "Áreas Rurais",
+                    "Plantações",
+                    "Ruínas",
+                    "Locais Reclusos"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Onívoro",
+                    "Plantações",
+                    "Pequenos Animais"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Variável",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Bando",
+                    "quantidade": "3 a 8 indivíduos"
                 },
-                "reproducao": "Desconhecida",
+                "reproducao": "Reproduzem-se em ninhos construídos em locais reclusos, onde os indivíduos do bando se amontoam e permanecem por longos períodos.",
                 "expectativaDeVida": null
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Ataque em Bando",
+                    "tipo": "Passiva",
+                    "descricao": "Pentorrões tornam-se mais perigosos quando atacam em grupo, cercando suas vítimas e avançando de diferentes direções."
+                },
+                {
+                    "nome": "Colecionador de Brilhos",
+                    "tipo": "Passiva",
+                    "descricao": "Pentorrões são fortemente atraídos por objetos brilhantes e tendem a roubá-los e levá-los para seus ninhos."
                 }
             ],
-            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+            "descricao": "Os Pentorrões são praticamente pragas que vagam pelas terras em pequenos bandos, destruindo plantações e matando os mais desavisados. Costumam se amontoar em cantos mais reclusos, onde formam ninhos, cruzam e guardam sua coisa favorita: qualquer objeto que brilhe. Por conta desse comportamento, ninhos de Pentorrões frequentemente acumulam moedas, joias, pedaços de metal, vidro e outros objetos reluzentes roubados durante suas andanças."
         },
         "pinteca": {
             "id": "pinteca",
@@ -1261,12 +1360,12 @@
                     "assets/criaturas/pinteca/pinteca2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 15,
+            "nd": 6,
+            "mov": 8,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
@@ -1305,13 +1404,13 @@
                     "assets/criaturas/rapieura/rapieura2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 20,
+            "nd": 16,
+            "mov": 17,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
@@ -1349,17 +1448,18 @@
                     "assets/criaturas/variptor_mandicuris/variptor_mandicuris2.png"
                 ]
             },
-            "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "hp": 80,
+            "nd": 16,
+            "mov": 20,
             "classificacao": {
                 "tipagem": "Voador",
-                "tamanho": "Pequeno",
-                "temperamento": "Pacífico"
+                "tamanho": "Gigante",
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Topo de Montanhas",
+                    "Regiões Montanhosas"
                 ],
                 "dieta": [
                     "Pólen",
