@@ -45,7 +45,8 @@ fetch('./criaturas.json')
             card.dataset.id = id;
             container.appendChild(card);
         });
-        
+        selectOrdenar.value = 'nome-asc';
+        ordenarCards(); 
     });
 
 function createFicha(criatura) {
@@ -118,28 +119,21 @@ ficha.addEventListener('click', (e) => {
 // SORTING CARDS POR SELECT
 const selectOrdenar = document.getElementById('ordenar');
 
-selectOrdenar.addEventListener('change', () => {
-    const criterio = selectOrdenar.value;
-    const [campo, direcao] = criterio.split('-');
+function ordenarCards() {
+    const [campo, direcao] = selectOrdenar.value.split('-');
 
     const cards = Array.from(container.children);
 
     cards.sort((a, b) => {
-        const valorA = a.dataset[campo];
-        const valorB = b.dataset[campo];
-
-        const resultado = valorA.localeCompare(valorB, undefined, { numeric: true });
-        // asc: mantém o resultado; desc: inverte
-        if (direcao === 'asc') {
-            return resultado;
-        }
-        else {
-            return -resultado;
-        }
+        const resultado = a.dataset[campo].localeCompare(b.dataset[campo], undefined, { numeric: true });
+        return direcao === 'asc' ? resultado : -resultado;
     });
-    //reposiciona os cards na página na nova ordem
+
+    // reposiciona os cards na página na nova ordem
     cards.forEach(card => container.appendChild(card));
-});
+}
+
+selectOrdenar.addEventListener('change', ordenarCards);
 //// SEARCH BAR APLICACAO:
 function normalizar(texto) {
     return texto

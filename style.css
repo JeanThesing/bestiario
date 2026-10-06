@@ -1,5 +1,5 @@
 * {
-     font-family: 'Times New Roman', Times, serif;
+     font-family: 'Roboto', Times, serif;
     color: var(--cor-texto);
     box-sizing: border-box;
     margin: 0;
@@ -58,8 +58,8 @@ main {
 }
 
 search {
-    display: block;
-
+    display: flex;
+    flex-direction: column;
     background-color: rgba(245, 238, 208, 0.85);
 
     padding: 20px;
@@ -69,35 +69,35 @@ search {
     border-radius: 12px;
     font-size: 20px;
     color:aqua;
+    gap:1.2rem;
 }
 
-search form {
+#inputs {
     display: flex;
-    flex-wrap: wrap;
-    gap: 14px 20px;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-search label {
-    font-weight: bold;
+#inputs > div {                       /* NOVO: searchbar, cardsperline e sorting */
+    display: flex;
+    align-items: center;              /* centraliza rótulo e controle dentro do grupo */
+    gap: 0.5rem;
 }
 
-#searchInput,
-#ordenar {
-    padding: 8px 10px;
-
-    border: 1px solid #6a6045;
-    border-radius: 6px;
-
-    background-color: var(--cor-5);
+/*============================CHECKBOXES FILTROS==================================*/
+#checkboxes {
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
 }
 
-#searchInput {
-    min-width: 220px;
+#fieldsets {
+    gap:1rem;
 }
 
-#searchRange {
-    accent-color: var(--cor-5);
+fieldset input {
+    margin-right: 0.5rem;
 }
 
 fieldset {
@@ -126,12 +126,12 @@ fieldset label {
 
 button {
     font: inherit;
-
+    width:100%;
     padding: 7px 12px;
 
     border: 1px solid var(--cor-quaternaria);
     border-radius: 6px;
-
+    text-align: center;
     background-color: var(--cor-5);
     color: var(--cor-texto);
     cursor:pointer;
@@ -141,6 +141,32 @@ button:hover {
     background-color: #d6c89e;
 }
 
+/*=======================================================================*/
+/*===================INPUTS> SEARCHBAR, ORDENAR, CRIATURAS POR LINHA===========*/
+
+
+search label {
+    font-weight: bold;
+}
+
+/*==================SEARCHBAR===================*/
+#searchInput {
+    min-width: 220px;
+}
+/*==================CARDS=PER=LINE===================*/
+#searchRange {
+    accent-color: var(--cor-5);
+}
+/*==================SORTING===================*/
+#searchInput,
+#ordenar {
+    padding: 8px 10px;
+
+    border: 1px solid #6a6045;
+    border-radius: 6px;
+
+    background-color: var(--cor-5);
+}
 /* =========================
    TÍTULO DA LISTA
    ========================= */

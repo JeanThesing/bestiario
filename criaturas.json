@@ -70,7 +70,7 @@
             "mov": 15,
             "classificacao": {
                 "tipagem": "Terrestre",
-                "tamanho": "Médio",
+                "tamanho": "Grande",
                 "temperamento": "Neutro"
             },
             "ecologia": {
@@ -159,8 +159,8 @@
             "nd": 2,
             "mov": 10,
             "classificacao": {
-                "tipagem": "Voador",
-                "tamanho": "Pequeno",
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
                 "temperamento": "Pacífico"
             },
             "ecologia": {
@@ -861,7 +861,8 @@
                 "principal": "assets/criaturas/los_pes/los_pes.png",
                 "galeria": [
                     "assets/criaturas/los_pes/los_pes2.png",
-                    "assets/criaturas/los_pes/los_pes3.png"
+                    "assets/criaturas/los_pes/los_pes3.png",
+                    "assets/criaturas/los_pes/los_pes4.png"
                 ]
             },
             "hp": 1,

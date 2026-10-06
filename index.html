@@ -7,7 +7,9 @@
     <title>Bestiário</title>
     <meta name="description" content="Bestiario de criaturas do 80's RPG">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,79 +20,91 @@
     <main>
         <search>
             <!--barra de pesquisa-->
-            <label for="searchInput">Pesquisar Criaturas:</label>
-            <input type="search" id="searchInput" placeholder="Pesquisar..." list="listaCriaturas">
-            <datalist id="listaCriaturas">
-                <!--opções serão inseridas aqui pelo JavaScript-->
-            </datalist>
-            <!--cards por linha-->
-            <!--output muda de acordo com o range selcionado-->
-            <label for="searchRange">Criaturas por linha: <output id="searchRangeValor">5</output></label>
-            <input type="range" id="searchRange" min="3" max="7" value="5">
-            <!--ordenar cards por select-->
-            <label for="ordenar">Ordenar por:</label>
-            <select id="ordenar">
-                <option value="nome-asc">Nome (A-Z)</option>
-                <option value="nome-desc">Nome (Z-A)</option>
-                <option value="nd-asc">ND (menor primeiro)</option>
-                <option value="nd-desc">ND (maior primeiro)</option>
-                <option value="hp-asc">HP (menor primeiro)</option>
-                <option value="hp-desc">HP (maior primeiro)</option>
-                <option value="mov-asc">MOV (menor primeiro)</option>
-                <option value="mov-desc">MOV (maior primeiro)</option>
-            </select>
-            <!--filtragem por checkboxes-->
-            <button type="button" id="limparFiltros">Limpar Filtros</button>
-
-            <fieldset class="filtro" tag="tipagem">
-                <legend>Filtrar por Tipagem:</legend>
-                <label>
-                    <input type="checkbox" name="tipagem" value="Terrestre">
-                    Terrestre
-                </label>
-                <label>
-                    <input type="checkbox" name="tipagem" value="Voador">
-                    Voador
-                </label>
-                <label>
-                    <input type="checkbox" name="tipagem" value="Aquático">
-                    Aquático
-                </label>
-            </fieldset>
-            <fieldset class="filtro" tag="tamanho">
-                <legend>Filtrar por Tamanho:</legend>
-                <label>
-                    <input type="checkbox" name="tamanho" value="Pequeno">
-                    Pequeno
-                </label>
-                <label>
-                    <input type="checkbox" name="tamanho" value="Médio">
-                    Médio
-                </label>
-                <label>
-                    <input type="checkbox" name="tamanho" value="Grande">
-                    Grande
-                </label>
-                <label>
-                    <input type="checkbox" name="tamanho" value="Gigante">
-                    Gigante
-                </label>
-            </fieldset>
-            <fieldset class="filtro" tag="temperamento">
-                <legend>Filtrar por Temperamento:</legend>
-                <label>
-                    <input type="checkbox" name="temperamento" value="Pacífico">
-                    Pacífico
-                </label>
-                <label>
-                    <input type="checkbox" name="temperamento" value="Neutro">
-                    Neutro
-                </label>
-                <label>
-                    <input type="checkbox" name="temperamento" value="Hostil">
-                    Hostil
-                </label>
-            </fieldset>
+            <section id="inputs">
+                <div id="searchbar">
+                    <label for="searchInput">Pesquisar Criaturas:</label>
+                    <input type="search" id="searchInput" placeholder="Pesquisar..." list="listaCriaturas">
+                    <datalist id="listaCriaturas">
+                        <!--opções serão inseridas aqui pelo JavaScript-->
+                    </datalist>
+                </div>
+                <div id=cardsperline>
+                    <!--cards por linha-->
+                    <!--output muda de acordo com o range selcionado-->
+                    <label for="searchRange">Criaturas por linha: <output id="searchRangeValor">5</output></label>
+                    <input type="range" id="searchRange" min="3" max="7" value="5">
+                </div>
+                <div id=sorting>
+                    <!--ordenar cards por select-->
+                    <label for="ordenar">Ordenar por:</label>
+                    <select id="ordenar">
+                        <option value="nome-asc">Nome (A-Z)</option>
+                        <option value="nome-desc">Nome (Z-A)</option>
+                        <option value="nd-asc">ND (menor primeiro)</option>
+                        <option value="nd-desc">ND (maior primeiro)</option>
+                        <option value="hp-asc">HP (menor primeiro)</option>
+                        <option value="hp-desc">HP (maior primeiro)</option>
+                        <option value="mov-asc">MOV (menor primeiro)</option>
+                        <option value="mov-desc">MOV (maior primeiro)</option>
+                    </select>
+                </div>
+            </section>
+            <details id=checkboxes>
+                <summary>Filtros</summary>
+                <!--filtragem por checkboxes-->
+                <div id=fieldsets>
+                    <fieldset class="filtro" tag="tipagem">
+                        <legend>Filtrar por Tipagem:</legend>
+                        <label>
+                            <input type="checkbox" name="tipagem" value="Terrestre">
+                            Terrestre
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tipagem" value="Voador">
+                            Voador
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tipagem" value="Aquático">
+                            Aquático
+                        </label>
+                    </fieldset>
+                    <fieldset class="filtro" tag="tamanho">
+                        <legend>Filtrar por Tamanho:</legend>
+                        <label>
+                            <input type="checkbox" name="tamanho" value="Pequeno">
+                            Pequeno
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tamanho" value="Médio">
+                            Médio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tamanho" value="Grande">
+                            Grande
+                        </label>
+                        <label>
+                            <input type="checkbox" name="tamanho" value="Gigante">
+                            Gigante
+                        </label>
+                    </fieldset>
+                    <fieldset class="filtro" tag="temperamento">
+                        <legend>Filtrar por Temperamento:</legend>
+                        <label>
+                            <input type="checkbox" name="temperamento" value="Pacífico">
+                            Pacífico
+                        </label>
+                        <label>
+                            <input type="checkbox" name="temperamento" value="Neutro">
+                            Neutro
+                        </label>
+                        <label>
+                            <input type="checkbox" name="temperamento" value="Hostil">
+                            Hostil
+                        </label>
+                    </fieldset>
+                </div>
+                <button type="button" id="limparFiltros">Limpar Filtros</button>
+            </details>
         </search>
         <div id="criaturas">
             <h2>Criaturas</h2>
