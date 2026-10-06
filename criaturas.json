@@ -107,13 +107,1245 @@
             "imagem": {
                 "principal": "assets/criaturas/reclama-reclama/reclama-reclama.png",
                 "galeria": [
-                    "assets/criaturas/reclama-reclama/reclama-reclama2.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama3.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama4.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama5.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama6.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama7.png",
-                    "assets/criaturas/reclama-reclama/reclama-reclama8.png"
+                    "assets/criaturas/reclama-reclama/reclama-reclama2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "porco_da_viela": {
+            "id": "porco_da_viela",
+            "nome": "Porco da Viela",
+            "nomesAlternativos": [
+                "Maminha"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/porco_da_viela/porco_da_viela.png",
+                "galeria": [
+                    "assets/criaturas/porco_da_viela/porco_da_viela2.png",
+                    "assets/criaturas/porco_da_viela/porco_da_viela3.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "betassauro": {
+            "id": "betassauro",
+            "nome": "Betassauro",
+            "nomesAlternativos": [
+                "Betinha"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/betassauro/betassauro.png",
+                "galeria": [
+                    "assets/criaturas/betassauro/betassauro2.png",
+                    "assets/criaturas/betassauro/betassauro3.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "levedor": {
+            "id": "levedor",
+            "nome": "Levedor",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/levedor/levedor.png",
+                "galeria": [
+                    "assets/criaturas/levedor/levedor2.png",
+                    "assets/criaturas/levedor/levedor3.png",
+                    "assets/criaturas/levedor/levedor4.png",
+                    "assets/criaturas/levedor/levedor5.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "dronalo": {
+            "id": "dronalo",
+            "nome": "Dronalo",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/dronalo/dronalo.png",
+                "galeria": [
+                    "assets/criaturas/dronalo/dronalo2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "himoor": {
+            "id": "himoor",
+            "nome": "Himoor",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/himoor/himoor.png",
+                "galeria": [
+                    "assets/criaturas/himoor/himoor2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "beija-bundas": {
+            "id": "beija-bundas",
+            "nome": "Beija-bundas",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/beija-bundas/beija-bundas.png",
+                "galeria": [
+                    "assets/criaturas/beija-bundas/beija-bundas2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "barao-das-nozes": {
+            "id": "barao-das-nozes",
+            "nome": "Barão-das-nozes",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/barao-das-nozes/barao-das-nozes.png",
+                "galeria": [
+                    "assets/criaturas/barao-das-nozes/barao-das-nozes2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "beijoqueira": {
+            "id": "beijoqueira",
+            "nome": "Beijoqueira",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/beijoqueira/beijoqueira.png",
+                "galeria": [
+                    "assets/criaturas/beijoqueira/beijoqueira2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "bertoldi": {
+            "id": "bertoldi",
+            "nome": "Bertoldi",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/bertoldi/bertoldi.png",
+                "galeria": [
+                    "assets/criaturas/bertoldi/bertoldi2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "bufalote": {
+            "id": "bufalote",
+            "nome": "Bufalote",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/bufalote/bufalote.png",
+                "galeria": [
+                    "assets/criaturas/bufalote/bufalote2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "cacique": {
+            "id": "cacique",
+            "nome": "Cacique",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/cacique/cacique.png",
+                "galeria": [
+                    "assets/criaturas/cacique/cacique2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "cavaleira": {
+            "id": "cavaleira",
+            "nome": "Cavaleira",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/cavaleira/cavaleira.png",
+                "galeria": [
+                    "assets/criaturas/cavaleira/cavaleira2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "fecalis": {
+            "id": "fecalis",
+            "nome": "Fecalis",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/fecalis/fecalis.png",
+                "galeria": [
+                    "assets/criaturas/fecalis/fecalis2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "fizzgigs": {
+            "id": "fizzgigs",
+            "nome": "Fizzgigs",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/fizzgigs/fizzgigs.png",
+                "galeria": [
+                    "assets/criaturas/fizzgigs/fizzgigs2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "hortensio": {
+            "id": "hortensio",
+            "nome": "Hortênsio",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/hortensio/hortensio.png",
+                "galeria": [
+                    "assets/criaturas/hortensio/hortensio2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "jorrenilotre": {
+            "id": "jorrenilotre",
+            "nome": "Jorrenilotre",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/jorrenilotre/jorrenilotre.png",
+                "galeria": [
+                    "assets/criaturas/jorrenilotre/jorrenilotre2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "los_pes": {
+            "id": "los_pes",
+            "nome": "Los Pés",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/los_pes/los_pes.png",
+                "galeria": [
+                    "assets/criaturas/los_pes/los_pes2.png",
+                    "assets/criaturas/los_pes/los_pes3.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "maninques": {
+            "id": "maninques",
+            "nome": "Maninques",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/maninques/maninques.png",
+                "galeria": [
+                    "assets/criaturas/maninques/maninques2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "mooshritos": {
+            "id": "mooshritos",
+            "nome": "Mooshritos",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/mooshritos/mooshritos.png",
+                "galeria": [
+                    "assets/criaturas/mooshritos/mooshritos2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "mumijal": {
+            "id": "mumijal",
+            "nome": "Mumijal",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/mumijal/mumijal.png",
+                "galeria": [
+                    "assets/criaturas/mumijal/mumijal2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "nininho": {
+            "id": "nininho",
+            "nome": "Nininho",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/nininho/nininho.png",
+                "galeria": [
+                    "assets/criaturas/nininho/nininho2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "nosfernando": {
+            "id": "nosfernando",
+            "nome": "Nosfernando",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/nosfernando/nosfernando.png",
+                "galeria": [
+                    "assets/criaturas/nosfernando/nosfernando2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "nosquito": {
+            "id": "nosquito",
+            "nome": "nosquito",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/nosquito/nosquito.png",
+                "galeria": [
+                    "assets/criaturas/nosquito/nosquito2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "pentis": {
+            "id": "pentis",
+            "nome": "Pentis",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/pentis/pentis.png",
+                "galeria": [
+                    "assets/criaturas/pentis/pentis2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "pentorrao": {
+            "id": "pentorrao",
+            "nome": "Pentorrão",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/pentorrao/pentorrao.png",
+                "galeria": [
+                    "assets/criaturas/pentorrao/pentorrao2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "pinteca": {
+            "id": "pinteca",
+            "nome": "Pinteca",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/pinteca/pinteca.png",
+                "galeria": [
+                    "assets/criaturas/pinteca/pinteca2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "rapieura": {
+            "id": "rapieura",
+            "nome": "Rapieura",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/rapieura/rapieura.png",
+                "galeria": [
+                    "assets/criaturas/rapieura/rapieura2.png"
+                ]
+            },
+            "hp": 1,
+            "nd": 2,
+            "mov": 10,
+            "classificacao": {
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Qualquer Lugar"
+                ],
+                "dieta": [
+                    "Pólen",
+                    "Néctar"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Colônia",
+                    "quantidade": "6 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Reclamar",
+                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                }
+            ],
+            "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "variptor_mandicuris": {
+            "id": "variptor_mandicuris",
+            "nome": "Variptor_Mandicuris",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/variptor_mandicuris/variptor_mandicuris.png",
+                "galeria": [
+                    "assets/criaturas/variptor_mandicuris/variptor_mandicuris2.png"
                 ]
             },
             "hp": 1,

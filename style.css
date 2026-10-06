@@ -7,24 +7,25 @@
 }
 
 :root {
-    --cor-primaria: #E8DDBD;   /* pergaminho claro */
-    --cor-secundaria: #B2B986; /* verde envelhecido */
-    --cor-terciaria: #7A6840;  /* marrom oliva */
-    --cor-quaternaria: #5D4B31; /* marrom escuro */
-    --cor-texto: #2F2B24;      /* quase preto quente */
+    --cor-primaria:#582F0E;
+    --cor-secundaria:#7F4F24;
+    --cor-terciaria: #936639;
+    --cor-quaternaria:#A68A64;
+    --cor-4:#C2C5AA;
+    --cor-textocard:#dcdecc;
+    --cor-1:#A4AC86;
+    --cor-2:#656D4A;
+    --cor-3:#414833;
+    --cor-texto:#333D29;
+    --cor-5:#B6AD90;
 }
-
-/*--cor-primaria: #FFEED6;
-    --cor-secundaria: #A5AF79;
-    --cor-terciaria: #827148;
-    --cor-quaternaria: #E8A07C;*/
-
 
 html, body {
     min-height: 100%;
 }
 body {
-    background-color: var(--cor-secundaria);
+    /*background-color: hsl(65, 17%, 86%);*/
+    background-color: hsl(65, 17%, 86%);
 
     min-height: 100vh;
 
@@ -34,14 +35,14 @@ body {
 
 header {
     padding: 24px 32px;
-    background-color: #8d7747;
+    background-color: var(--cor-3);
     border-bottom: 3px solid #5e4d2e;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.4rem;
-    color: #122d15;
+    color: var(--cor-textocard);
 }
 
 main {
@@ -64,8 +65,10 @@ search {
     padding: 20px;
     margin-bottom: 30px;
 
-    border: 1px solid #71633f;
+    border: 1px solid var(--cor-5);
     border-radius: 12px;
+    font-size: 20px;
+    color:aqua;
 }
 
 search form {
@@ -86,7 +89,7 @@ search label {
     border: 1px solid #6a6045;
     border-radius: 6px;
 
-    background-color: #fffaf0;
+    background-color: var(--cor-5);
 }
 
 #searchInput {
@@ -94,13 +97,13 @@ search label {
 }
 
 #searchRange {
-    accent-color: #66512d;
+    accent-color: var(--cor-5);
 }
 
 fieldset {
     flex: 1 1 100%;
 
-    border: 1px solid #827652;
+    border: 1px solid var(--cor-5);
     border-radius: 8px;
 
     padding: 10px 14px;
@@ -129,10 +132,9 @@ button {
     border: 1px solid var(--cor-quaternaria);
     border-radius: 6px;
 
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-5);
     color: var(--cor-texto);
-
-    cursor: pointer;
+    cursor:pointer;
 }
 
 button:hover {
@@ -143,11 +145,15 @@ button:hover {
    TÍTULO DA LISTA
    ========================= */
 
+#criaturas h2{
+    color:var(--cor-3)
+}
+
+
 .criaturas h2,
 main>h2 {
     margin-top: 0;
     margin-bottom: 18px;
-
     font-size: 2rem;
 }
 
@@ -171,15 +177,19 @@ main>h2 {
 
     display: flex;
     flex-direction: column;
-
     text-align: center;
 
-    border-radius: 15%;
+    border-radius: 15px;
     background-color: var(--cor-terciaria);
     aspect-ratio: 1 / 1;
 
     border: 0.2cqw solid var(--cor-quaternaria);
     overflow: hidden; /* importante para a imagem respeitar as bordas arredondadas */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
 
 .card h3 {
@@ -201,6 +211,10 @@ main>h2 {
     /*color: #276d9c;*/
 }
 
+input {
+    margin-right: 0.5rem;
+}
+
 .card-detalhes {
     font-size: clamp(0.6rem, 6cqw, 1.5rem);
     font-weight: bold;
@@ -219,7 +233,26 @@ main>h2 {
     object-fit: cover;
 
     border-radius: 0;
-    height: 75%;;
+    height: 100%;
+}
+
+.card-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-conteudo,
+.card-conteudo h3,
+.card-conteudo span {
+    color: var(--cor-textocard);
 }
 
 .invisivel {
@@ -231,10 +264,13 @@ main>h2 {
    ========================= */
 
 footer {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-3);
     border-top: 2px solid var(--cor-quaternaria);
     padding: 22px;
     text-align: center;
-
     margin-top: auto;
+}
+
+footer p{
+    color:var(--cor-textocard);
 }

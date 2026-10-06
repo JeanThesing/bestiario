@@ -45,6 +45,7 @@ fetch('./criaturas.json')
             card.dataset.id = id;
             container.appendChild(card);
         });
+        
     });
 
 function createFicha(criatura) {
