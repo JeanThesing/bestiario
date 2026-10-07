@@ -190,20 +190,7 @@
                     "descricao": "Um Porco da Viela muito assustado pode tentar chicotear sua maminha em direção ao alvo, causando 1d4 de dano."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Porcos da Viela são costumamente dóceis e comem de tudo. São criados como animais de abate, e são muito apreciados por sua maminha, uma massa de carne marmoreada suspensa que fica pendurada ao lado de suas cabeças."
-                },
-                {
-                    "titulo": "Crescimento e maminha",
-                    "texto": "Esses animais não param de crescer enquanto envelhecem. Animais mais velhos são maiores e mais gordos, porcos envelhecidos costumam ter uma maminha mais avantajada e mais saborosa. Porcos da Viela que costumam fugir de ambientes de criação, ao não serem abatidos, podem acabar ficando gordos demais, o que os impedem de andar, servindo de preça fácil e calórica para outros animais."
-                },
-                {
-                    "titulo": "Pelagem",
-                    "texto": "A pelagem superior desses animais, que é grossa e enrolada, costumamente é usada para preencher travesseiros ou oferecer isolamento térmico para roupas."
-                }
-            ]
+            "descricao": "Os Porcos da Viela são costumamente dóceis e comem de tudo. São criados como animais de abate, e são muito apreciados por sua maminha, uma massa de carne marmoreada suspensa que fica pendurada ao lado de suas cabeças. Esses animais não param de crescer enquanto envelhecem. Animais mais velhos são maiores e mais gordos, porcos envelhecidos costumam ter uma maminha mais avantajada e mais saborosa. Porcos da Viela que costumam fugir de ambientes de criação, ao não serem abatidos, podem acabar ficando gordos demais, o que os impedem de andar, servindo de preça fácil e calórica para outros animais. A pelagem superior desses animais, que é grossa e enrolada, costumamente é usada para preencher travesseiros ou oferecer isolamento térmico para roupas."
         },
         "betassauro": {
             "id": "betassauro",
@@ -316,20 +303,7 @@
                     "descricao": "Quando os pólipos atingem luminosidade intensa, estão maduros para a colheita. Sua remoção não causa dano ao Levedor, e novos pólipos crescem novamente após alguns meses."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "O Levedor é um animal grande, pacífico, lento e de hábitos noturnos, encontrado principalmente próximo aos rios de líquens luminescentes. Alimenta-se desses líquens, cuja digestão favorece o desenvolvimento de bactérias fotossintetizantes que formam pólipos luminosos sobre suas costas."
-                },
-                {
-                    "titulo": "Pólipos e Leveduras",
-                    "texto": "Esses pólipos são colhidos e utilizados na produção das Leveduras, bebidas alcoólicas de sabor terroso e levemente adocicado. A coloração da bebida varia conforme a espécie de líquen consumida pelo animal. Quanto mais o Levedor se alimenta, mais luminosos se tornam seus pólipos, indicando que estão maduros para a colheita. A retirada dos pólipos não prejudica o animal, e eles voltam a crescer após alguns meses."
-                },
-                {
-                    "titulo": "Importância cultural e criação",
-                    "texto": "Em diversas culturas, os Levedores são considerados animais sagrados. Seus criadores, conhecidos como Levedouros, frequentemente pertencem a famílias que exercem essa atividade há muitas gerações. Essas comunidades costumam se estabelecer ao redor dos rios de líquens, onde protegem os rebanhos e mantêm as Poliporias, construções especializadas na produção e fermentação das Leveduras."
-                }
-            ]
+            "descricao": "O Levedor é um animal grande, pacífico, lento e de hábitos noturnos, encontrado principalmente próximo aos rios de líquens luminescentes. Alimenta-se desses líquens, cuja digestão favorece o desenvolvimento de bactérias fotossintetizantes que formam pólipos luminosos sobre suas costas. Esses pólipos são colhidos e utilizados na produção das Leveduras, bebidas alcoólicas de sabor terroso e levemente adocicado. A coloração da bebida varia conforme a espécie de líquen consumida pelo animal. Quanto mais o Levedor se alimenta, mais luminosos se tornam seus pólipos, indicando que estão maduros para a colheita. A retirada dos pólipos não prejudica o animal, e eles voltam a crescer após alguns meses. Em diversas culturas, os Levedores são considerados animais sagrados. Seus criadores, conhecidos como Levedouros, frequentemente pertencem a famílias que exercem essa atividade há muitas gerações. Essas comunidades costumam se estabelecer ao redor dos rios de líquens, onde protegem os rebanhos e mantêm as Poliporias, construções especializadas na produção e fermentação das Leveduras."
         },
         "dronalo": {
             "id": "dronalo",
@@ -633,9 +607,9 @@
                     "assets/criaturas/bufalote/bufalote2.png"
                 ]
             },
-            "hp": 70,
+            "hp": 50,
             "nd": 14,
-            "mov": 16,
+            "mov": 14,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -713,28 +687,7 @@
                     "descricao": "Durante suas danças, os exoesqueletos dos Caciques chocam-se uns contra os outros, produzindo sons semelhantes aos de maracás."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Caciques são besouros conhecidos por dançar quando uma chuva ou tempestade está por vir. São normalmente encontrados bebendo a água do orvalho das plantas."
-                },
-                {
-                    "titulo": "Reprodução",
-                    "texto": "Reproduzem-se durante os períodos de chuva, quando os machos liberam seus gametas nas poças de lama recém-formadas. Nessas poças as fêmeas ficam parcialmente submersas, o que permite a fecundação de seus ovos."
-                },
-                {
-                    "titulo": "Cacique Tupã e a dança",
-                    "texto": "É nessas poças que ocorre a fecundação e se inicia o desenvolvimento dos filhotes. Dentro de um grupo de Caciques existe sempre o Cacique Tupã, que lidera o grupo, e muitos Caciqueólogos estipulam que são esses indivíduos que determinam a coreografia da próxima dança. Até hoje, nunca foi presenciado um momento de ensaio da dança, o que permanece um grande mistério para os estudiosos."
-                },
-                {
-                    "titulo": "Caciqueologia",
-                    "texto": "A Caciqueologia está há muitos anos sem nenhum avanço considerável, sendo atualmente considerada uma ciência em decadência. Os Caciqueólogos são conhecidos como \"Videntes do Tempo\", provendo serviços de previsão meteorológica para bailios e donos latifundiários."
-                },
-                {
-                    "titulo": "Maracas naturais",
-                    "texto": "Enquanto realizam suas danças, seus exoesqueletos acabam se chocando, produzindo sons parecidos com maracas."
-                }
-            ]
+            "descricao": "Os Caciques são besouros conhecidos por dançar quando uma chuva ou tempestade está por vir. São normalmente encontrados bebendo a água do orvalho das plantas. Reproduzem-se durante os períodos de chuva, quando os machos liberam seus gametas nas poças de lama recém-formadas. Nessas poças as fêmeas ficam parcialmente submersas, o que permite a fecundação de seus ovos. É nessas poças que ocorre a fecundação e se inicia o desenvolvimento dos filhotes. Dentro de um grupo de Caciques existe sempre o Cacique Tupã, que lidera o grupo, e muitos Caciqueólogos estipulam que são esses indivíduos que determinam a coreografia da próxima dança. Até hoje, nunca foi presenciado um momento de ensaio da dança, o que permanece um grande mistério para os estudiosos. A Caciqueologia está há muitos anos sem nenhum avanço considerável, sendo atualmente considerada uma ciência em decadência. Os Caciqueólogos são conhecidos como \"Videntes do Tempo\", provendo serviços de previsão meteorológica para bailios e donos latifundiários. Enquanto realizam suas danças, seus exoesqueletos acabam se chocando, produzindo sons parecidos com maracas."
         },
         "cavaleira": {
             "id": "cavaleira",
@@ -870,20 +823,7 @@
                     "descricao": "Embora possua duas patas, o Fizzgig normalmente se locomove enrolando o corpo e rolando pelo chão."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Fizzgigs são animais carnívoros muito utilizados como animais de estimação. Embora tenham duas patas, essas criaturas rolam para se locomover. A amplitude de mordida desses animais é admirável quando comparada ao seu tamanho."
-                },
-                {
-                    "titulo": "Reprodução",
-                    "texto": "Os Fizzgigs são estritamente monogâmicos, mantendo um único parceiro durante toda a vida."
-                },
-                {
-                    "titulo": "Variações e domesticação",
-                    "texto": "Em casos raros, é possível encontrar Fizzgigs de colorações mais exóticas na natureza. Fizzgigs provenientes de criadouros não possuem rabos e são comumente chamados de \"Puffles\", sendo selecionados ao longo das gerações para apresentar uma grande variedade de cores."
-                }
-            ]
+            "descricao": "Os Fizzgigs são animais carnívoros muito utilizados como animais de estimação. Embora tenham duas patas, essas criaturas rolam para se locomover. A amplitude de mordida desses animais é admirável quando comparada ao seu tamanho. Os Fizzgigs são estritamente monogâmicos, mantendo um único parceiro durante toda a vida. Em casos raros, é possível encontrar Fizzgigs de colorações mais exóticas na natureza. Fizzgigs provenientes de criadouros não possuem rabos e são comumente chamados de \"Puffles\", sendo selecionados ao longo das gerações para apresentar uma grande variedade de cores."
         },
         "hortensio": {
             "id": "hortensio",
@@ -1019,17 +959,16 @@
             ],
             "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
         },
-        "maninque": {
-            "id": "maninque",
-            "nome": "Maninque",
-            "nomesAlternativos": [],
+        "maninques": {
+            "id": "maninques",
+            "nome": "Maninques",
+            "nomesAlternativos": [
+                "Abelha da Terra"
+            ],
             "imagem": {
                 "principal": "assets/criaturas/maninques/maninques.png",
                 "galeria": [
-                    "assets/criaturas/maninques/maninques2.png",
-                    "assets/criaturas/maninques/maninques3.png",
-                    "assets/criaturas/maninques/maninques4.png",
-                    "assets/criaturas/maninques/maninques5.png"
+                    "assets/criaturas/maninques/maninques2.png"
                 ]
             },
             "hp": 80,
@@ -1061,16 +1000,6 @@
                     "nome": "Olhos Pedunculados",
                     "tipo": "Passiva",
                     "descricao": "Além de enxergar enquanto se alimentam, cada olho se move de forma independente. +4 em testes de percepção."
-                },
-                {
-                    "nome": "Brado Maninque",
-                    "tipo": "Passiva",
-                    "descricao": "Os Maninques se comunicam com brados graves que podem ser ouvidos a longas distâncias. Se filhotes estiverem em perigo, Maninques mães podem tentar chamar outros Maninques na região para ajudá-las."
-                },
-                {
-                    "nome": "Pisoteio",
-                    "tipo": "Ativa",
-                    "descricao": "Maninques, por serem animais gigantes, caso se sintam ameaçados, pisoteiam seus algozes, podendo causar até 1d10+10 de dano."
                 }
             ],
             "descricao": [
@@ -1084,19 +1013,15 @@
                 },
                 {
                     "titulo": "Comportamento",
-                    "texto": "São animais geralmente tranquilos quando não incomodados, mas fêmeas acompanhadas de filhotes tornam-se extremamente defensivas e territorialistas. Se comunicam em brados graves e longos que podem ser ouvidos a longas distâncias, o que contribui para a atmosfera das estepes de Prototaxitas."
+                    "texto": "São animais geralmente tranquilos quando não incomodados, mas fêmeas acompanhadas de filhotes tornam-se extremamente defensivas e territorialistas."
                 },
                 {
                     "titulo": "Filhotes",
                     "texto": "Os filhotes permanecem próximos da mãe por cerca de 10 anos e, durante os primeiros anos de vida, alimentam-se principalmente de pedaços macios de Prototaxitas previamente mastigados por ela."
                 },
                 {
-                    "titulo": "Leite e queijo Maninquês",
-                    "texto": "O leite dos Maninques e, principalmente, o queijo produzido a partir dele, chamado de Maninquês, são considerados iguarias muito apreciadas. Sua obtenção, porém, é extremamente difícil e perigosa: a ordenha costuma ser realizada enquanto as fêmeas dormem, uma vez que mães acompanhadas de filhotes reagem agressivamente à aproximação de estranhos. Uma ordenha de Maninques é realizada por um grupo de ordenhadores chamados Maninqueiros."
-                },
-                {
-                    "titulo": "Maninqueiros",
-                    "texto": "Dentro de um grupo de Maninqueiros, cada integrante possui uma especialidade e desempenha uma função específica durante a aproximação e a ordenha. Os Acalantos são responsáveis por identificar fêmeas adormecidas, avaliar a profundidade de seu sono, e garantir que não acordem durante o processo. Os Arrorrós \"ninam\" os filhotes para não acordarem enquanto os Atalaias vigiam qualquer sinal de despertar. A ordenha propriamente dita fica a cargo dos Tiraleites, Maninqueiros especializados em se aproximar silenciosamente das fêmeas e retirar o leite sem acordá-las. Por causa do risco envolvido e da pequena quantidade de leite obtida em cada incursão, o verdadeiro queijo Maninquês alcança preços elevados e costuma ser consumido apenas por nobres e famílias abastadas."
+                    "titulo": "Leite e queijo",
+                    "texto": "O leite dos Maninques e, principalmente, o queijo produzido a partir dele são considerados iguarias muito apreciadas. Sua obtenção, porém, é extremamente difícil e perigosa: a ordenha costuma ser realizada enquanto as fêmeas dormem, uma vez que mães acompanhadas de filhotes reagem agressivamente à aproximação de estranhos."
                 },
                 {
                     "titulo": "Pele",
@@ -1201,20 +1126,7 @@
                     "descricao": "Mumijais machos são extremamente agressivos e possuem pouca capacidade de avaliar ameaças ou consequências, atacando com facilidade outros indivíduos de sua espécie e criaturas próximas."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Dimorfismo sexual",
-                    "texto": "Os Mumijais são animais de dimorfismo sexual expressivo. São divididos em sociedades separadas de machos e de fêmeas, pois estes se odeiam, encontrando-se apenas nos períodos de reprodução. Os machos são conhecidos por serem extremamente burros e agressivos entre si e com outras espécies. Já as fêmeas são calmas e dóceis."
-                },
-                {
-                    "titulo": "Charrébolona",
-                    "texto": "Os testículos dos Mumijais são utilizados para fazer as poções de \"Charrébolona\", que provocam um aumento de força física em troca do controle emocional do utilizador."
-                },
-                {
-                    "titulo": "Cultura popular",
-                    "texto": "Pessoas muito parrudas e fortes são, popularmente, chamadas de \"Mumijais\". Certas culturas realizam as famosas \"Mumijadas\", eventos em que um Mumijal selvagem é colocado em uma arena com um Mumijão, homem responsável por tentar matar o Mumijal."
-                }
-            ]
+            "descricao": "Os Mumijais são animais de dimorfismo sexual expressivo. São divididos em sociedades separadas de machos e de fêmeas, pois estes se odeiam, encontrando-se apenas nos períodos de reprodução. Os machos são conhecidos por serem extremamente burros e agressivos entre si e com outras espécies. Já as fêmeas são calmas e dóceis. Os testículos dos Mumijais são utilizados para fazer as poções de \"Charrébolona\", que provocam um aumento de força física em troca do controle emocional do utilizador. Pessoas muito parrudas e fortes são, popularmente, chamadas de \"Mumijais\". Certas culturas realizam as famosas \"Mumijadas\", eventos em que um Mumijal selvagem é colocado em uma arena com um Mumijão, homem responsável por tentar matar o Mumijal."
         },
         "nininho": {
             "id": "nininho",
@@ -1267,7 +1179,7 @@
             "imagem": {
                 "principal": "assets/criaturas/nosfernando/nosfernando.png",
                 "galeria": [
-                    "assets/criaturas/nosfernando/nosfernando.png"
+                    "assets/criaturas/nosfernando/nosfernando2.png"
                 ]
             },
             "hp": 1,
@@ -1460,16 +1372,7 @@
                     "descricao": "Pentorrões são fortemente atraídos por objetos brilhantes e tendem a roubá-los e levá-los para seus ninhos."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Pentorrões são praticamente pragas que vagam pelas terras em pequenos bandos, destruindo plantações e matando os mais desavisados."
-                },
-                {
-                    "titulo": "Ninhos e objetos brilhantes",
-                    "texto": "Costumam se amontoar em cantos mais reclusos, onde formam ninhos, cruzam e guardam sua coisa favorita: qualquer objeto que brilhe. Por conta desse comportamento, ninhos de Pentorrões frequentemente acumulam moedas, joias, pedaços de metal, vidro e outros objetos reluzentes roubados durante suas andanças."
-                }
-            ]
+            "descricao": "Os Pentorrões são praticamente pragas que vagam pelas terras em pequenos bandos, destruindo plantações e matando os mais desavisados. Costumam se amontoar em cantos mais reclusos, onde formam ninhos, cruzam e guardam sua coisa favorita: qualquer objeto que brilhe. Por conta desse comportamento, ninhos de Pentorrões frequentemente acumulam moedas, joias, pedaços de metal, vidro e outros objetos reluzentes roubados durante suas andanças."
         },
         "pinteca": {
             "id": "pinteca",
@@ -1572,7 +1475,7 @@
                     "assets/criaturas/variptor_mandicuris/variptor_mandicuris2.png"
                 ]
             },
-            "hp": 120,
+            "hp": 80,
             "nd": 16,
             "mov": 20,
             "classificacao": {

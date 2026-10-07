@@ -49,6 +49,42 @@ fetch('./criaturas.json')
         ordenarCards();
     });
 
+/*Cria parágrafos para a descrição das criaturas*/
+// transforma "parágrafo 1\n\nparágrafo 2" em <p>...</p><p>...</p>
+function criarParagrafos(texto) {
+    return texto
+        .split('\n\n')
+        .map(p => `<p>${p.trim()}</p>`)
+        .join('');
+}
+
+function createDescricao(descricao) {
+    if (!descricao || descricao.length === 0) return '';    // sem descrição: nenhuma seção
+
+    // formato antigo (texto único): as criaturas que você ainda não migrou
+    if (typeof descricao === 'string') {
+        return `
+            <section class="fichaDescricao">
+                <h3>Descrição</h3>
+                ${criarParagrafos(descricao)}
+            </section>
+        `;
+    }
+    // formato novo: lista de seções
+    return `
+        <section class="fichaDescricao">
+            <h3>Descrição</h3>
+            ${descricao.map(secao => `
+                <div class="descricao-secao">
+                    ${secao.titulo ? `<h4>${secao.titulo}</h4>` : ''}
+                    ${criarParagrafos(secao.texto)}
+                </div>
+            `).join('')}
+        </section>
+    `;
+}
+
+/*Cria a ficha em si*/
 function createFicha(criatura) {
     return `
         <h2 id="fichaTitulo">${criatura.nome}</h2>
@@ -96,14 +132,11 @@ function createFicha(criatura) {
                 ${criatura.habilidades.map(hab => `<li><h4>${hab.nome}</h4><p>${hab.descricao}</p></li>`).join('')}
             </ul>
         </section>
-        <section class="fichaDescricao">
-            <h3>Descrição</h3>
-            <p>${criatura.descricao}</p>
-        </section>
         <section class="galeria">
             <h3>Galeria de Imagens</h3>
             ${criatura.imagem.galeria.map(img => `<img src="${img}" alt="${criatura.nome}">`).join('')}
         </section>
+        ${createDescricao(criatura.descricao)}
     `;
 }
 
@@ -132,23 +165,56 @@ ficha.addEventListener('click', (e) => {
     if (e.target === ficha) ficha.close();
 });
 
+/*=====================================================================
+=============galeria abrir e fechar imagem (lightbox)====================
+===================================================================*/
+
 /*galeria abrir e fechar imagem (lightbox)*/
 
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
+const lbAnterior = document.getElementById('lbAnterior');
+const lbProximo = document.getElementById('lbProximo');
 
-//abre ao clicar numa imagem da galeria
-fichaConteudo.addEventListener('click', (e) => {
-    const img = e.target.closest('.galeria img');
-    if (!img) return; //clicou em outra coisa da ficha
+let imagensAtuais = [];   // as <img> da ficha aberta (principal + galeria)
+let indiceAtual = 0;      // qual delas está ampliada
 
+function mostrarImagem(i) {
+    const total = imagensAtuais.length;
+    indiceAtual = (i + total) % total;       // passa da última para a primeira, e vice-versa
+    const img = imagensAtuais[indiceAtual];
     lightboxImg.src = img.src;
     lightboxImg.alt = img.alt;
+}
+
+// abre ao clicar numa imagem da ficha
+fichaConteudo.addEventListener('click', (e) => {
+    const img = e.target.closest('.galeria img, .ficha-imagem-principal');
+    if (!img) return;                        // clicou em outra coisa da ficha
+
+    imagensAtuais = Array.from(
+        fichaConteudo.querySelectorAll('.ficha-imagem-principal, .galeria img')
+    );
+    lbAnterior.hidden = lbProximo.hidden = imagensAtuais.length < 2;  // sem setas se só tem uma
+
+    mostrarImagem(imagensAtuais.indexOf(img));
     lightbox.showModal();
 });
 
-// fecha ao clicar em qualquer lugar (imagem ou fundo escuro)
-lightbox.addEventListener('click', () => lightbox.close());
+// setas na tela
+lbAnterior.addEventListener('click', () => mostrarImagem(indiceAtual - 1));
+lbProximo.addEventListener('click', () => mostrarImagem(indiceAtual + 1));
+
+// setas do teclado
+lightbox.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') mostrarImagem(indiceAtual - 1);
+    if (e.key === 'ArrowRight') mostrarImagem(indiceAtual + 1);
+});
+
+// fecha clicando no fundo escuro (não mais em qualquer lugar, senão as setas fechariam)
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) lightbox.close();
+});
 
 /*====================PESQUISA=============================*/
 // SORTING CARDS POR SELECT
@@ -268,28 +334,30 @@ function preencheDataList(criaturas) {
 }
 /*====================================================================*/
 
+/*=========================RANDOM CREATURE===============================*/
 
-/*
-teste com varias criaturas (json)
-"Dorothy": {
-            "nome": "Dorothy"
-        },
-        "Carlos": {
-            "nome": "Carlos"
-        },
-        "Marcon": {
-            "nome": "Marcon"
-        },
-        "Daryl": {
-            "nome": "Daryl"
-        },
-        "Bolsonaro": {
-            "nome": "Bolsonaro"
-        },
-        "Lula": {
-            "nome": "Lula"
-        },
-        "Damon": {
-            "nome": "Damon"
-        }
-*/
+const botaoAleatorio = document.getElementById('randomCreature');
+let ultimoSorteado = null;
+
+function sorteiaCriaturaRandom() {
+    // só os cards que passaram pelos filtros e pela busca
+    const visiveis = document.querySelectorAll('.card:not(.invisivel)');
+    const ids = Array.from(visiveis, card => card.dataset.id);
+    console.log('ids:', ids);
+
+    if (ids.length === 0) return; // sem card tela
+
+    let id;
+    do {
+        id = ids[Math.floor(Math.random() * ids.length)];
+    } while (id === ultimoSorteado && ids.length > 1);
+
+    ultimoSorteado = id;
+
+    /*Abre Ficha aleatoria*/
+    console.log('id sorteado:', id, '| criatura:', criaturasPorId[id]);
+    fichaConteudo.innerHTML = createFicha(criaturasPorId[id]);
+    ficha.showModal();
+}
+/*Botão de sortear craitura aleatoria*/
+botaoAleatorio.addEventListener('click', sorteiaCriaturaRandom);

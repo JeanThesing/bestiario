@@ -50,7 +50,8 @@
                     </select>
                 </div>
             </section>
-            <details id=checkboxes>
+            <section id="filtersAndRandom">
+                <details id=checkboxes>
                 <summary>Filtros</summary>
                 <!--filtragem por checkboxes-->
                 <div id=fieldsets>
@@ -106,6 +107,8 @@
                 </div>
                 <button type="button" id="limparFiltros">Limpar Filtros</button>
             </details>
+            <button type="button" id="randomCreature">Aleatório</button>
+            </section>
         </search>
         <div id="criaturas">
             <h2>Criaturas</h2>
@@ -127,7 +130,9 @@
     </dialog>
     <!--MODAL DE IMAGENS DA GALERIA DA FICHA-->
     <dialog id="lightbox">
+        <button type="button" id="lbAnterior" aria-label="Imagem anterior">&#8249;</button>
         <img id="lightboxImg" src="" alt="">
+        <button type="button" id="lbProximo" aria-label="Próxima imagem">&#8250;</button>
     </dialog>
     <script src="script.js" defer></script>
 </body>

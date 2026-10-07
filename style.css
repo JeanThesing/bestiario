@@ -72,6 +72,25 @@ search {
     gap:1.2rem;
 }
 
+/*div onde tem o botao de random e o <details> de abrir filtros*/
+#filtersAndRandom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+/*botão de sortear criatura*/
+#randomCreature {
+    width: auto;               /* sobrescreve o width: 100% global dos botões */
+    min-width: 8rem;           /* largura mínima confortável */
+    height: 40px;
+    padding: 0 1.25rem;        /* espaço entre o texto e a borda */
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;       /* o texto nunca quebra de linha */
+    flex-shrink: 0;            /* o flex não comprime o botão */
+}
+
 #inputs {
     display: flex;
     flex-direction: row;
@@ -151,7 +170,9 @@ search label {
 
 /*==================SEARCHBAR===================*/
 #searchInput {
-    min-width: 220px;
+    flex: 1 1 12rem;       
+    min-width: 0;          
+    max-width: 100%;
 }
 /*==================CARDS=PER=LINE===================*/
 #searchRange {
