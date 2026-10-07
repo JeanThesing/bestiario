@@ -215,7 +215,8 @@
                 "principal": "assets/criaturas/betassauro/betassauro.png",
                 "galeria": [
                     "assets/criaturas/betassauro/betassauro2.png",
-                    "assets/criaturas/betassauro/betassauro3.png"
+                    "assets/criaturas/betassauro/betassauro3.png",
+                    "assets/criaturas/betassauro/betassauro4.png"
                 ]
             },
             "hp": 12,
@@ -268,7 +269,7 @@
             "id": "levedor",
             "nome": "Levedor",
             "nomesAlternativos": [
-                "Abelha da Terra"
+                "Vaca-Lumes"
             ],
             "imagem": {
                 "principal": "assets/criaturas/levedor/levedor.png",
@@ -276,12 +277,15 @@
                     "assets/criaturas/levedor/levedor2.png",
                     "assets/criaturas/levedor/levedor3.png",
                     "assets/criaturas/levedor/levedor4.png",
-                    "assets/criaturas/levedor/levedor5.png"
+                    "assets/criaturas/levedor/levedor5.png",
+                    "assets/criaturas/levedor/levedor6.png",
+                    "assets/criaturas/levedor/levedor7.png",
+                    "assets/criaturas/levedor/levedor8.png"
                 ]
             },
-            "hp": 30,
-            "nd": 10,
-            "mov": 10,
+            "hp": 35,
+            "nd": 8,
+            "mov": 8,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -299,27 +303,22 @@
                 "atividade": "Noturna",
                 "organizacao": {
                     "tipo": "Rebanho",
-                    "quantidade": "4 a 15 indivíduos"
+                    "quantidade": "10 a 30 indivíduos"
                 },
-                "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "reproducao": "Sexuada e vivípara. Durante as Pirilampadas, as fêmeas selecionam seus parceiros por meio de suas performances luminosas. Após a gestação, dão à luz poucos filhotes, que permanecem próximos da mãe e do rebanho durante os primeiros anos de vida.",
+                "expectativaDeVida": "30 a 45 anos"
             },
             "habilidades": [
                 {
                     "nome": "Pólipos Luminescentes",
-                    "tipo": "Passiva",
+                    "tipo": "Ativa",
                     "descricao": "Após se alimentar de líquens luminescentes, o Levedor favorece o crescimento de bactérias fotossintetizantes que formam pólipos em suas costas. Quanto mais o animal se alimenta, mais intensamente esses pólipos brilham."
-                },
-                {
-                    "nome": "Luz da Colheita",
-                    "tipo": "Passiva",
-                    "descricao": "Quando os pólipos atingem luminosidade intensa, estão maduros para a colheita. Sua remoção não causa dano ao Levedor, e novos pólipos crescem novamente após alguns meses."
                 }
             ],
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "O Levedor é um animal grande, pacífico, lento e de hábitos noturnos, encontrado principalmente próximo aos rios de líquens luminescentes. Alimenta-se desses líquens, cuja digestão favorece o desenvolvimento de bactérias fotossintetizantes que formam pólipos luminosos sobre suas costas."
+                    "texto": "O Levedor, ou Vaca-Lume, é um animal grande, pacífico e de hábitos noturnos, encontrado principalmente próximo aos rios de líquens luminescentes, onde passa a noite liqueando. Alimenta-se desses líquens, cuja digestão favorece o desenvolvimento de bactérias fotossintetizantes que formam pólipos luminosos sobre suas costas."
                 },
                 {
                     "titulo": "Pólipos e Leveduras",
@@ -328,6 +327,30 @@
                 {
                     "titulo": "Importância cultural e criação",
                     "texto": "Em diversas culturas, os Levedores são considerados animais sagrados. Seus criadores, conhecidos como Levedouros, frequentemente pertencem a famílias que exercem essa atividade há muitas gerações. Essas comunidades costumam se estabelecer ao redor dos rios de líquens, onde protegem os rebanhos e mantêm as Poliporias, construções especializadas na produção e fermentação das Leveduras."
+                },
+                {
+                    "titulo": "Ciclo dos pólipos",
+                    "texto": "Os filhotes de Levedor nascem sem pólipos e começam a desenvolvê-los somente após passarem a consumir líquens luminescentes. Inicialmente, surgem pequenos pontos luminosos sobre suas costas, que crescem lentamente conforme o animal se alimenta. Pólipos maduros apresentam brilho intenso e podem ser colhidos sem ferir o Levedor. Após a colheita, novos pólipos começam a surgir ao longo dos meses seguintes."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Levedores são animais dóceis e vivem em rebanho, passando grande parte da noite caminhando lentamente pelos campos e margens dos rios de líquens. Os indivíduos de um mesmo rebanho costumam permanecer próximos uns dos outros e, quando ameaçados, agrupam os filhotes entre os adultos antes de fugir. Durante a noite, um rebanho pode ser avistado à distância pelo brilho conjunto dos pólipos carregados em suas costas."
+                },
+                {
+                    "titulo": "Comunicação e Cortejo",
+                    "texto": "Os Levedores se comunicam brilhando seus pólipos em diferentes padrões e intensidades. Durante o período de acasalamento, os machos reúnem-se diante as fêmeas e realizam longas performances luminosas. As apresentações são julgadas pelas fêmeas, que escolhem aqueles que realizaram os padrões mais intensos e elaborados, dando aos vencedores o direito à cópula. Durante esses períodos, conhecidos como \"Pirilampadas\" campos inteiros de Levedores ficam piscando ao longo da noite. Por conta desse fenômeno, os animais são popularmente chamados de \"Vaca-Lumes\" (apelido sazonal) durante a época de acasalamento."
+                },
+                {
+                    "titulo": "Predadores",
+                    "texto": "Apesar de seu grande porte, os Levedores possuem predadores naturais. Entre os mais perigosos estão os Falsos Levedores, animais noturnos que desenvolveram estruturas luminosas capazes de imitar os pólipos e alguns dos padrões de comunicação dos Levedores. Utilizando essa falsa luminescência, aproximam-se lentamente dos rebanhos sem despertar suspeitas, atacando principalmente indivíduos isolados, filhotes e animais enfraquecidos. Levedores adultos costumam reagir agrupando os filhotes no centro do rebanho e fugindo em conjunto. Levedouros consideram a presença de Falsos Levedores uma das maiores ameaças aos rebanhos e costumam vigiar padrões luminosos incomuns nas proximidades das Poliporias."
+                },
+                {
+                    "titulo": "Poliporias",
+                    "texto": "As Poliporias são construções destinadas à criação dos Levedores e à produção das Leveduras. Geralmente erguidas próximas aos rios de líquens, possuem currais, salas de colheita e grandes tonéis onde os pólipos são triturados e fermentados. Poliporias antigas frequentemente pertencem à mesma família de Levedouros há muitas gerações, e suas técnicas de fermentação são mantidas como segredos familiares."
+                },
+                {
+                    "titulo": "Leveduras",
+                    "texto": "As Leveduras são bebidas fermentadas produzidas a partir dos pólipos colhidos dos Levedores. Possuem aparência turva e textura levemente granulosa, com pequenos resíduos dos pólipos permanecendo suspensos após a fermentação. Seu sabor é terroso e levemente adocicado, enquanto pequenos pontos de luminescência podem permanecer visíveis na espuma. Diferentes líquens produzem pólipos com características distintas, dando origem a variedades regionais de Levedura."
                 }
             ]
         },
@@ -385,7 +408,9 @@
             "imagem": {
                 "principal": "assets/criaturas/himoor/himoor.png",
                 "galeria": [
-                    "assets/criaturas/himoor/himoor2.png"
+                    "assets/criaturas/himoor/himoor2.png",
+                    "assets/criaturas/himoor/himoor3.png",
+                    "assets/criaturas/himoor/himoor4.png"
                 ]
             },
             "hp": 10,
@@ -1604,6 +1629,267 @@
                 }
             ],
             "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
+        },
+        "falso-levedor": {
+            "id": "falso-levedor",
+            "nome": "Falso-Levedor",
+            "nomesAlternativos": [
+                "Boca-de-Lanterna"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/falso-levedor/falso-levedor.png",
+                "galeria": [
+                    "assets/criaturas/falso-levedor/falso-levedor2.png",
+                    "assets/criaturas/falso-levedor/falso-levedor3.png",
+                    "assets/criaturas/falso-levedor/falso-levedor4.png"
+                ]
+            },
+            "hp": 45,
+            "nd": 11,
+            "mov": 12,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Rios de Líquens",
+                    "Campos de Líquens",
+                    "Arredores de Poliporias"
+                ],
+                "dieta": [
+                    "Levedores",
+                    "Animais de pequeno e médio porte"
+                ],
+                "atividade": "Noturna",
+                "organizacao": {
+                    "tipo": "Solitário e territorialista. Raramente tolera outro adulto por perto, exceto durante a reprodução.",
+                    "quantidade": "1 indivíduo"
+                },
+                "reproducao": "Ovípara. As fêmeas depositam poucos ovos em covas rasas escondidas entre os líquens e os vigiam até a eclosão. Os filhotes nascem com aparência semelhante à de filhotes de Levedor e permanecem escondidos nas proximidades de rebanhos durante os primeiros anos.",
+                "expectativaDeVida": "15 a 25 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Mimetismo de Levedor",
+                    "tipo": "Passiva",
+                    "descricao": "Com o corpo rente ao chão e as bocas fechadas, o Falso-Levedor é praticamente indistinguível de um Levedor à distância. +6 em testes para se passar por um Levedor."
+                },
+                {
+                    "nome": "Isca Luminosa",
+                    "tipo": "Ativa",
+                    "descricao": "Balança as antenas luminosas e altera o brilho das costas para imitar os padrões de um Levedor, atraindo animais curiosos e presas para perto de seu alcance."
+                },
+                {
+                    "nome": "Três Bocas",
+                    "tipo": "Ativa",
+                    "descricao": "As três bocas se movem de forma independente, permitindo morder alvos diferentes ou concentrar todos os ataques em um só. Cada boca dá 1d12 de dano."
+                },
+                {
+                    "nome": "Olhos Agrupados",
+                    "tipo": "Passiva",
+                    "descricao": "Os dois aglomerados de olhos enxergam bem no escuro e cobrem um campo de visão muito amplo. +4 em testes de percepção durante a noite."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "O Falso-Levedor é um predador noturno grande e hostil que se adaptou para se parecer com os próprios Levedores que caça. Vive nas mesmas regiões de rios e campos de líquens luminescentes, onde se mistura aos rebanhos para se aproximar das presas. À distância, sua silhueta e o brilho de suas costas são quase idênticos aos de um Levedor. De perto, porém, revela três bocas cheias de presas, olhos agrupados e garras enormes."
+                },
+                {
+                    "titulo": "Mimetismo",
+                    "texto": "O disfarce do Falso-Levedor é uma adaptação natural refinada ao longo de muitas gerações. Sua coluna é coberta por excrescências carnudas, colonizadas por bactérias luminescentes obtidas dos próprios Levedores que devora, e que brilham de forma parecida com os pólipos verdadeiros. O animal também imita a postura baixa e o caminhar lento do Levedor, e consegue variar a intensidade do brilho para reproduzir os padrões luminosos do rebanho."
+                },
+                {
+                    "titulo": "Estratégia de caça",
+                    "texto": "Durante a noite, o Falso-Levedor se aproxima de um rebanho com o corpo rente ao chão e as bocas fechadas, e ocupa um lugar entre os animais. Espera até estar ao lado de uma presa isolada, geralmente um filhote ou um indivíduo na borda do rebanho, antes de atacar. Também usa as duas antenas luminosas como isca, balançando-as para atrair animais curiosos ao alcance de suas garras. Depois do ataque, o rebanho se dispersa em pânico, e o predador arrasta a presa para longe antes de devorá-la."
+                },
+                {
+                    "titulo": "Anatomia",
+                    "texto": "A frente do corpo é a parte que entrega o disfarce. O animal possui três bocas em formato de pétalas, cada uma com dentes pontiagudos, que se abrem de forma independente. Os olhos formam três aglomerados, protegidos por uma aba de pele que cobre a parte superior da cabeça. Os membros dianteiros são robustos e terminam em grandes garras curvas, usadas para imobilizar as presas e cavar tocas. A pele é rosada e manchada. Na penumbra, o brilho das costas atrai o olhar e desvia a atenção dessas características."
+                },
+                {
+                    "titulo": "Como identificar",
+                    "texto": "Para os Levedouros, distinguir um Falso-Levedor a distância é questão de experiência. Os sinais mais confiáveis são o brilho, que pisca em padrões desencontrados dos do rebanho, embora Falso-Levedores possam aprender os padrões típicos do rebanho se exposto a ele o suficiente; O caminhar mais pesado e curvado, a ausência de filhotes ao seu redor e a inquietação dos próprios Levedores diante de sua presença. De perto, o cheiro de carne e bocas enormes os denunciam."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Fora da caça, é um animal solitário e territorialista, agressivo com qualquer criatura que se aproxime, inclusive outros predadores. Costuma passar o dia escondido em tocas rasas, cavadas entre os líquens e cobertas de vegetação, saindo ao anoitecer. Quando ferido ou desmascarado, abre as três bocas e ataca de frente, com muita violência."
+                },
+                {
+                    "titulo": "Filhotes",
+                    "texto": "Os filhotes do Falso-Levedor nascem com a aparência de filhotes de Levedor, ainda sem as presas visíveis. Segundo os Levedouros, alguns se infiltram nos rebanhos e crescem entre eles, até ficarem grandes demais para passar despercebidos. É um dos motivos pelos quais os criadores vigiam com atenção os recém-chegados ao rebanho."
+                },
+                {
+                    "titulo": "Relação com os Levedouros",
+                    "texto": "Os Levedouros consideram o Falso-Levedor uma das maiores ameaças aos seus rebanhos. Muitas Poliporias mantêm vigias noturnos e cercas de fogo ao redor dos currais, e algumas famílias treinam seus membros para reconhecer o impostor. Os pólipos de um Falso-Levedor não servem para produzir Levedura."
+                }
+            ]
+        },
+        "nohta": {
+            "id": "nohta",
+            "nome": "Nohta",
+            "nomesAlternativos": [
+                "Pesadelo d'Água"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/nohta/nohta.png",
+                "galeria": [
+                    "assets/criaturas/nohta/nohta2.png",
+                    "assets/criaturas/nohta/nohta3.png",
+                    "assets/criaturas/nohta/nohta4.png",
+                    "assets/criaturas/nohta/nohta5.png",
+                    "assets/criaturas/nohta/nohta6.png"
+                ]
+            },
+            "hp": 2,
+            "nd": 14,
+            "mov": 12,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Pequeno",
+                "temperamento": "Hostil"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Rios",
+                    "Lagos",
+                    "Brejos",
+                    "Águas Rasas com Vegetação"
+                ],
+                "dieta": [
+                    "Sais minerais",
+                    "Fluidos corporais"
+                ],
+                "atividade": "Noturna",
+                "organizacao": {
+                    "tipo": "Solitário",
+                    "quantidade": "1 a 3 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": null
+            },
+            "habilidades": [
+                {
+                    "nome": "Pedra-Viva",
+                    "tipo": "Passiva",
+                    "descricao": "O corpo do Nohta é coberto por depósitos minerais cristalizados extremamente rígidos. Essas formações aumentam de tamanho lentamente ao longo de sua vida e fazem com que o animal se pareça com uma pequena pedra cristalina quando permanece imóvel."
+                },
+                {
+                    "nome": "Pesadelo d'Água",
+                    "tipo": "Ativa",
+                    "descricao": "Quando percebe um animal parcialmente submerso, o Nohta pode tentar penetrar pela uretra e alojar-se no trato urinário. Uma vez instalado, seus cristais dificultam sua expulsão e provocam dores intensas no hospedeiro."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Nohtas, popularmente conhecidos como Pesadelos d'Água, são pequenos animais aquáticos encontrados escondidos entre algas, pedras e vegetação submersa. Apesar da aparência quase inofensiva, são temidos por seu comportamento parasitário e pelo hábito de penetrar no trato urinário de animais e pessoas que entram nas águas onde vivem."
+                },
+                {
+                    "titulo": "Anatomia",
+                    "texto": "O corpo do Nohta é pequeno, arredondado e recoberto por grandes formações cristalinas azuladas. Possui enormes olhos adaptados à baixa luminosidade, pequenas nadadeiras laterais e dentes frontais utilizados para raspar matéria mineral. Os cristais continuam crescendo lentamente durante sua vida, dando aos indivíduos mais velhos uma aparência cada vez mais irregular."
+                },
+                {
+                    "titulo": "Parasitismo",
+                    "texto": "O Nohta tornou-se infame por penetrar pela uretra de animais e pessoas que permanecem dentro d'água. Uma vez no interior do hospedeiro, desloca-se pelo trato urinário e se fixa utilizando suas estruturas corporais. Seus cristais tornam extremamente difícil sua expulsão natural, fazendo com que a infestação seja frequentemente comparada a um cálculo renal que entrou no corpo em vez de ter se formado dentro dele."
+                },
+                {
+                    "titulo": "Pesadelos d'Água",
+                    "texto": "O apelido surgiu entre pescadores, viajantes e comunidades ribeirinhas devido à dor provocada pelas infestações e ao medo de encontrá-los. Regiões conhecidas pela presença de Nohtas costumam possuir superstições e métodos locais para evitar entrar diretamente nos rios. É comum entre essas populações o uso de \"*Capas Balânicas\" para a proteção da uretra, sendo geralmente envoltórios feitos de couro que \"embalam a glande\", ou, para mulheres, peças de couro firmadas ao redor da vulva."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Quando não estão parasitando um hospedeiro, os Nohtas permanecem próximos ao fundo, escondidos entre pedras e algas. São nadadores rápidos em distâncias curtas, mas passam grande parte do tempo imóveis. Sua carapaça cristalina ajuda a confundi-los com depósitos minerais encontrados no leito dos rios."
+                },
+                {
+                    "titulo": "Artesão de Maças e Manguais",
+                    "texto": "Existem relatos sobre um misterioso artesão que confecciona maças e manguais cerimoniais cujos espinhos são substituídos por Nohtas petrificados anormalmente grandes e pontiagudos. A confecção dessas armas é extremamente difícil, pois exige encontrar numerosos indivíduos que apresentem formações cristalinas com tamanho, formato e resistência adequados. O paradeiro do artesão é desconhecido, assim como seu verdadeiro nome. Muitos afirmam que trabalha exclusivamente para o líder dos Escaravelhos, um grupo de mercenários de elite de Ediacara."
+                }
+            ]
+        },
+        "corneteiro": {
+            "id": "corneteiro",
+            "nome": "Corneteiro",
+            "nomesAlternativos": [
+                "Trombeta-da-Estepe"
+            ],
+            "imagem": {
+                "principal": "assets/criaturas/corneteiro/corneteiro.png",
+                "galeria": [
+                    "assets/criaturas/corneteiro/corneteiro2.png",
+                    "assets/criaturas/corneteiro/corneteiro3.png",
+                    "assets/criaturas/corneteiro/corneteiro4.png",
+                    "assets/criaturas/corneteiro/corneteiro5.png",
+                    "assets/criaturas/corneteiro/corneteiro6.png"
+                ]
+            },
+            "hp": 50,
+            "nd": 9,
+            "mov": 11,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Gigante",
+                "temperamento": "Neutro"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Estepes",
+                    "Campos Abertos",
+                    "Planícies Arroxeadas"
+                ],
+                "dieta": [
+                    "Gramíneas",
+                    "Arbustos",
+                    "Tubérculos"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Manada",
+                    "quantidade": "10 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "30 a 45 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes animais terrestres encontrados nas vastas estepes e campos abertos. Possuem postura recurvada, membros dianteiros longos e robustos e uma característica crina esverdeada que percorre o topo do corpo. Seu nome deriva das numerosas estruturas ocas semelhantes a cornetas que crescem ao redor da cabeça e são utilizadas para produzir seus poderosos chamados."
+                },
+                {
+                    "titulo": "Cornetas",
+                    "texto": "As estruturas que dão nome ao animal são extensões ocas conectadas às suas vias respiratórias. Cada corneta possui tamanho e formato ligeiramente diferentes, produzindo uma frequência própria quando o ar passa por ela. Controlando quais cornetas utiliza, um Corneteiro consegue produzir uma grande variedade de sons, desde chamados graves e prolongados até sequências curtas de notas."
+                },
+                {
+                    "titulo": "Papo",
+                    "texto": "Sob a garganta encontra-se um grande papo elástico que pode ser inflado com ar. Além de armazenar o ar antes de uma vocalização, ele funciona como uma câmara de ressonância, tornando os chamados do Corneteiro muito mais altos e profundos. Durante um chamado intenso, o papo pode aumentar várias vezes de tamanho antes de esvaziar rapidamente através das cornetas."
+                },
+                {
+                    "titulo": "Comunicação",
+                    "texto": "Corneteiros utilizam diferentes combinações de notas para manter contato com membros distantes da manada, alertar sobre predadores e anunciar sua presença. Em campos abertos, seus chamados podem viajar por grandes distâncias. Uma manada dispersa consegue manter-se coordenada mesmo quando seus indivíduos não conseguem enxergar uns aos outros."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Apesar do grande porte, Corneteiros normalmente são animais tranquilos e passam boa parte do dia caminhando lentamente pelas estepes em busca de alimento. Quando ameaçados, os adultos aproximam-se uns dos outros e produzem uma sequência de brados extremamente altos. Caso a ameaça continue se aproximando, podem atacar utilizando os membros dianteiros e seu grande peso corporal."
+                },
+                {
+                    "titulo": "Crina",
+                    "texto": "Uma longa faixa de pelos grossos e esverdeados cresce sobre o dorso dos Corneteiros. A crina torna-se mais espessa nos indivíduos adultos e costuma acumular sementes, líquens e pequenos organismos durante as longas caminhadas pelas estepes."
+                }
+            ]
         }
     }
 }

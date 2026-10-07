@@ -170,18 +170,17 @@ ficha.addEventListener('click', (e) => {
 ===================================================================*/
 
 /*galeria abrir e fechar imagem (lightbox)*/
-
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 const lbAnterior = document.getElementById('lbAnterior');
 const lbProximo = document.getElementById('lbProximo');
 
-let imagensAtuais = [];   // as <img> da ficha aberta (principal + galeria)
-let indiceAtual = 0;      // qual delas está ampliada
+let imagensAtuais = [];//as img da ficha aberta principal + galeria
+let indiceAtual = 0;//qual delas ta ampliada
 
 function mostrarImagem(i) {
     const total = imagensAtuais.length;
-    indiceAtual = (i + total) % total;       // passa da última para a primeira, e vice-versa
+    indiceAtual = (i + total) % total; //passa da última para a primeira, e vice-versa
     const img = imagensAtuais[indiceAtual];
     lightboxImg.src = img.src;
     lightboxImg.alt = img.alt;
@@ -190,28 +189,27 @@ function mostrarImagem(i) {
 // abre ao clicar numa imagem da ficha
 fichaConteudo.addEventListener('click', (e) => {
     const img = e.target.closest('.galeria img, .ficha-imagem-principal');
-    if (!img) return;                        // clicou em outra coisa da ficha
+    if (!img) return;//clicou em outra coisa da ficha
 
     imagensAtuais = Array.from(
         fichaConteudo.querySelectorAll('.ficha-imagem-principal, .galeria img')
     );
-    lbAnterior.hidden = lbProximo.hidden = imagensAtuais.length < 2;  // sem setas se só tem uma
-
+    lbAnterior.hidden = lbProximo.hidden = imagensAtuais.length < 2;  //sem setas se so tem uma
     mostrarImagem(imagensAtuais.indexOf(img));
     lightbox.showModal();
 });
 
-// setas na tela
+//setas na tela
 lbAnterior.addEventListener('click', () => mostrarImagem(indiceAtual - 1));
 lbProximo.addEventListener('click', () => mostrarImagem(indiceAtual + 1));
 
-// setas do teclado
+//setas do teclado
 lightbox.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowLeft') mostrarImagem(indiceAtual - 1);
     if (e.key === 'ArrowRight') mostrarImagem(indiceAtual + 1);
 });
 
-// fecha clicando no fundo escuro (não mais em qualquer lugar, senão as setas fechariam)
+//fecha clicando no fundo escuro
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) lightbox.close();
 });
@@ -235,11 +233,11 @@ function ordenarCards() {
 }
 
 selectOrdenar.addEventListener('change', ordenarCards);
-//// SEARCH BAR APLICACAO:
+///SEARCH BAR APLICACAO:
 function normalizar(texto) {
     return texto
-        .normalize('NFD')                 // "á" vira "a" + o acento solto
-        .replace(/[\u0300-\u036f]/g, '')  // remove os acentos soltos
+        .normalize('NFD')// "á" vira "a" + o acento solto
+        .replace(/[\u0300-\u036f]/g, '') // remove os acentos soltos
         .toLowerCase();
 }
 
