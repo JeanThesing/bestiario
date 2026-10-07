@@ -322,19 +322,19 @@
                 },
                 {
                     "titulo": "Pólipos e Leveduras",
-                    "texto": "Esses pólipos são colhidos e utilizados na produção das Leveduras, bebidas alcoólicas de sabor terroso e levemente adocicado. A coloração da bebida varia conforme a espécie de líquen consumida pelo animal. Quanto mais o Levedor se alimenta, mais luminosos se tornam seus pólipos, indicando que estão maduros para a colheita. A retirada dos pólipos não prejudica o animal, e eles voltam a crescer após alguns meses."
+                    "texto": "Quanto mais o Levedor se alimenta, mais luminosos se tornam seus pólipos, indicando que estão maduros para a colheita. A retirada dos pólipos não prejudica o animal, e eles voltam a crescer após alguns meses."
+                },
+                {
+                    "titulo": "Leveduras",
+                    "texto": "As Leveduras são bebidas fermentadas produzidas a partir dos pólipos colhidos dos Levedores. Possuem aparência turva e textura levemente granulosa, seu sabor é terroso e levemente adocicado, enquanto pequenos pontos de luminescência podem permanecer visíveis na espuma. Devido a variedade dos líquens, também existem variedades regionais de Levedura."
                 },
                 {
                     "titulo": "Importância cultural e criação",
                     "texto": "Em diversas culturas, os Levedores são considerados animais sagrados. Seus criadores, conhecidos como Levedouros, frequentemente pertencem a famílias que exercem essa atividade há muitas gerações. Essas comunidades costumam se estabelecer ao redor dos rios de líquens, onde protegem os rebanhos e mantêm as Poliporias, construções especializadas na produção e fermentação das Leveduras."
                 },
                 {
-                    "titulo": "Ciclo dos pólipos",
-                    "texto": "Os filhotes de Levedor nascem sem pólipos e começam a desenvolvê-los somente após passarem a consumir líquens luminescentes. Inicialmente, surgem pequenos pontos luminosos sobre suas costas, que crescem lentamente conforme o animal se alimenta. Pólipos maduros apresentam brilho intenso e podem ser colhidos sem ferir o Levedor. Após a colheita, novos pólipos começam a surgir ao longo dos meses seguintes."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Levedores são animais dóceis e vivem em rebanho, passando grande parte da noite caminhando lentamente pelos campos e margens dos rios de líquens. Os indivíduos de um mesmo rebanho costumam permanecer próximos uns dos outros e, quando ameaçados, agrupam os filhotes entre os adultos antes de fugir. Durante a noite, um rebanho pode ser avistado à distância pelo brilho conjunto dos pólipos carregados em suas costas."
+                    "titulo": "Filhotes Levedores",
+                    "texto": "Os filhotes de Levedor nascem sem pólipos e, inicialmente, surgem pequenos pontos luminosos sobre suas costas."
                 },
                 {
                     "titulo": "Comunicação e Cortejo",
@@ -342,15 +342,11 @@
                 },
                 {
                     "titulo": "Predadores",
-                    "texto": "Apesar de seu grande porte, os Levedores possuem predadores naturais. Entre os mais perigosos estão os Falsos Levedores, animais noturnos que desenvolveram estruturas luminosas capazes de imitar os pólipos e alguns dos padrões de comunicação dos Levedores. Utilizando essa falsa luminescência, aproximam-se lentamente dos rebanhos sem despertar suspeitas, atacando principalmente indivíduos isolados, filhotes e animais enfraquecidos. Levedores adultos costumam reagir agrupando os filhotes no centro do rebanho e fugindo em conjunto. Levedouros consideram a presença de Falsos Levedores uma das maiores ameaças aos rebanhos e costumam vigiar padrões luminosos incomuns nas proximidades das Poliporias."
+                    "texto": "Seus maiores predadores são os Falsos Levedores, animais noturnos que se adaptaram para mimetizar os Levedores. Imitando os seus padrões luminosos, aproximam-se lentamente dos rebanhos sem despertar suspeitas, atacando indivíduos isolados e filhotes."
                 },
                 {
                     "titulo": "Poliporias",
                     "texto": "As Poliporias são construções destinadas à criação dos Levedores e à produção das Leveduras. Geralmente erguidas próximas aos rios de líquens, possuem currais, salas de colheita e grandes tonéis onde os pólipos são triturados e fermentados. Poliporias antigas frequentemente pertencem à mesma família de Levedouros há muitas gerações, e suas técnicas de fermentação são mantidas como segredos familiares."
-                },
-                {
-                    "titulo": "Leveduras",
-                    "texto": "As Leveduras são bebidas fermentadas produzidas a partir dos pólipos colhidos dos Levedores. Possuem aparência turva e textura levemente granulosa, com pequenos resíduos dos pólipos permanecendo suspensos após a fermentação. Seu sabor é terroso e levemente adocicado, enquanto pequenos pontos de luminescência podem permanecer visíveis na espuma. Diferentes líquens produzem pólipos com características distintas, dando origem a variedades regionais de Levedura."
                 }
             ]
         },
@@ -1101,27 +1097,23 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Maninques são enormes fungívoros bípedes encontrados principalmente nas vastas estepes onde crescem as Prototaxitas. Graças à sua grande altura e aos braços compridos, conseguem segurar os troncos desses fungos enquanto arrancam com a boca suas partes mais macias."
+                    "texto": "Os Maninques são enormes fungívoros bípedes de aproximadaemnte 6 a 7 metros de altura, encontrados principalmente nas vastas estepes onde crescem as Prototaxitas. Se alimentam desses fungos enormes, ajudando na proliferação dos esporos pelas fezes."
                 },
                 {
-                    "titulo": "Relação com as Prototaxitas",
-                    "texto": "Um Maninque adulto pode consumir grandes quantidades de Prototaxitas em um único dia, deixando para trás troncos quebrados e parcialmente roídos. Apesar disso, os Maninques possuem uma relação importante com esses fungos, pois dispersam seus esporos através das fezes, contribuindo para sua propagação pelas estepes."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "São animais geralmente tranquilos quando não incomodados, mas fêmeas acompanhadas de filhotes tornam-se extremamente defensivas e territorialistas. Se comunicam em brados graves e longos que podem ser ouvidos a longas distâncias, o que contribui para a atmosfera das estepes de Prototaxitas."
+                    "titulo": "Comportamento e Comunicação",
+                    "texto": "São animais tranquilos quando não incomodados, mas fêmeas acompanhadas de filhotes tornam-se extremamente defensivas e territorialistas. Se comunicam em brados graves e longos que podem ser ouvidos a longas distâncias, o que contribui para a atmosfera das estepes de Prototaxitas."
                 },
                 {
                     "titulo": "Filhotes",
-                    "texto": "Os filhotes permanecem próximos da mãe por cerca de 10 anos e, durante os primeiros anos de vida, alimentam-se principalmente de pedaços macios de Prototaxitas previamente mastigados por ela."
+                    "texto": "Os filhotes permanecem próximos da mãe por cerca de 13 anos."
                 },
                 {
                     "titulo": "Leite e queijo Maninquês",
-                    "texto": "O leite dos Maninques e, principalmente, o queijo produzido a partir dele, chamado de Maninquês, são considerados iguarias muito apreciadas. Sua obtenção, porém, é extremamente difícil e perigosa: a ordenha costuma ser realizada enquanto as fêmeas dormem, uma vez que mães acompanhadas de filhotes reagem agressivamente à aproximação de estranhos. Uma ordenha de Maninques é realizada por um grupo de ordenhadores chamados Maninqueiros."
+                    "texto": "O leite dos Maninques e, principalmente, o queijo produzido a partir dele, chamado de Maninquês, são considerados iguarias muito apreciadas. Sua obtenção, porém, é extremamente difícil e perigosa: a ordenha costuma ser realizada enquanto as fêmeas dormem, uma vez que mães acompanhadas de filhotes reagem agressivamente à aproximação de estranhos."
                 },
                 {
                     "titulo": "Maninqueiros",
-                    "texto": "Dentro de um grupo de Maninqueiros, cada integrante possui uma especialidade e desempenha uma função específica durante a aproximação e a ordenha. Os Acalantos são responsáveis por identificar fêmeas adormecidas, avaliar a profundidade de seu sono, e garantir que não acordem durante o processo. Os Arrorrós \"ninam\" os filhotes para não acordarem enquanto os Atalaias vigiam qualquer sinal de despertar. A ordenha propriamente dita fica a cargo dos Tiraleites, Maninqueiros especializados em se aproximar silenciosamente das fêmeas e retirar o leite sem acordá-las. Por causa do risco envolvido e da pequena quantidade de leite obtida em cada incursão, o verdadeiro queijo Maninquês alcança preços elevados e costuma ser consumido apenas por nobres e famílias abastadas."
+                    "texto": "A ordenha de Maninques é realizada por um grupo de ordenhadores chamados Maninqueiros. Dentro de um grupo de Maninqueiros, cada integrante possui uma especialidade: Os \"Acalantos\" são responsáveis por identificar fêmeas adormecidas e avaliar a profundidade de seu sono. Os \"Arrorrós\" \"ninam\" os filhotes para não acordarem enquanto os \"Atalaias\" vigiam qualquer sinal de despertar. A ordenha fica a cargo dos Tiraleites, Maninqueiros especializados em se aproximar silenciosamente das fêmeas e retirar o leite sem acordá-las. Por causa do risco envolvido, o verdadeiro queijo Maninquês alcança preços elevados e costuma ser consumido apenas por nobres e famílias abastadas."
                 },
                 {
                     "titulo": "Pele",
@@ -1695,35 +1687,27 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "O Falso-Levedor é um predador noturno grande e hostil que se adaptou para se parecer com os próprios Levedores que caça. Vive nas mesmas regiões de rios e campos de líquens luminescentes, onde se mistura aos rebanhos para se aproximar das presas. À distância, sua silhueta e o brilho de suas costas são quase idênticos aos de um Levedor. De perto, porém, revela três bocas cheias de presas, olhos agrupados e garras enormes."
-                },
-                {
-                    "titulo": "Mimetismo",
-                    "texto": "O disfarce do Falso-Levedor é uma adaptação natural refinada ao longo de muitas gerações. Sua coluna é coberta por excrescências carnudas, colonizadas por bactérias luminescentes obtidas dos próprios Levedores que devora, e que brilham de forma parecida com os pólipos verdadeiros. O animal também imita a postura baixa e o caminhar lento do Levedor, e consegue variar a intensidade do brilho para reproduzir os padrões luminosos do rebanho."
+                    "texto": "O Falso-Levedor é um predador noturno que se adaptou para se parecer com os próprios Levedores que caça. Vive nas mesmas regiões de rios e campos de líquens luminescentes, onde se mistura aos rebanhos mimetizando os padrões luminosos e a postura recurvada dos Levedores para se aproximar das presas. À distância, sua silhueta e o brilho de suas costas são quase idênticos aos de um Levedor. De perto, porém, revela três bocas cheias de presas, olhos agrupados e garras enormes. Os pólipos de um Falso-Levedor não servem para produzir Levedura."
                 },
                 {
                     "titulo": "Estratégia de caça",
-                    "texto": "Durante a noite, o Falso-Levedor se aproxima de um rebanho com o corpo rente ao chão e as bocas fechadas, e ocupa um lugar entre os animais. Espera até estar ao lado de uma presa isolada, geralmente um filhote ou um indivíduo na borda do rebanho, antes de atacar. Também usa as duas antenas luminosas como isca, balançando-as para atrair animais curiosos ao alcance de suas garras. Depois do ataque, o rebanho se dispersa em pânico, e o predador arrasta a presa para longe antes de devorá-la."
-                },
-                {
-                    "titulo": "Anatomia",
-                    "texto": "A frente do corpo é a parte que entrega o disfarce. O animal possui três bocas em formato de pétalas, cada uma com dentes pontiagudos, que se abrem de forma independente. Os olhos formam três aglomerados, protegidos por uma aba de pele que cobre a parte superior da cabeça. Os membros dianteiros são robustos e terminam em grandes garras curvas, usadas para imobilizar as presas e cavar tocas. A pele é rosada e manchada. Na penumbra, o brilho das costas atrai o olhar e desvia a atenção dessas características."
+                    "texto": "Durante a noite, o Falso-Levedor se aproxima de um rebanho com o corpo rente ao chão e as bocas fechadas, mimetizando os padrões luminosas, e ocupa um lugar entre os animais. Espera até estar ao lado de uma presa isolada e ataca, o rebanho se dispersa em pânico, e o predador arrasta a presa para longe antes de devorá-la."
                 },
                 {
                     "titulo": "Como identificar",
-                    "texto": "Para os Levedouros, distinguir um Falso-Levedor a distância é questão de experiência. Os sinais mais confiáveis são o brilho, que pisca em padrões desencontrados dos do rebanho, embora Falso-Levedores possam aprender os padrões típicos do rebanho se exposto a ele o suficiente; O caminhar mais pesado e curvado, a ausência de filhotes ao seu redor e a inquietação dos próprios Levedores diante de sua presença. De perto, o cheiro de carne e bocas enormes os denunciam."
+                    "texto": "Para os Levedouros, para distinguir um Falso-Levedor, os principais sinais observados são o brilho, que pisca em padrões desencontrados dos do rebanho, embora Falso-Levedores possam aprender os padrões típicos do rebanho se exposto a ele o suficiente; O caminhar mais pesado e curvado, a ausência de filhotes ao seu redor e a inquietação dos próprios Levedores diante de sua presença. De perto, a identificação é mais fácil."
                 },
                 {
                     "titulo": "Comportamento",
-                    "texto": "Fora da caça, é um animal solitário e territorialista, agressivo com qualquer criatura que se aproxime, inclusive outros predadores. Costuma passar o dia escondido em tocas rasas, cavadas entre os líquens e cobertas de vegetação, saindo ao anoitecer. Quando ferido ou desmascarado, abre as três bocas e ataca de frente, com muita violência."
+                    "texto": "Fora da caça, é um animal solitário e territorialista, agressivo com qualquer criatura que se aproxime. Costuma passar o dia escondido em tocas rasas, cavadas entre os líquens e cobertas de vegetação, saindo ao anoitecer." 
                 },
                 {
                     "titulo": "Filhotes",
-                    "texto": "Os filhotes do Falso-Levedor nascem com a aparência de filhotes de Levedor, ainda sem as presas visíveis. Segundo os Levedouros, alguns se infiltram nos rebanhos e crescem entre eles, até ficarem grandes demais para passar despercebidos. É um dos motivos pelos quais os criadores vigiam com atenção os recém-chegados ao rebanho."
+                    "texto": "Segundo os Levedouros, os filhotes do Falso-Levedor se infiltram nos rebanhos para mamar nas mães Levedoras até conseguirem desenvolver independência para sair e caçar sozinhos."
                 },
                 {
                     "titulo": "Relação com os Levedouros",
-                    "texto": "Os Levedouros consideram o Falso-Levedor uma das maiores ameaças aos seus rebanhos. Muitas Poliporias mantêm vigias noturnos e cercas de fogo ao redor dos currais, e algumas famílias treinam seus membros para reconhecer o impostor. Os pólipos de um Falso-Levedor não servem para produzir Levedura."
+                    "texto": "Os Levedouros consideram o Falso-Levedor uma das maiores ameaças aos seus rebanhos, além de serem um sinal de mau presságio. Muitas Poliporias contratam Terriers especializados em vigia noturna, conhecidos como Kangais."
                 }
             ]
         },
@@ -1785,23 +1769,15 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Nohtas, popularmente conhecidos como Pesadelos d'Água, são pequenos animais aquáticos encontrados escondidos entre algas, pedras e vegetação submersa. Apesar da aparência quase inofensiva, são temidos por seu comportamento parasitário e pelo hábito de penetrar no trato urinário de animais e pessoas que entram nas águas onde vivem."
-                },
-                {
-                    "titulo": "Anatomia",
-                    "texto": "O corpo do Nohta é pequeno, arredondado e recoberto por grandes formações cristalinas azuladas. Possui enormes olhos adaptados à baixa luminosidade, pequenas nadadeiras laterais e dentes frontais utilizados para raspar matéria mineral. Os cristais continuam crescendo lentamente durante sua vida, dando aos indivíduos mais velhos uma aparência cada vez mais irregular."
+                    "texto": "Os Nohtas, popularmente conhecidos como Pesadelos d'Água, são pequenos animais aquáticos encontrados escondidos no fundo de lagos e rios. São temidos por seu comportamento parasitário e pelo hábito de penetrar no trato urinário de animais e pessoas que entram nas águas onde vivem."
                 },
                 {
                     "titulo": "Parasitismo",
-                    "texto": "O Nohta tornou-se infame por penetrar pela uretra de animais e pessoas que permanecem dentro d'água. Uma vez no interior do hospedeiro, desloca-se pelo trato urinário e se fixa utilizando suas estruturas corporais. Seus cristais tornam extremamente difícil sua expulsão natural, fazendo com que a infestação seja frequentemente comparada a um cálculo renal que entrou no corpo em vez de ter se formado dentro dele."
+                    "texto": "Os Nohtas penetram pela uretra de animais e pessoas que permanecem dentro d'água. Uma vez no interior do hospedeiro, desloca-se pelo trato urinário e se fixa utilizando suas estruturas corporais. Seus cristais tornam extremamente difícil sua expulsão natural, fazendo com que a infestação seja comparada a um cálculo renal que entrou no corpo em vez de ter se formado dentro dele."
                 },
                 {
                     "titulo": "Pesadelos d'Água",
                     "texto": "O apelido surgiu entre pescadores, viajantes e comunidades ribeirinhas devido à dor provocada pelas infestações e ao medo de encontrá-los. Regiões conhecidas pela presença de Nohtas costumam possuir superstições e métodos locais para evitar entrar diretamente nos rios. É comum entre essas populações o uso de \"*Capas Balânicas\" para a proteção da uretra, sendo geralmente envoltórios feitos de couro que \"embalam a glande\", ou, para mulheres, peças de couro firmadas ao redor da vulva."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Quando não estão parasitando um hospedeiro, os Nohtas permanecem próximos ao fundo, escondidos entre pedras e algas. São nadadores rápidos em distâncias curtas, mas passam grande parte do tempo imóveis. Sua carapaça cristalina ajuda a confundi-los com depósitos minerais encontrados no leito dos rios."
                 },
                 {
                     "titulo": "Artesão de Maças e Manguais",
