@@ -46,7 +46,7 @@ fetch('./criaturas.json')
             container.appendChild(card);
         });
         selectOrdenar.value = 'nome-asc';
-        ordenarCards(); 
+        ordenarCards();
     });
 
 function createFicha(criatura) {
@@ -55,21 +55,40 @@ function createFicha(criatura) {
         <img class="ficha-imagem-principal" src="${criatura.imagem.principal}" alt="${criatura.nome}">
         <section id="fichaDetalhes">
             <h3>Detalhes</h3>
-            <p>HP: ${criatura.hp}</p>
-            <p>ND: ${criatura.nd}</p>
-            <p>MOV: ${criatura.mov}m</p>
-            <p>Tamanho: ${criatura.classificacao.tamanho}</p>
-            <p>Tipagem: ${criatura.classificacao.tipagem}</p>
-            <p>Temperamento: ${criatura.classificacao.temperamento}</p>
+            <dl>
+                <dt>HP</dt>
+                    <dd>${criatura.hp}</dd>
+                
+                <dt>ND</dt>
+                    <dd>${criatura.nd}</dd>
+                
+                <dt>MOV</dt>
+                    <dd>${criatura.mov}m</dd>
+            </dl>
+            <div id="filterDetails">
+                <dl>
+                    <dt>Tamanho</dt><dd>${criatura.classificacao.tamanho}</dd>
+                    <dt>Tipagem</dt><dd>${criatura.classificacao.tipagem}</dd>
+                    <dt>Temperamento</dt><dd>${criatura.classificacao.temperamento}</dd>
+                </dl>
+            <div>
         </section>
         <section class="fichaEcologia">
             <h3>Ecologia</h3>
-            <p>Habitat: ${criatura.ecologia.habitat.join(', ')}</p>
-            <p>Dieta: ${criatura.ecologia.dieta.join(', ')}</p>
-            <p>Atividade: ${criatura.ecologia.atividade}</p>
-            <p>Organização: ${criatura.ecologia.organizacao.tipo} (${criatura.ecologia.organizacao.quantidade})</p>
-            <p>Reprodução: ${criatura.ecologia.reproducao}</p>
-            <p>Expectativa de Vida: ${criatura.ecologia.expectativaDeVida || 'Desconhecida'}</p>
+            <dl>
+            <dt>Habitat</dt>
+                <dd>${criatura.ecologia.habitat.join(', ')}</dd>
+            <dt>Dieta</dt>
+                <dd>${criatura.ecologia.dieta.join(', ')}</dd>
+            <dt>Atividade</dt>
+                <dd>${criatura.ecologia.atividade}</dd>
+            <dt>Organização</dt>
+                <dd>${criatura.ecologia.organizacao.tipo} (${criatura.ecologia.organizacao.quantidade})</dd>
+            <dt>Reprodução</dt>
+                <dd>${criatura.ecologia.reproducao}</dd>
+            <dt>Expectativa de Vida</dt>
+                <dd>${criatura.ecologia.expectativaDeVida || 'Desconhecida'}</dd>
+            </dl>
         </section>
         <section class="fichaHabilidades">
             <h3>Habilidades</h3>
@@ -113,7 +132,23 @@ ficha.addEventListener('click', (e) => {
     if (e.target === ficha) ficha.close();
 });
 
+/*galeria abrir e fechar imagem (lightbox)*/
 
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+
+//abre ao clicar numa imagem da galeria
+fichaConteudo.addEventListener('click', (e) => {
+    const img = e.target.closest('.galeria img');
+    if (!img) return; //clicou em outra coisa da ficha
+
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightbox.showModal();
+});
+
+// fecha ao clicar em qualquer lugar (imagem ou fundo escuro)
+lightbox.addEventListener('click', () => lightbox.close());
 
 /*====================PESQUISA=============================*/
 // SORTING CARDS POR SELECT

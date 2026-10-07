@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ficha.css">
 </head>
 
 <body>
@@ -119,11 +120,14 @@
     <!--MODAL DE FICHA DE CRIATURA-->
     <dialog id="ficha" aria-labelledby="fichaTitulo">
         <form method="dialog">
-            <button>Fechar</button>
         </form>
         <article id="fichaConteudo">
             <!--FICHA PELO JS-->
         </article>
+    </dialog>
+    <!--MODAL DE IMAGENS DA GALERIA DA FICHA-->
+    <dialog id="lightbox">
+        <img id="lightboxImg" src="" alt="">
     </dialog>
     <script src="script.js" defer></script>
 </body>
