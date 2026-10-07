@@ -448,7 +448,9 @@
             "imagem": {
                 "principal": "assets/criaturas/beija-bundas/beija-bundas.png",
                 "galeria": [
-                    "assets/criaturas/beija-bundas/beija-bundas2.png"
+                    "assets/criaturas/beija-bundas/beija-bundas2.png",
+                    "assets/criaturas/beija-bundas/beija-bundas3.png",
+                    "assets/criaturas/beija-bundas/beija-bundas4.png"
                 ]
             },
             "hp": 3,
