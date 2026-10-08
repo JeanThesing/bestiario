@@ -314,3 +314,71 @@ body:has(dialog[open]) {
 
 #lbAnterior { left: 0.75rem; }
 #lbProximo  { right: 0.75rem; }
+
+/*celular*/
+
+/*LIGHTBOX */
+@media (hover: none) {
+    #lightbox button {
+        opacity: 1;
+    }
+}
+
+#lightbox img {
+    max-width: 95vw;
+    max-height: 95dvh;
+}
+
+/*FICHA*/
+@media (max-width: 600px) {
+    #ficha {
+        width: 100vw;
+        max-height: 100dvh;
+        height: 100dvh;/*modal em tela cheia*/
+        border-radius: 0;
+        border-width: 0;
+        font-size: 1rem;
+    }
+
+    #ficha form button {
+        min-width: 44px;
+        min-height: 44px;
+        font-size: 1.2rem;
+    }
+
+    #fichaConteudo {
+        padding: 0 0.75rem 1rem;
+        gap: 1rem;
+    }
+
+    #fichaTitulo {
+        font-size: 1.6rem;
+    }
+
+    #fichaConteudo section {
+        padding: 0.75rem;
+    }
+
+    #ficha dl {
+        grid-template-columns: 1fr;
+        gap: 0.1rem;
+    }
+
+    #ficha dd {
+        margin-bottom: 0.5rem;
+    }
+
+    .fichaEcologia dl {
+        gap: 0.1rem;
+        font-size: 1rem;
+    }
+
+    .descricao-secao p {
+        text-align: left; 
+        line-height: 1.55;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}

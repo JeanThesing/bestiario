@@ -656,9 +656,9 @@
                     "assets/criaturas/bufalote/bufalote2.png"
                 ]
             },
-            "hp": 70,
-            "nd": 14,
-            "mov": 16,
+            "hp": 100,
+            "nd": 10,
+            "mov": 15,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -1337,7 +1337,7 @@
         },
         "nosquito": {
             "id": "nosquito",
-            "nome": "nosquito",
+            "nome": "Nosquito",
             "nomesAlternativos": [
                 "Abelha da Terra"
             ],
@@ -1671,11 +1671,6 @@
                     "descricao": "Com o corpo rente ao chão e as bocas fechadas, o Falso-Levedor é praticamente indistinguível de um Levedor à distância. +6 em testes para se passar por um Levedor."
                 },
                 {
-                    "nome": "Isca Luminosa",
-                    "tipo": "Ativa",
-                    "descricao": "Balança as antenas luminosas e altera o brilho das costas para imitar os padrões de um Levedor, atraindo animais curiosos e presas para perto de seu alcance."
-                },
-                {
                     "nome": "Três Bocas",
                     "tipo": "Ativa",
                     "descricao": "As três bocas se movem de forma independente, permitindo morder alvos diferentes ou concentrar todos os ataques em um só. Cada boca dá 1d12 de dano."
@@ -1692,24 +1687,24 @@
                     "texto": "O Falso-Levedor é um predador noturno que se adaptou para se parecer com os próprios Levedores que caça. Vive nas mesmas regiões de rios e campos de líquens luminescentes, onde se mistura aos rebanhos mimetizando os padrões luminosos e a postura recurvada dos Levedores para se aproximar das presas. À distância, sua silhueta e o brilho de suas costas são quase idênticos aos de um Levedor. De perto, porém, revela três bocas cheias de presas, olhos agrupados e garras enormes. Os pólipos de um Falso-Levedor não servem para produzir Levedura."
                 },
                 {
+                    "titulo": "Relação com os Levedouros",
+                    "texto": "Os Levedouros consideram o Falso-Levedor uma das maiores ameaças aos seus rebanhos, além de serem um sinal de mau presságio. Muitas Poliporias contratam Terriers especializados em vigia noturna, conhecidos como Kangais."
+                },
+                {
                     "titulo": "Estratégia de caça",
                     "texto": "Durante a noite, o Falso-Levedor se aproxima de um rebanho com o corpo rente ao chão e as bocas fechadas, mimetizando os padrões luminosas, e ocupa um lugar entre os animais. Espera até estar ao lado de uma presa isolada e ataca, o rebanho se dispersa em pânico, e o predador arrasta a presa para longe antes de devorá-la."
                 },
                 {
                     "titulo": "Como identificar",
-                    "texto": "Para os Levedouros, para distinguir um Falso-Levedor, os principais sinais observados são o brilho, que pisca em padrões desencontrados dos do rebanho, embora Falso-Levedores possam aprender os padrões típicos do rebanho se exposto a ele o suficiente; O caminhar mais pesado e curvado, a ausência de filhotes ao seu redor e a inquietação dos próprios Levedores diante de sua presença. De perto, a identificação é mais fácil."
+                    "texto": "Para distinguir um Falso-Levedor, os principais sinais observados são o brilho, que pisca em padrões diferentes dos do rebanho, embora alguns espécimes possam aprender os padrões típicos do rebanho se exposto a ele o suficiente; A ausência de filhotes ao seu redor e a inquietação dos próprios Levedores diante de sua presença. De perto, a identificação é mais fácil."
                 },
                 {
                     "titulo": "Comportamento",
-                    "texto": "Fora da caça, é um animal solitário e territorialista, agressivo com qualquer criatura que se aproxime. Costuma passar o dia escondido em tocas rasas, cavadas entre os líquens e cobertas de vegetação, saindo ao anoitecer." 
+                    "texto": "Fora da caça, é um animal solitário e territorialista, agressivo com qualquer criatura que se aproxime. Costuma passar o dia escondido em tocas rasas, cavadas entre os líquens e cobertas de vegetação, saindo ao anoitecer."
                 },
                 {
                     "titulo": "Filhotes",
                     "texto": "Segundo os Levedouros, os filhotes do Falso-Levedor se infiltram nos rebanhos para mamar nas mães Levedoras até conseguirem desenvolver independência para sair e caçar sozinhos."
-                },
-                {
-                    "titulo": "Relação com os Levedouros",
-                    "texto": "Os Levedouros consideram o Falso-Levedor uma das maiores ameaças aos seus rebanhos, além de serem um sinal de mau presságio. Muitas Poliporias contratam Terriers especializados em vigia noturna, conhecidos como Kangais."
                 }
             ]
         },
@@ -1760,7 +1755,7 @@
                 {
                     "nome": "Pedra-Viva",
                     "tipo": "Passiva",
-                    "descricao": "O corpo do Nohta é coberto por depósitos minerais cristalizados extremamente rígidos. Essas formações aumentam de tamanho lentamente ao longo de sua vida e fazem com que o animal se pareça com uma pequena pedra cristalina quando permanece imóvel."
+                    "descricao": "O corpo do Nohta é coberto por depósitos minerais cristalizados. Essas formações aumentam de tamanho lentamente ao longo de sua vida e fazem com que o animal se pareça com uma pequena pedra cristalina quando permanece imóvel."
                 },
                 {
                     "nome": "Pesadelo d'Água",
@@ -1775,7 +1770,7 @@
                 },
                 {
                     "titulo": "Parasitismo",
-                    "texto": "Os Nohtas penetram pela uretra de animais e pessoas que permanecem dentro d'água. Uma vez no interior do hospedeiro, desloca-se pelo trato urinário e se fixa utilizando suas estruturas corporais. Seus cristais tornam extremamente difícil sua expulsão natural, fazendo com que a infestação seja comparada a um cálculo renal que entrou no corpo em vez de ter se formado dentro dele."
+                    "texto": "Uma vez no interior do hospedeiro, desloca-se pelo trato urinário e se fixa utilizando suas estruturas corporais. Seus cristais tornam extremamente difícil sua expulsão natural, fazendo com que a infestação seja comparada a um cálculo renal que entrou no corpo em vez de ter se formado dentro dele."
                 },
                 {
                     "titulo": "Pesadelos d'Água",
@@ -1791,7 +1786,7 @@
             "id": "corneteiro",
             "nome": "Corneteiro",
             "nomesAlternativos": [
-                "Trombeta-da-Estepe"
+                "Trovadores"
             ],
             "imagem": {
                 "principal": "assets/criaturas/corneteiro/corneteiro.png",
@@ -1800,10 +1795,11 @@
                     "assets/criaturas/corneteiro/corneteiro3.png",
                     "assets/criaturas/corneteiro/corneteiro4.png",
                     "assets/criaturas/corneteiro/corneteiro5.png",
-                    "assets/criaturas/corneteiro/corneteiro6.png"
+                    "assets/criaturas/corneteiro/corneteiro6.png",
+                    "assets/criaturas/corneteiro/corneteiro7.png"
                 ]
             },
-            "hp": 50,
+            "hp": 70,
             "nd": 9,
             "mov": 11,
             "classificacao": {
@@ -1814,8 +1810,7 @@
             "ecologia": {
                 "habitat": [
                     "Estepes",
-                    "Campos Abertos",
-                    "Planícies Arroxeadas"
+                    "Campos Abertos"
                 ],
                 "dieta": [
                     "Gramíneas",
@@ -1845,29 +1840,22 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes animais terrestres encontrados nas vastas estepes e campos abertos. Possuem postura recurvada, membros dianteiros longos e robustos e uma característica crina esverdeada que percorre o topo do corpo. Seu nome deriva das numerosas estruturas ocas semelhantes a cornetas que crescem ao redor da cabeça e são utilizadas para produzir seus poderosos chamados."
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
                 },
                 {
-                    "titulo": "Cornetas",
-                    "texto": "As estruturas que dão nome ao animal são extensões ocas conectadas às suas vias respiratórias. Cada corneta possui tamanho e formato ligeiramente diferentes, produzindo uma frequência própria quando o ar passa por ela. Controlando quais cornetas utiliza, um Corneteiro consegue produzir uma grande variedade de sons, desde chamados graves e prolongados até sequências curtas de notas."
-                },
-                {
-                    "titulo": "Papo",
-                    "texto": "Sob a garganta encontra-se um grande papo elástico que pode ser inflado com ar. Além de armazenar o ar antes de uma vocalização, ele funciona como uma câmara de ressonância, tornando os chamados do Corneteiro muito mais altos e profundos. Durante um chamado intenso, o papo pode aumentar várias vezes de tamanho antes de esvaziar rapidamente através das cornetas."
-                },
-                {
-                    "titulo": "Comunicação",
-                    "texto": "Corneteiros utilizam diferentes combinações de notas para manter contato com membros distantes da manada, alertar sobre predadores e anunciar sua presença. Em campos abertos, seus chamados podem viajar por grandes distâncias. Uma manada dispersa consegue manter-se coordenada mesmo quando seus indivíduos não conseguem enxergar uns aos outros."
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para se expressar as mais diversas situações. Ao amanhecer, acontece a Trombeta da Alvorada, um coro grave e ressonante entoado por toda a manada, que declara que o dia começou. Em contrapartida, ao anoitecer, apenas um Corneteiro canta uma longa nota solitária, anunciando o fim do dia. Durante tempestades, dzenas de corneteiros respondem simultaneamente aos barulhos dos trovões, como se tentassem se comunicar com as núvens. "
                 },
                 {
                     "titulo": "Comportamento",
-                    "texto": "Apesar do grande porte, Corneteiros normalmente são animais tranquilos e passam boa parte do dia caminhando lentamente pelas estepes em busca de alimento. Quando ameaçados, os adultos aproximam-se uns dos outros e produzem uma sequência de brados extremamente altos. Caso a ameaça continue se aproximando, podem atacar utilizando os membros dianteiros e seu grande peso corporal."
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea enchem seus papos o maior que conseguirem e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma anota até o fim do ato."
                 },
                 {
-                    "titulo": "Crina",
-                    "texto": "Uma longa faixa de pelos grossos e esverdeados cresce sobre o dorso dos Corneteiros. A crina torna-se mais espessa nos indivíduos adultos e costuma acumular sementes, líquens e pequenos organismos durante as longas caminhadas pelas estepes."
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de melodias graves e uníssonas, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
                 }
-            ]
+            ],
+            "som": ["https://youtu.be/rlKa7i_59As"]
         }
     }
 }

@@ -321,3 +321,117 @@ footer {
 footer p{
     color:var(--cor-textocard);
 }
+
+/*CELULAR========*/
+/* ---------- Hover só onde existe mouse ---------- */
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+    }
+    button:hover {
+        background-color: var(--cor-5);
+    }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 900px) {
+    main {
+        padding: 20px 16px 40px;
+    }
+
+    #inputs {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+/* ---------- Celular ---------- */
+@media (max-width: 600px) {
+    header {
+        padding: 16px;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    main {
+        padding: 16px 12px 32px;
+    }
+
+    search {
+        padding: 12px;
+        font-size: 16px;
+        gap: 1rem;
+    }
+
+    /* inputs com 16px evitam o zoom automático do iOS */
+    input,
+    select,
+    button {
+        font-size: 16px;
+    }
+
+    /* alvo de toque confortável */
+    button,
+    #searchInput,
+    #ordenar {
+        min-height: 44px;
+    }
+
+    #filtersAndRandom {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    #randomCreature {
+        width: 100%;
+    }
+
+    /* searchbar, criaturas por linha e ordenação, um embaixo do outro */
+    #inputs {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #inputs > div {
+        flex-wrap: wrap;
+    }
+
+    #searchInput,
+    #ordenar {
+        flex: 1 1 100%;
+    }
+
+    /* o slider de colunas perde o sentido no celular */
+    #inputs > div:has(#searchRange) {
+        display: none;
+    }
+
+    /* checkboxes maiores e mais fáceis de tocar */
+    fieldset input {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    fieldset label {
+        margin-right: 12px;
+        padding: 4px 0;
+    }
+
+    /*cards 2 por linha*/
+    .cards-container {
+        margin: 0.5rem 0;
+        gap: 0.6rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .card-detalhes {
+        font-size: clamp(0.7rem, 6cqw, 1.5rem);   /* mínimo um pouco maior */
+    }
+
+    #criaturas h2,
+    main > h2 {
+        font-size: 1.5rem;
+    }
+}
