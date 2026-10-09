@@ -58,6 +58,24 @@ function criarParagrafos(texto) {
         .join('');
 }
 
+function createSom(som) {
+    if (!som || som.length === 0) return '';// sem som
+    return `
+        <section class="fichaSom">
+            <h3>Som da Criatura</h3>
+            <ul>
+                ${som.map(item => `
+                    <li>
+                        <a href="${item.link}" target="_blank">
+                            ${item.descricao || 'Ouvir som'}
+                        </a>
+                    </li>
+                `).join('')}
+            </ul>
+        </section>
+    `;
+}
+
 function createDescricao(descricao) {
     if (!descricao || descricao.length === 0) return '';    // sem descrição: nenhuma seção
 
@@ -137,6 +155,7 @@ function createFicha(criatura) {
             ${criatura.imagem.galeria.map(img => `<img src="${img}" alt="${criatura.nome}">`).join('')}
         </section>
         ${createDescricao(criatura.descricao)}
+        ${createSom(criatura.som)}
     `;
 }
 

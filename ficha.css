@@ -382,3 +382,24 @@ body:has(dialog[open]) {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
 }
+
+/*SOM*/
+#fichaTitulo,
+.fichaEcologia,
+.fichaHabilidades,
+.fichaDescricao,
+.fichaSom,
+.galeria {
+    grid-column: 1 / -1;
+}
+
+.fichaSom ul {
+    list-style: none;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.fichaSom a {
+    color: var(--cor-3);
+    font-weight: bold;
+}

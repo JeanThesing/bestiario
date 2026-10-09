@@ -1488,6 +1488,12 @@
                     "titulo": "Ninhos e objetos brilhantes",
                     "texto": "Costumam se amontoar em cantos mais reclusos, onde formam ninhos, cruzam e guardam sua coisa favorita: qualquer objeto que brilhe. Por conta desse comportamento, ninhos de Pentorrões frequentemente acumulam moedas, joias, pedaços de metal, vidro e outros objetos reluzentes roubados durante suas andanças."
                 }
+            ],
+            "som": [
+                {
+                    "link": "https://youtu.be/pYcNHaOUci8",
+                    "descricao": "Som Ambiente"
+                }
             ]
         },
         "pinteca": {
@@ -1827,14 +1833,9 @@
             },
             "habilidades": [
                 {
-                    "nome": "Cornetas",
-                    "tipo": "Passiva",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
                     "nome": "Cornetada",
                     "tipo": "Ativa",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um som ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som. Teste de Resistência 18."
                 }
             ],
             "descricao": [
@@ -1855,7 +1856,541 @@
                     "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de melodias graves e uníssonas, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
                 }
             ],
-            "som": ["https://youtu.be/rlKa7i_59As"]
+            "som": [
+                {
+                    "link": "https://youtu.be/rlKa7i_59As",
+                    "descricao": "Cornetas Ambientes"
+                }
+            ]
+        },
+        "narigudo": {
+            "id": "narigudo",
+            "nome": "Narigudo",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/narigudo/narigudo.png",
+                "galeria": [
+                    "assets/criaturas/narigudo/narigudo2.png",
+                    "assets/criaturas/narigudo/narigudo3.png",
+                    "assets/criaturas/narigudo/narigudo4.png",
+                    "assets/criaturas/narigudo/narigudo5.png"
+                ]
+            },
+            "hp": 5,
+            "nd": 14,
+            "mov": 13,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Médio",
+                "temperamento": "Neutro"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Onívora",
+                    "Algas",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Cardume",
+                    "quantidade": "10 a 20 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "5 a 8 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                "https://youtu.be/rlKa7i_59As"
+            ]
+        },
+        "onca-do-lago": {
+            "id": "onca-do-lago",
+            "nome": "Onça-do-lago",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/onca-do-lago/onca-do-lago.png",
+                "galeria": [
+                    "assets/criaturas/onca-do-lago/onca-do-lago2.png",
+                    "assets/criaturas/onca-do-lago/onca-do-lago3.png",
+                    "assets/criaturas/onca-do-lago/onca-do-lago4.png",
+                    "assets/criaturas/onca-do-lago/onca-do-lago5.png"
+                ]
+            },
+            "hp": 10,
+            "nd": 16,
+            "mov": 14,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Médio",
+                "temperamento": "Hostil"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Peixes",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Noturna",
+                "organizacao": {
+                    "tipo": "Solitário",
+                    "quantidade": "1 indivíduo"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "10 a 13 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
+        },
+        "argenrico": {
+            "id": "argenrico",
+            "nome": "Argenriço",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/argenrico/argenrico.png",
+                "galeria": [
+                    "assets/criaturas/argenrico/argenrico2.png",
+                    "assets/criaturas/argenrico/argenrico3.png",
+                    "assets/criaturas/argenrico/argenrico4.png",
+                    "assets/criaturas/argenrico/argenrico5.png"
+                ]
+            },
+            "hp": 8,
+            "nd": 10,
+            "mov": 14,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
+        },
+        "buleque": {
+            "id": "buleque",
+            "nome": "Buleque",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/buleque/buleque.png",
+                "galeria": [
+                    "assets/criaturas/buleque/buleque2.png",
+                    "assets/criaturas/buleque/buleque3.png",
+                    "assets/criaturas/buleque/buleque4.png",
+                    "assets/criaturas/buleque/buleque5.png"
+                ]
+            },
+            "hp": 13,
+            "nd": 13,
+            "mov": 15,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Grande",
+                "temperamento": "Neutro"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
+        },
+        "mozilugue": {
+            "id": "mozilugue",
+            "nome": "Mozilugue",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/mozilugue/mozilugue.png",
+                "galeria": [
+                    "assets/criaturas/mozilugue/mozilugue2.png",
+                    "assets/criaturas/mozilugue/mozilugue3.png",
+                    "assets/criaturas/mozilugue/mozilugue4.png",
+                    "assets/criaturas/mozilugue/mozilugue5.png"
+                ]
+            },
+            "hp": 8,
+            "nd": 10,
+            "mov": 14,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
+        },
+        "tenor": {
+            "id": "tenor",
+            "nome": "Tenor",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/tenor/tenor.png",
+                "galeria": [
+                    "assets/criaturas/tenor/tenor2.png",
+                    "assets/criaturas/tenor/tenor3.png",
+                    "assets/criaturas/tenor/tenor4.png",
+                    "assets/criaturas/tenor/tenor5.png"
+                ]
+            },
+            "hp": 8,
+            "nd": 10,
+            "mov": 14,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
+        },
+        "prima-dona": {
+            "id": "prima-dona",
+            "nome": "Prima Dona",
+            "nomesAlternativos": [],
+            "imagem": {
+                "principal": "assets/criaturas/prima-dona/prima-dona.png",
+                "galeria": [
+                    "assets/criaturas/prima-dona/prima-dona2.png",
+                    "assets/criaturas/prima-dona/prima-dona3.png",
+                    "assets/criaturas/prima-dona/prima-dona4.png",
+                    "assets/criaturas/prima-dona/prima-dona5.png"
+                ]
+            },
+            "hp": 30,
+            "nd": 10,
+            "mov": 14,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Cornetas",
+                    "tipo": "Passiva",
+                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+                },
+                {
+                    "nome": "Cornetada",
+                    "tipo": "Ativa",
+                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Musicalidade",
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                },
+                {
+                    "titulo": "Cemitérios de Corneteiros",
+                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
+                }
+            ],
+            "som": [
+                {
+                    "link": "",
+                    "descricao": ""
+                }
+            ]
         }
     }
 }
