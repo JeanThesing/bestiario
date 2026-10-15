@@ -1809,7 +1809,7 @@
                     "descricao": "Envolve o alvo em um rolo de seda, prendendo-o: Reduz sua movimentação a zero, e sua classe de esquiva pela metade (Ou 0 se for um golpe crítico). Para sair, o alvo deve realizar um teste de FOR de CD 16."
                 },
                 {
-                    "nome": "Granada de Teia",
+                    "nome": "Jato de Seda",
                     "descricao": "Solta um jato de seda que pode, ou prender a arma do alvo, ou grudá-lo ao chão, reduzindo sua movimentação a 0. Para sair, o alvo deve realizar um teste de FOR de CD 12."
                 },
                 {
@@ -1824,15 +1824,19 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "As Rapieuras são aracnídeos gigantes e hostis, encontrados principalmente em cavernas e ambientes subterrâneos. São predadores territoriais que utilizam suas Rapieiras, para perfurar suas presas, além de produzir seda para imobilizá-las."
+                    "texto": "As Rapieuras são aracnídeos gigantes e hostis, encontrados principalmente em cavernas e ambientes subterrâneos. São predadores territoriais que utilizam suas Rapieiras para perfurar suas presas, além de produzir seda para imobilizá-las."
+                },
+                {
+                    "titulo": "Rapieiras",
+                    "texto": "As Rapieiras são ferrões de quitina cristalizada com microfarpas voltadas para trás, penetrando com facilidade e causando ferimentos graves quando retirada."
                 },
                 {
                     "titulo": "Mimetismo Acústico",
-                    "texto": "Ao caminhar, as Rapieuras produzem um som ritmado semelhante ao de uma mulher andando de salto alto, atraindo homens curiosos para suas emboscadas. Também são capazes de memorizar e reproduzir as últimas vocalizações de suas vítimas, incluindo gritos, gemidos e pedidos de socorro. Indivíduos mais velhos acumulam um vasto repertório de vozes, que reproduzem sem compreender seus significados."
+                    "texto": "Ao caminhar, as Rapieuras produzem um som ritmado semelhante ao de uma mulher andando de salto alto. Também são capazes de memorizar e reproduzir as últimas vocalizações de suas vítimas, incluindo gritos, gemidos e pedidos de socorro, sempre reproduzidos com um timbre feminino. Indivíduos mais velhos acumulam um vasto repertório de vozes, que reproduzem sem compreender seus significados."
                 },
                 {
-                    "titulo": "Vozes dos Mortos",
-                    "texto": "Em diversas regiões, acredita-se que as Rapieuras aprisionem as almas de suas vítimas, pois continuam reproduzindo suas vozes muito tempo após a morte."
+                    "titulo": "As Colombinas",
+                    "texto": "Segundo uma antiga peça encenada por Tenores e Prima-Donas, Colombina foi uma Prima-Dona cuja voz vivaz encantou Pierrot, um poderoso rei Tenor. Apaixonado, o monarca exigiu sua mão em casamento, mas foi rejeitado. Desolado, Pierrot amaldiçoou Colombina durante sua última apresentação, transformando-a em uma criatura monstruosa, a Rapieura, condenada a repetir as vozes dos mortos, sem jamais poder entoar novamente o vigor da vida. Seus passos ainda conservam o som dos saltos que usava naquela noite. Por essa razão, em algumas regiões, as Rapieuras são chamadas de \"Colombinas\"."
                 },
                 {
                     "titulo": "Reprodução",
@@ -2576,8 +2580,8 @@
             ],
             "som": [
                 {
-                    "link": "",
-                    "descricao": ""
+                    "link": "https://www.instagram.com/reel/DcAL6oLkaPh/?rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+                    "descricao": "Tenor cantando em sua forma reptliana."
                 }
             ]
         },
