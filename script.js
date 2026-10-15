@@ -10,8 +10,9 @@ function createCards(criatura) {
     card.dataset.nome = criatura.nome;
     card.dataset.id = criatura.id;
     card.dataset.hp = criatura.hp;
-    card.dataset.nd = criatura.nd;
+    card.dataset.ce = criatura.ce;
     card.dataset.mov = criatura.mov;
+    card.dataset.ca = criatura.ca;
 
     // Cria o card html
     // Imagem: <img src="${criatura.imagem.principal}" alt="${criatura.nome}">
@@ -21,7 +22,8 @@ function createCards(criatura) {
             <h3>${criatura.nome}</h3>
             <section class="card-detalhes">
                 <span class="stat">HP: ${criatura.hp}</span>
-                <span class="stat">ND: ${criatura.nd}</span>
+                <span class="stat">CE: ${criatura.ce}</span>
+                <span class="stat">CA: ${criatura.ca}</span>
                 <span class="stat">MOV: ${criatura.mov}m</span>
             </section>
         </div>
@@ -113,9 +115,12 @@ function createFicha(criatura) {
                 <dt>HP</dt>
                     <dd>${criatura.hp}</dd>
                 
-                <dt>ND</dt>
-                    <dd>${criatura.nd}</dd>
-                
+                <dt>CE</dt>
+                    <dd>${criatura.ce}</dd>
+
+                <dt>CA</dt>
+                    <dd>${criatura.ca}</dd>
+
                 <dt>MOV</dt>
                     <dd>${criatura.mov}m</dd>
             </dl>

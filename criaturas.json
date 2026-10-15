@@ -19,8 +19,9 @@
                 ]
             },
             "hp": 8,
-            "nd": 10,
+            "ce": 10,
             "mov": 6,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -66,8 +67,9 @@
                 ]
             },
             "hp": 15,
-            "nd": 13,
-            "mov": 17,
+            "ce": 14,
+            "mov": 15,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -109,8 +111,9 @@
                 ]
             },
             "hp": 1,
-            "nd": 2,
-            "mov": 10,
+            "ce": 17,
+            "mov": 20,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -153,9 +156,10 @@
                     "assets/criaturas/porco_da_viela/porco_da_viela3.png"
                 ]
             },
-            "hp": 18,
-            "nd": 8,
-            "mov": 7,
+            "hp": 30,
+            "ce": 8,
+            "mov": 4,
+            "ca": "2",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -219,9 +223,10 @@
                     "assets/criaturas/betassauro/betassauro4.png"
                 ]
             },
-            "hp": 12,
-            "nd": 12,
-            "mov": 10,
+            "hp": 16,
+            "ce": 13,
+            "mov": 13,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -284,8 +289,9 @@
                 ]
             },
             "hp": 35,
-            "nd": 8,
-            "mov": 8,
+            "ce": 8,
+            "mov": 5,
+            "ca": "2",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -364,8 +370,9 @@
                 ]
             },
             "hp": 6,
-            "nd": 15,
-            "mov": 13,
+            "ce": 18,
+            "mov": 15,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Médio",
@@ -410,8 +417,9 @@
                 ]
             },
             "hp": 10,
-            "nd": 13,
-            "mov": 15,
+            "ce": 13,
+            "mov": 14,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -454,8 +462,9 @@
                 ]
             },
             "hp": 3,
-            "nd": 10,
+            "ce": 16,
             "mov": 15,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -508,8 +517,9 @@
                 ]
             },
             "hp": 7,
-            "nd": 13,
+            "ce": 12,
             "mov": 15,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Médio",
@@ -561,8 +571,9 @@
                 ]
             },
             "hp": 1,
-            "nd": 2,
+            "ce": 2,
             "mov": 10,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -612,9 +623,10 @@
                     "assets/criaturas/bertoldi/bertoldi2.png"
                 ]
             },
-            "hp": 5,
-            "nd": 12,
+            "hp": 6,
+            "ce": 14,
             "mov": 12,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -657,8 +669,9 @@
                 ]
             },
             "hp": 100,
-            "nd": 10,
-            "mov": 15,
+            "ce": 10,
+            "mov": 8,
+            "ca": "5",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -699,8 +712,9 @@
                 ]
             },
             "hp": 2,
-            "nd": 2,
-            "mov": 8,
+            "ce": 2,
+            "mov": 6,
+            "ca": "2",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -771,9 +785,10 @@
                     "assets/criaturas/cavaleira/cavaleira2.png"
                 ]
             },
-            "hp": 15,
-            "nd": 13,
+            "hp": 20,
+            "ce": 13,
             "mov": 12,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -814,8 +829,9 @@
                 ]
             },
             "hp": 14,
-            "nd": 2,
-            "mov": 5,
+            "ce": 2,
+            "mov": 3,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -855,8 +871,9 @@
                 ]
             },
             "hp": 6,
-            "nd": 8,
-            "mov": 8,
+            "ce": 14,
+            "mov": 4,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
@@ -920,9 +937,10 @@
                     "assets/criaturas/hortensio/hortensio2.png"
                 ]
             },
-            "hp": 30,
-            "nd": 12,
-            "mov": 12,
+            "hp": 40,
+            "ce": 12,
+            "mov": 6,
+            "ca": "2",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -965,8 +983,9 @@
                 ]
             },
             "hp": 13,
-            "nd": 3,
+            "ce": 5,
             "mov": 10,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -1010,9 +1029,10 @@
                     "assets/criaturas/los_pes/los_pes4.png"
                 ]
             },
-            "hp": 25,
-            "nd": 12,
-            "mov": 10,
+            "hp": 35,
+            "ce": 14,
+            "mov": 12,
+            "ca": "1",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -1056,8 +1076,9 @@
                 ]
             },
             "hp": 80,
-            "nd": 10,
-            "mov": 13,
+            "ce": 8,
+            "mov": 10,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -1135,9 +1156,10 @@
                     "assets/criaturas/mooshritos/mooshritos2.png"
                 ]
             },
-            "hp": 6,
-            "nd": 3,
-            "mov": 10,
+            "hp": 5,
+            "ce": 3,
+            "mov": 8,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
@@ -1177,9 +1199,10 @@
                     "assets/criaturas/mumijal/mumijal2.png"
                 ]
             },
-            "hp": 35,
-            "nd": 13,
-            "mov": 13,
+            "hp": 40,
+            "ce": 13,
+            "mov": 12,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -1247,9 +1270,10 @@
                     "assets/criaturas/nininho/nininho2.png"
                 ]
             },
-            "hp": 6,
-            "nd": 8,
-            "mov": 10,
+            "hp": 10,
+            "ce": 15,
+            "mov": 7,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -1290,8 +1314,9 @@
                 ]
             },
             "hp": 1,
-            "nd": 10,
-            "mov": 13,
+            "ce": 12,
+            "mov": 8,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
@@ -1348,8 +1373,9 @@
                 ]
             },
             "hp": 1,
-            "nd": 10,
+            "ce": 17,
             "mov": 15,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Pequeno",
@@ -1391,9 +1417,10 @@
                     "assets/criaturas/pentis/pentis2.png"
                 ]
             },
-            "hp": 6,
-            "nd": 10,
-            "mov": 14,
+            "hp": 7,
+            "ce": 12,
+            "mov": 8,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Pequeno",
@@ -1439,8 +1466,9 @@
                 ]
             },
             "hp": 12,
-            "nd": 12,
-            "mov": 12,
+            "ce": 12,
+            "mov": 7,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -1509,8 +1537,9 @@
                 ]
             },
             "hp": 15,
-            "nd": 6,
-            "mov": 8,
+            "ce": 7,
+            "mov": 6,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -1553,9 +1582,10 @@
                     "assets/criaturas/rapieura/rapieura3.png"
                 ]
             },
-            "hp": 40,
-            "nd": 16,
+            "hp": 55,
+            "ce": 15,
             "mov": 17,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -1579,8 +1609,12 @@
             },
             "habilidades": [
                 {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "nome": "Agilidade Aracnídea",
+                    "descricao": "Quando o local é considerado terreno difícil, o CE da Rapieura sobe para 16."
+                },
+                {
+                    "nome": "Instinto de Predador",
+                    "descricao": "A Rapieura pode realizar dois ataques por turno, 1 de sua Rapieira, e outro ataque. Dano da Rapieira: 1d10+5"
                 }
             ],
             "descricao": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
@@ -1598,8 +1632,9 @@
                 ]
             },
             "hp": 120,
-            "nd": 16,
+            "ce": 16,
             "mov": 20,
+            "ca": "5",
             "classificacao": {
                 "tipagem": "Voador",
                 "tamanho": "Gigante",
@@ -1645,8 +1680,9 @@
                 ]
             },
             "hp": 45,
-            "nd": 11,
+            "ce": 11,
             "mov": 12,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -1731,8 +1767,9 @@
                 ]
             },
             "hp": 2,
-            "nd": 14,
-            "mov": 12,
+            "ce": 13,
+            "mov": 6,
+            "ca": "2",
             "classificacao": {
                 "tipagem": "Aquático",
                 "tamanho": "Pequeno",
@@ -1806,8 +1843,9 @@
                 ]
             },
             "hp": 70,
-            "nd": 9,
-            "mov": 11,
+            "ce": 9,
+            "mov": 8,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Gigante",
@@ -1877,8 +1915,9 @@
                 ]
             },
             "hp": 5,
-            "nd": 14,
-            "mov": 13,
+            "ce": 14,
+            "mov": 8,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Aquático",
                 "tamanho": "Médio",
@@ -1950,8 +1989,9 @@
                 ]
             },
             "hp": 10,
-            "nd": 16,
-            "mov": 14,
+            "ce": 15,
+            "mov": 12,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Aquático",
                 "tamanho": "Médio",
@@ -2026,8 +2066,9 @@
                 ]
             },
             "hp": 8,
-            "nd": 10,
-            "mov": 14,
+            "ce": 12,
+            "mov": 7,
+            "ca": "3",
             "classificacao": {
                 "tipagem": "Aquático",
                 "tamanho": "Pequeno",
@@ -2101,9 +2142,10 @@
                     "assets/criaturas/buleque/buleque5.png"
                 ]
             },
-            "hp": 13,
-            "nd": 13,
-            "mov": 15,
+            "hp": 10,
+            "ce": 12,
+            "mov": 12,
+            "ca": "1",
             "classificacao": {
                 "tipagem": "Aquático",
                 "tamanho": "Grande",
@@ -2177,9 +2219,10 @@
                     "assets/criaturas/mozilugue/mozilugue5.png"
                 ]
             },
-            "hp": 8,
-            "nd": 10,
-            "mov": 14,
+            "hp": 30,
+            "ce": 14,
+            "mov": 10,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
@@ -2253,9 +2296,10 @@
                     "assets/criaturas/tenor/tenor5.png"
                 ]
             },
-            "hp": 8,
-            "nd": 10,
-            "mov": 14,
+            "hp": 12,
+            "ce": 10,
+            "mov": 4,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
@@ -2330,8 +2374,9 @@
                 ]
             },
             "hp": 30,
-            "nd": 10,
-            "mov": 14,
+            "ce": 10,
+            "mov": 4,
+            "ca": "0",
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
