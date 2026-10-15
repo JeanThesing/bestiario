@@ -61,7 +61,7 @@ function criarParagrafos(texto) {
 }
 
 function createSom(som) {
-    if (!som || som.length === 0) return '';// sem som
+    if (!som || som.length === 0 || !(som[0].link)) return '';// sem som
     return `
         <section class="fichaSom">
             <h3>Som da Criatura</h3>
