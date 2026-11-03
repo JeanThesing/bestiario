@@ -10,9 +10,7 @@
                     "assets/criaturas/alanzelha/alanzelha3.png",
                     "assets/criaturas/alanzelha/alanzelha4.png",
                     "assets/criaturas/alanzelha/alanzelha5.png",
-                    "assets/criaturas/alanzelha/alanzelha6.png",
-                    "assets/criaturas/alanzelha/alanzelha7.png",
-                    "assets/criaturas/alanzelha/alanzelha8.png"
+                    "assets/criaturas/hortensio/hortensio3.png"
                 ]
             },
             "hp": 8,
@@ -57,12 +55,7 @@
                     "texto": "As Alanzelhas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Alanzelhas também são conhecidas como \"Abelhas da Terra\". Atacar uma Alanzelha pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "paquintos": {
             "id": "paquintos",
@@ -70,7 +63,12 @@
             "imagem": {
                 "principal": "assets/criaturas/paquintos/paquintos.png",
                 "galeria": [
-                    "assets/criaturas/paquintos/paquintos2.png"
+                    "assets/criaturas/paquintos/paquintos2.png",
+                    "assets/criaturas/paquintos/paquintos3.png",
+                    "assets/criaturas/paquintos/paquintos4.png",
+                    "assets/criaturas/paquintos/paquintos5.png",
+                    "assets/criaturas/paquintos/paquintos6.png",
+                    "assets/criaturas/paquintos/paquintos7.png"
                 ]
             },
             "hp": 15,
@@ -105,18 +103,8 @@
                     "descricao": "Fareja trufas e outros alimentos subterrâneos com grande precisão."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Paquintos correm pelos campos em busca de trufas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Paquintos também são conhecidas como \"Abelhas da Terra\". Atacar uma Paquintos pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "descricao": [],
+            "som": []
         },
         "reclama-reclama": {
             "id": "reclama-reclama",
@@ -158,18 +146,8 @@
                     "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
                 }
             ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "descricao": [],
+            "som": []
         },
         "porco_da_viela": {
             "id": "porco_da_viela",
@@ -233,12 +211,7 @@
                     "texto": "A pelagem superior desses animais, que é grossa e enrolada, costumamente é usada para preencher travesseiros ou oferecer isolamento térmico para roupas."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "betassauro": {
             "id": "betassauro",
@@ -302,12 +275,7 @@
                     "texto": "Os Betassauros são uma das principais forças animais utilizadas para mover carroças e carruagens por diversas regiões. Seu porte, aliado à facilidade de domesticação e à grande força de suas pernas, faz deles excelentes animais de trabalho, especialmente como animais de carga e tração. Costumam ser criados desde filhotes ao lado de seus futuros donos, formando fortes vínculos com aqueles que cuidam deles até atingirem idade suficiente para trabalhar. São herbívoros e demonstram preferência particular por tubérculos. Apesar de sua natureza pacífica, Betassauros podem assumir um comportamento agressivo quando percebem que seu dono está sendo ameaçado. Mesmo sem possuir um verdadeiro instinto de combate, sua força física permite que realizem investidas extremamente poderosas para proteger seus mestres."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "levedor": {
             "id": "levedor",
@@ -390,12 +358,7 @@
                     "texto": "As Poliporias são construções destinadas à criação dos Levedores e à produção das Leveduras. Geralmente erguidas próximas aos rios de líquens, possuem currais, salas de colheita e grandes tonéis onde os pólipos são triturados e fermentados. Poliporias antigas frequentemente pertencem à mesma família de Levedouros há muitas gerações, e suas técnicas de fermentação são mantidas como segredos familiares."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "dronalo": {
             "id": "dronalo",
@@ -432,24 +395,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "himoor": {
             "id": "himoor",
@@ -487,24 +435,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "beija-bundas": {
             "id": "beija-bundas",
@@ -562,12 +495,7 @@
                     "texto": "Os Beija-Bundas são pássaros coprófagos. Geralmente introduzem seu bico adaptado no ânus de outros seres para se alimentar dos resíduos fecais ali presentes, pois preferem as fezes enquanto ainda estão quentes pelo contato com o corpo de animais endotérmicos. Dizem que, em algumas culturas orientais, Beija-Bundas são amplamente utilizados em banheiros para limpeza anal. Os Beija-Bundas também costumam colocar seus ovos no interior de outros seres. Para isso, desacoplam o bico e as duas estruturas brancas características de seu corpo no interior do hospedeiro. Os ovos ficam alojados dentro do bico e utilizam os nutrientes armazenados nessas estruturas brancas para se desenvolver. Quando maduros, os ovos deixam o bico, já ressecado, e são posteriormente expelidos junto às fezes do hospedeiro. Em regiões com uma grande população de Beija-Bundas, é comum que os habitantes utilizem rolhas anais para proteger seus corpos desses animais. Essas rolhas costumam ser ornamentadas com joias e metais preciosos, podendo também funcionar como demonstração do prestígio social de seu portador."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "barao-das-nozes": {
             "id": "barao-das-nozes",
@@ -625,12 +553,7 @@
                     "descricao": "Uma subespécie de Barão-das-Nozes adaptada aos climas gélidos do Norte. Em vez de comer nozes, alimenta-se de neve. Seus ninhos são feitos de gelo e ficam no alto de araucárias polares, sendo conhecidos como Iglus Suspensos."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "beijoqueira": {
             "id": "beijoqueira",
@@ -684,12 +607,7 @@
                     "texto": "As Beijoqueiras são animais inofensivos que bebem suor. Elas fazem isso fazendo biquinho e \"beijando\" seus alvos. Os beijos desses animais são agradáveis, pois são quentinhos e molhados na medida certa. Seus beijos aplicam uma dose de dopamina e, quando dados em excesso, podem provocar um inchaço temporário nos lábios do beijado. São muito utilizadas em clínicas de estética conhecidas como \"Barracas do Beijo\", onde mulheres nobres costumam aplicar mensalmente essas \"beijocas\" para fins de beleza. Algumas pessoas viciadas em \"Beijocas\" são conhecidas como Lambe-Beiços e são facilmente identificadas por seus lábios divinos e enormes. As Beijoqueiras são muito comuns em épocas de festivais esportivos e são vistas como bons presságios. Seus lábios são tão sensíveis que muitas vezes são utilizados para realizar testes antidoping em atletas, identificando o uso da poção de Charrébolona ou determinadas alterações mágicas."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "bertoldi": {
             "id": "bertoldi",
@@ -725,24 +643,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "bufalote": {
             "id": "bufalote",
@@ -778,24 +681,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "cacique": {
             "id": "cacique",
@@ -865,12 +753,7 @@
                     "texto": "Enquanto realizam suas danças, seus exoesqueletos acabam se chocando, produzindo sons parecidos com maracas."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "cavaleira": {
             "id": "cavaleira",
@@ -906,24 +789,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "fecalis": {
             "id": "fecalis",
@@ -968,12 +836,7 @@
                     "texto": "Os Fecalis são animais melancólicos, numerosos e completamente inúteis. Sua carne é dura, cheia de nervos, possui gosto ruim e não há praticamente nada de valor que possa ser extraído dessa criatura. Eles se \"comunicam\" através de grunhidos de tristeza e depressão, formando uma sucessão monótona de sons lamentáveis quando estão próximos uns dos outros. Apesar de sua abundância, quase ninguém se interessa em caçá-los, domesticá-los ou estudá-los, pois raramente oferecem qualquer benefício que justifique o esforço. Ninguém jamais ousa perder seu tempo com um Fecalis. Ele é, simplesmente, um bosta."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "fizzgigs": {
             "id": "fizzgigs",
@@ -1035,12 +898,7 @@
                     "texto": "Em casos raros, é possível encontrar Fizzgigs de colorações mais exóticas na natureza. Fizzgigs provenientes de criadouros não possuem rabos e são comumente chamados de \"Puffles\", sendo selecionados ao longo das gerações para apresentar uma grande variedade de cores."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "hortensio": {
             "id": "hortensio",
@@ -1048,7 +906,8 @@
             "imagem": {
                 "principal": "assets/criaturas/hortensio/hortensio.png",
                 "galeria": [
-                    "assets/criaturas/hortensio/hortensio2.png"
+                    "assets/criaturas/hortensio/hortensio2.png",
+                    "assets/criaturas/hortensio/hortensio3.png"
                 ]
             },
             "hp": 40,
@@ -1076,24 +935,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "jorrenilotre": {
             "id": "jorrenilotre",
@@ -1101,7 +945,9 @@
             "imagem": {
                 "principal": "assets/criaturas/jorrenilotre/jorrenilotre.png",
                 "galeria": [
-                    "assets/criaturas/jorrenilotre/jorrenilotre2.png"
+                    "assets/criaturas/jorrenilotre/jorrenilotre2.png",
+                    "assets/criaturas/jorrenilotre/jorrenilotre3.png",
+                    "assets/criaturas/jorrenilotre/jorrenilotre4.png"
                 ]
             },
             "hp": 13,
@@ -1129,24 +975,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "los_pes": {
             "id": "los_pes",
@@ -1184,24 +1015,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "maninque": {
             "id": "maninque",
@@ -1280,12 +1096,7 @@
                     "texto": "A pele dos Maninques também é considerada um material de alto padrão, valorizado por sua alta qualidade e raridade, sendo muito utilizada em mantos de luxo. Assim como o leite, entretanto, sua obtenção é difícil devido ao grande porte, à resistência e ao comportamento defensivo desses animais."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "mooshritos": {
             "id": "mooshritos",
@@ -1321,24 +1132,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "mumijal": {
             "id": "mumijal",
@@ -1406,12 +1202,7 @@
                     "texto": "Pessoas muito parrudas e fortes são, popularmente, chamadas de \"Mumijais\". Certas culturas realizam as famosas \"Mumijadas\", eventos em que um Mumijal selvagem é colocado em uma arena com um Mumijão, homem responsável por tentar matar o Mumijal."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "nininho": {
             "id": "nininho",
@@ -1447,24 +1238,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "nosfernando": {
             "id": "nosfernando",
@@ -1523,12 +1299,7 @@
                     "texto": "Os Nosfernandos são pragas nojentas e repugnantes. Podem transmitir uma praga devastadora que causa a Síndrome do Valquíria. Essa síndrome afeta o encéfalo do indivíduo, tornando-o afeminado. Não afeta mulheres nem homens que já sejam afeminados. Esses insetos são atraídos por indivíduos com altos níveis de testosterona. Possuem pequenas garras extremamente afiadas, que utilizam quando ameaçados ou ao atacar. Costumam entrar em calçados para fazer seus ninhos. Por isso, é recomendado sempre olhar dentro dos calçados em regiões de alta concentração de Nosfernandos."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "nosquito": {
             "id": "nosquito",
@@ -1564,24 +1335,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "pentis": {
             "id": "pentis",
@@ -1633,12 +1389,7 @@
                     "texto": "Os Pentorrões filhotes são comumente conhecidos como Pentis. São caracterizados principalmente pela ausência de braços, que surgem apenas em estágios posteriores de seu crescimento. Costumam permanecer próximos aos ninhos e aos bandos de Pentorrões adultos até alcançarem estágios mais avançados de desenvolvimento."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "pentorrao": {
             "id": "pentorrao",
@@ -1740,24 +1491,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "rapieura": {
             "id": "rapieura",
@@ -1889,24 +1625,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [
-                {
-                    "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "As Reclamas-Reclamas correm pelos campos em busca de flores para pegar seu pólen e levar para suas Alandocas, uma espécie de complexo cavado com seus pés onde eles produzem o seu característico caldo. As Reclamas-Reclamas também são conhecidas como \"Abelhas da Terra\". Atacar uma Reclama-Reclama pode ser um erro terrível, pois elas são reativas e partem para o combate em grupos de 6 a 7 indivíduos."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "falso-levedor": {
             "id": "falso-levedor",
@@ -1986,12 +1707,7 @@
                     "texto": "Segundo os Levedouros, os filhotes do Falso-Levedor se infiltram nos rebanhos para mamar nas mães Levedoras até conseguirem desenvolver independência para sair e caçar sozinhos."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "nohta": {
             "id": "nohta",
@@ -2062,12 +1778,7 @@
                     "texto": "Existem relatos sobre um misterioso artesão que confecciona maças e manguais cerimoniais cujos espinhos são substituídos por Nohtas petrificados anormalmente grandes e pontiagudos. A confecção dessas armas é extremamente difícil, pois exige encontrar numerosos indivíduos que apresentem formações cristalinas com tamanho, formato e resistência adequados. O paradeiro do artesão é desconhecido, assim como seu verdadeiro nome. Muitos afirmam que trabalha exclusivamente para o líder dos Escaravelhos, um grupo de mercenários de elite de Ediacara."
                 }
             ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "som": []
         },
         "corneteiro": {
             "id": "corneteiro",
@@ -2180,40 +1891,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "5 a 8 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "https://youtu.be/rlKa7i_59As",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "onca-do-lago": {
             "id": "onca-do-lago",
@@ -2254,40 +1934,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "10 a 13 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "argenrico": {
             "id": "argenrico",
@@ -2328,40 +1977,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "2 a 7 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "buleque": {
             "id": "buleque",
@@ -2402,40 +2020,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "2 a 7 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "mozilugue": {
             "id": "mozilugue",
@@ -2476,40 +2063,9 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "2 a 7 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "tenor": {
             "id": "tenor",
@@ -2550,40 +2106,57 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "2 a 7 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
-                },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
-                },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
-                },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
+            "habilidades": [],
+            "descricao": [],
             "som": [
                 {
                     "link": "https://www.instagram.com/reel/DcAL6oLkaPh/?rpxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
                     "descricao": "Tenor cantando em sua forma reptliana."
                 }
             ]
+        },
+        "carniceiro": {
+            "id": "carniceiro",
+            "nome": "Carniceiro",
+            "imagem": {
+                "principal": "assets/criaturas/carniceiro/carniceiro.png",
+                "galeria": [
+                    "assets/criaturas/carniceiro/carniceiro2.png",
+                    "assets/criaturas/carniceiro/carniceiro3.png",
+                    "assets/criaturas/carniceiro/carniceiro4.png",
+                    "assets/criaturas/carniceiro/carniceiro5.png"
+                ]
+            },
+            "hp": 30,
+            "ce": 10,
+            "mov": 4,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         },
         "prima-dona": {
             "id": "prima-dona",
@@ -2624,40 +2197,218 @@
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": "2 a 7 anos"
             },
-            "habilidades": [
-                {
-                    "nome": "Cornetas",
-                    "descricao": "Ao redor da cabeça do Corneteiro crescem grandes estruturas ocas semelhantes a cornetas. O animal consegue direcionar o ar de seus pulmões através delas, produzindo chamados de diferentes tons que podem ser ouvidos a grandes distâncias"
+            "habilidades": [],
+            "descricao": [],
+            "som": []
+        },
+        "feiossauro": {
+            "id": "feiossauro",
+            "nome": "Feiossauro",
+            "imagem": {
+                "principal": "assets/criaturas/feiossauro/feiossauro.png",
+                "galeria": [
+                    "assets/criaturas/feiossauro/feiossauro2.png",
+                    "assets/criaturas/feiossauro/feiossauro3.png",
+                    "assets/criaturas/feiossauro/feiossauro4.png"
+                ]
+            },
+            "hp": 10,
+            "ce": 10,
+            "mov": 6,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Aquático",
+                "tamanho": "Médio",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
                 },
-                {
-                    "nome": "Cornetada",
-                    "descricao": "Quando ameaçado, o Corneteiro infla completamente o papo e libera um brado ensurdecedor através de todas as suas cornetas. Criaturas próximas podem ficar temporariamente desorientadas pelo som."
-                }
-            ],
-            "descricao": [
-                {
-                    "titulo": "Visão geral",
-                    "texto": "Os Corneteiros são grandes herbívoros pastadores que vivem em manadas pelas extensas estepes antopolinas. Esses animais são conhecidos por suas enormes cornetas, alimentadas por seus papos de ressonância no meio de suas gargantas, através das quais produzem sons extremamente altos e que podem ser ouvidos a quilômetros de distância. Também são chamados de Trovadores, pois respondem aos trovões de tempestades, confundindo com os chamados de outros indivíduos de sua espécie."
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
+        },
+        "linguinus": {
+            "id": "linguinus",
+            "nome": "Linguinus",
+            "imagem": {
+                "principal": "assets/criaturas/linguinus/linguinus.png",
+                "galeria": [
+                    "assets/criaturas/linguinus/linguinus2.png",
+                    "assets/criaturas/linguinus/linguinus3.png"
+                ]
+            },
+            "hp": 3,
+            "ce": 16,
+            "mov": 10,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Pequeno",
+                "temperamento": "Neutro"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Esgotos, Caverna e Áreas Urbanas"
+                ],
+                "dieta": [
+                    "Madeira e derivados"
+                ],
+                "atividade": "Noturno",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
                 },
-                {
-                    "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para expressar seus estados emocionais. Ao amanhecer, acontecem as sete Trombetas da Manhã, um coro grave e ressonante entoado por toda a manada, divido em sete atos, que declaram que o dia começou. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, confundindo-os com chamados de outros indivíduos de sua espécie."
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
+        },
+        "cornelio": {
+            "id": "cornelio",
+            "nome": "Cornélio",
+            "imagem": {
+                "principal": "assets/criaturas/cornelio/cornelio.png",
+                "galeria": [
+                    "assets/criaturas/cornelio/cornelio2.png",
+                    "assets/criaturas/cornelio/cornelio3.png",
+                    "assets/criaturas/cornelio/cornelio4.png"
+                ]
+            },
+            "hp": 30,
+            "ce": 10,
+            "mov": 4,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
                 },
-                {
-                    "titulo": "Comportamento",
-                    "texto": "Os Corneteiros são animais de temperamento neutro e passam boa parte do dia caminhando lentamente pelas estepes pastando ou procurando tubérculos. Esses animais são apaixonados por flores, principalmente lírios, deitando em cima deles quando os encontram, para perfumarem os seus corpos. Após os banhos florais, é comum que os Corneteiros iniciem um ritual de cortejo, que trata de um dueto de baixos ressonantes. Durante o rito, um macho e uma fêmea inflam seus papos até o limite, e procuram harmonizar suas primeiras notas, se isso acontecer, começam a acasalar no mesmo instante, sustentando a vocalização na mesma nota até o fim do ato."
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
+        },
+        "pampo-perspicaz": {
+            "id": "pampo-perspicaz",
+            "nome": "Pampo-perspicaz",
+            "imagem": {
+                "principal": "assets/criaturas/pampo-perspicaz/pampo-perspicaz.png",
+                "galeria": [
+                    "assets/criaturas/pampo-perspicaz/pampo-perspicaz2.png",
+                    "assets/criaturas/pampo-perspicaz/pampo-perspicaz3.png",
+                    "assets/criaturas/pampo-perspicaz/pampo-perspicaz4.png",
+                    "assets/criaturas/pampo-perspicaz/pampo-perspicaz5.png"
+                ]
+            },
+            "hp": 30,
+            "ce": 10,
+            "mov": 4,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
                 },
-                {
-                    "titulo": "Cemitérios de Corneteiros",
-                    "texto": "Espalhadas pelas estepes antopolinas, encontram-se estruturas muito antigas de origem desconhecida, formadas por círculos concêntricos de grandes rochas perfuradas. Em momentos imprevisíveis, o vento sopra por entre as rochas, e produz um coro de harmonias graves, semelhantes às vocalizações dos Corneteiros. Ao ouvir o chamado, manadas de regiões distantes se põem a caminho e se enfileram ao redor das estruturas, unindo as suas cornetas ao canto das rochas em uma melodia uníssona por horas, ou até dias, vibrando toda a região. Os Corneteiros mais velhos e moribundos costumam permanecer no local ao fim da cerimônia, e ali padecem."
-                }
-            ],
-            "som": [
-                {
-                    "link": "",
-                    "descricao": ""
-                }
-            ]
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
+        },
+        "boludo": {
+            "id": "boludo",
+            "nome": "Boludo",
+            "imagem": {
+                "principal": "assets/criaturas/boludo/boludo.png",
+                "galeria": [
+                    "assets/criaturas/boludo/boludo2.png",
+                    "assets/criaturas/boludo/boludo3.png",
+                    "assets/criaturas/boludo/boludo4.png",
+                    "assets/criaturas/boludo/boludo5.png",
+                    "assets/criaturas/boludo/boludo6.png"
+                ]
+            },
+            "hp": 35,
+            "ce": 11,
+            "mov": 4,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Lagos e Rios",
+                    "Lagos de Vitórias-Régias"
+                ],
+                "dieta": [
+                    "Carnívoro",
+                    "Tenébrios",
+                    "Pequenos Animais"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Grandes",
+                    "quantidade": "40 a 60 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "2 a 7 anos"
+            },
+            "habilidades": [],
+            "descricao": [],
+            "som": []
         }
     }
 }
