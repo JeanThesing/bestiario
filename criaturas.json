@@ -82,28 +82,80 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Campos Floridos",
-                    "Perto de Árvores"
+                    "Estepes de Prototaxitas",
+                    "Campos Antopolinos",
+                    "Áreas Rurais",
+                    "Áreas Urbanas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Trufas",
+                    "Tubérculos",
+                    "Raízes"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Paquinteria",
+                    "quantidade": "6 a 15 indivíduos"
                 },
-                "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "reproducao": "Ovípara. Os ovos são chocados em ninhos de barro montados no chão, e os filhotes acompanham a Paquinteria desde cedo.",
+                "expectativaDeVida": "20 a 30 anos"
             },
             "habilidades": [
                 {
                     "nome": "Farejador de Trufas",
-                    "descricao": "Fareja trufas e outros alimentos subterrâneos com grande precisão."
+                    "descricao": "Fareja trufas e outros alimentos subterrâneos com grande precisão. +4 em testes de percepção para localizar alimentos ou objetos enterrados."
+                },
+                {
+                    "nome": "Corredor Resistente",
+                    "descricao": "Graças às pernas longas e musculosas, o Paquintos mantém o galope por longas distâncias sem se cansar. Pode usar a ação de disparada como ação bônus."
+                },
+                {
+                    "nome": "Investida",
+                    "descricao": "Quando em disparada, pode dar uma investida no alvo, causando 1d6 de dano e empurrando o alvo para trás."
+                },
+                {
+                    "nome": "Garras",
+                    "descricao": "Quando acuado, o Paquintos ataca com as garras dos pés, causando 1d4 + sangramento."
                 }
             ],
-            "descricao": [],
+            "descricao": [
+                {
+                    "titulo": "Visão Geral",
+                    "texto": "Os Paquintos são grandes aves terrestres, encontradas principalmente nas Estepes de Prototaxitas e nos Campos Antopolinos. Possuem pernas longas e musculosas, plumagem espessa e um probóscide, o qual utiliza para farejar trufas e outros alimentos subterrâneos. Apesar de possuírem asas, não são capazes de voar. São animais resistentes e bons corredores, frequentemente domesticados e utilizados como montarias"
+                },
+                {
+                    "titulo": "Aparência e cores",
+                    "texto": "Têm o pescoço comprido e coberto de penugem, uma mancha de pele nua e avermelhada ao redor dos olhos e uma crista de penas finas no topo da cabeça. A plumagem varia bastante entre indivíduos, sendo comuns os tons azulados, cremes, pretos e rosados. Os pés possuem garras grandes e curvas."
+                },
+                {
+                    "titulo": "Probóscide",
+                    "texto": "A probóscide é uma estrutura flexível, marcada por anéis, que termina em um bico curvo. Além de farejar alimentos enterrados, serve para sugar água e revirar o solo. Ao beber, o Paquintos mergulha a ponta da probóscide e aspira o líquido lentamente, e por isso é comum vê-los enfileirados em bebedouros."
+                },
+                {
+                    "titulo": "Domesticação",
+                    "texto": "Por serem dóceis quando bem tratados e muito velozes, os Paquintos são criados em estábulos e currais e usados como montarias, para tração leve e para caçar trufas. Os criadores costumam selecionar as cores mais raras ou vistosas, e indivíduos de plumagem rosada ou branca costumam ser mais valorizados. Quando se sentem ameaçados, tendem a fugir em disparada, e só atacam com as garras se não houver saída."
+                },
+                {
+                    "titulo": "Paquinteiros",
+                    "texto": "Os Paquinteiros são criadores e adestradores de Paquintos, comuns nas bordas das Estepes de Prototaxitas. Treinam as aves desde filhotes para responder a assobios e estalos de língua."
+                },
+                {
+                    "titulo": "Trufas e culinária",
+                    "texto": "As trufas desenterradas pelos Paquintos são consideradas iguarias, e quem as encontra com a ajuda de uma ave treinada costuma vendê-las a preços altos. As aves recebem parte da colheita como pagamento, e um bom farejador pode valer mais que uma montaria comum."
+                },
+                {
+                    "titulo": "Penas e ovos",
+                    "texto": "As penas da crista e da cauda, finas e coloridas, são usadas em chapéus, leques e adornos de nobres. Os ovos são grandes e de casca grossa, e sua coleta em ninhos selvagens é mal vista pelos criadores."
+                },
+                {
+                    "titulo": "Corridas de Paquintos",
+                    "texto": "Em vilas das estepes é tradição realizar corridas de Paquintos, com apostas, torcidas e rivalidades entre criadores. As cores das aves e dos arreios identificam as equipes, e vencedores célebres chegam a ganhar nomes próprios."
+                },
+                {
+                    "titulo": "Convivência",
+                    "texto": "Os Paquintos costumam pastar perto de Maninques e Corneteiros, sem conflito. Os Maninques revolvem o solo e deixam fungos e tubérculos expostos, que as aves aproveitam, e os brados dos Corneteiros funcionam como alarme para o bando."
+                }
+            ],
             "som": []
         },
         "reclama-reclama": {
@@ -146,7 +198,12 @@
                     "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
                 }
             ],
-            "descricao": [],
+            "descricao": [
+                {
+                    "titulo": "Visão Geral",
+                    "texto": "O Reclama-Reclama é um pequeno ser voador que se alimenta de restos de alimentos e néctar. É conhecido por ser pacífico, mas pode ser irritante quando se sente ameaçado."
+                }
+            ],
             "som": []
         },
         "porco_da_viela": {
@@ -691,7 +748,8 @@
             "imagem": {
                 "principal": "assets/criaturas/cacique/cacique.png",
                 "galeria": [
-                    "assets/criaturas/cacique/cacique2.png"
+                    "assets/criaturas/cacique/cacique2.png",
+                    "assets/criaturas/cacique/cacique3.png"
                 ]
             },
             "hp": 2,
@@ -2292,14 +2350,14 @@
                     "assets/criaturas/cornelio/cornelio4.png"
                 ]
             },
-            "hp": 30,
-            "ce": 10,
-            "mov": 4,
+            "hp": 6,
+            "ce": 16,
+            "mov": 8,
             "ca": 0,
             "classificacao": {
-                "tipagem": "Terrestre",
-                "tamanho": "Grande",
-                "temperamento": "Pacífico"
+                "tipagem": "Voador",
+                "tamanho": "Pequeno",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
@@ -2335,14 +2393,14 @@
                     "assets/criaturas/pampo-perspicaz/pampo-perspicaz5.png"
                 ]
             },
-            "hp": 30,
-            "ce": 10,
-            "mov": 4,
+            "hp": 8,
+            "ce": 13,
+            "mov": 7,
             "ca": 0,
             "classificacao": {
-                "tipagem": "Terrestre",
-                "tamanho": "Grande",
-                "temperamento": "Pacífico"
+                "tipagem": "Aquático",
+                "tamanho": "Médio",
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
