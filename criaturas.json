@@ -129,7 +129,7 @@
                 },
                 {
                     "titulo": "Probóscide",
-                    "texto": "A probóscide é uma estrutura flexível, marcada por anéis, que termina em um bico curvo. Além de farejar alimentos enterrados, serve para sugar água e revirar o solo. Ao beber, o Paquintos mergulha a ponta da probóscide e aspira o líquido lentamente, e por isso é comum vê-los enfileirados em bebedouros."
+                    "texto": "A probóscide é uma estrutura flexível que serve para farejar alimentos enterrados, sugar água e revirar o solo. Ao beber, o Paquintos mergulha a ponta da probóscide e aspira o líquido lentamente, e por isso é comum vê-los enfileirados em bebedouros."
                 },
                 {
                     "titulo": "Domesticação",
@@ -145,7 +145,7 @@
                 },
                 {
                     "titulo": "Penas e ovos",
-                    "texto": "As penas da crista e da cauda, finas e coloridas, são usadas em chapéus, leques e adornos de nobres. Os ovos são grandes e de casca grossa, e sua coleta em ninhos selvagens é mal vista pelos criadores."
+                    "texto": "As penas da crista e da cauda, finas e coloridas, são usadas em chapéus, leques e adornos de nobres. Os ovos são grandes e de casca grossa, e sua coleta em ninhos selvagens é mal vista pela sociedade."
                 },
                 {
                     "titulo": "Corridas de Paquintos",
@@ -428,7 +428,7 @@
                 ]
             },
             "hp": 6,
-            "ce": 18,
+            "ce": 16,
             "mov": 15,
             "ca": 0,
             "classificacao": {
@@ -441,20 +441,42 @@
                     "Qualquer Lugar"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Sofrimento"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Frota",
+                    "quantidade": "4 a 8 indivíduos"
                 },
                 "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "expectativaDeVida": "3 a 5 meses"
             },
-            "habilidades": [],
-            "descricao": [],
-            "som": []
+            "habilidades": [
+                {
+                    "nome": "Hélice Dilaceradora",
+                    "descricao": "Ataque cortante e lacerante feito com suas hélices. Causa 2d4 de dano cortante e sangramento."
+                },
+                {
+                    "nome": "Abraço Cortante (Crítico)",
+                    "descricao": "Um Dronalo pode abraçar uma criatura com suas hélices, fincando-as em seu corpo e girando-as intensamente, causando 8+2d6 de dano cortante e sangramento generalizado. Essa habilidade substitui o crítico de qualquer ataque de um Dronalo."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Dronalos são criaturas sádicas por natureza, que se alimentam de dor e pânico. Costumam voar em bandos chamados frotas, e atacam qualquer criatura que aparecer, visando alimentar-se de seu sofrimento. Para isso, utilizam suas hélices dilaceradoras para cortar e ferir suas vítimas violentamente. Adicionalmente, Dronalos quando estão entediados gostam de abocanhar Caciques e outros animais pequenos, apenas para soltá-los de grandes altitudes, e fazê-los sofrer."
+                },
+                {
+                    "titulo": "Temporadas",
+                    "texto": "Os Dronalos normalmente vivem em grupos pequenos e espaçados, no entanto, durante os períodos conhecidos como \"Esquartejadas\", dezenas de grupos se unem para voar em conjunto, formando os \"Batalhões\", que causam terror e sanguea todos que os encontram. Alguns acreditam que isso possa ser um indício da temporada de reprodução desses animais, embora ninguém nunca conseguiu confirmar."
+                }
+            ],
+            "som": [
+                {
+                    "link": "https://www.youtube.com/shorts/WITF6Zg-_og",
+                    "descricao": "Som Ambiente"
+                }
+            ]
         },
         "himoor": {
             "id": "himoor",
@@ -474,27 +496,60 @@
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Médio",
-                "temperamento": "Hostil"
+                "temperamento": "Neutro"
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Campos",
+                    "Estepes",
+                    "Cavernas",
+                    "Arredores de Vilas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Carnívora"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Alcatéia",
+                    "quantidade": "3 a 10 indivíduos"
                 },
-                "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "reproducao": "Sexuada e vivípara. No período reprodutivo, duas alcatéias se reúnem para acasalar, e os parceiros são sempre de alcatéias diferentes.",
+                "expectativaDeVida": "14 a 20 anos"
             },
-            "habilidades": [],
-            "descricao": [],
-            "som": []
+            "habilidades": [
+                {
+                    "nome": "Caça em Alcatéia",
+                    "descricao": "O Himoor tem vantagem em ataques contra um alvo que já esteja ao alcance de outro Himoor."
+                },
+                {
+                    "nome": "Mordida",
+                    "descricao": "Seus dentes pequenos e afiados causam 1d6 de dano (Se tirar 6 causa sangramento)."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Himoors são animais carnívoros de porte médio, com corpo robusto coberto por escamas macias e azuladas. Possuem olhos grandes e escuros, focinho longo e claro, e uma crista azul e amarela no topo da cabeça. Vivem em alcatéias e percorrem grandes áreas em busca de alimento."
+                },
+                {
+                    "titulo": "Comportamento e Comunicação",
+                    "texto": "São animais curiosos, que passam a vida caminhando em grupo em busca de alimento. Se comunicam com grunhidos que ficam variando entre sons graves e agudos. "
+                },
+                {
+                    "titulo": "Reprodução",
+                    "texto": "Em epocas de reprodução, duas alcatéias diferentes de Himoor se reúnem para acasalar. Os parceiros são sempre de alcatéias diferentes, os machos mais velhos escolhem as fêmeas primeiro, e as que restarem ficam para os mais jovens. Após a cópula, as alcatéias se dividem novamente e cada fêmea parte prenha com sua própria alcateia. Os filhotes, então, crescem com seu grupo até atingirem a maturidade sexual, quando se separam para formar suas próprias alcatéias."
+                },
+                {
+                    "titulo": "Domesticação",
+                    "texto": "Filhotes resgatados e criados por pessoas podem se tornar bons animais de guarda e de caça, ou montaria para Terriers. Costumam ser leais ao grupo que os criou, mas ainda mantêm o instinto de caça quando estão com fome, e de fugir para se juntar a alcatéias selvagens quando chega a época de reprodução."
+                }
+            ],
+            "som": [
+                {
+                    "link": "https://youtu.be/4lUJxcPBZaU",
+                    "descricao": "Som Ambiente"
+                }
+            ]
         },
         "beija-bundas": {
             "id": "beija-bundas",
@@ -549,7 +604,19 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Beija-Bundas são pássaros coprófagos. Geralmente introduzem seu bico adaptado no ânus de outros seres para se alimentar dos resíduos fecais ali presentes, pois preferem as fezes enquanto ainda estão quentes pelo contato com o corpo de animais endotérmicos. Dizem que, em algumas culturas orientais, Beija-Bundas são amplamente utilizados em banheiros para limpeza anal. Os Beija-Bundas também costumam colocar seus ovos no interior de outros seres. Para isso, desacoplam o bico e as duas estruturas brancas características de seu corpo no interior do hospedeiro. Os ovos ficam alojados dentro do bico e utilizam os nutrientes armazenados nessas estruturas brancas para se desenvolver. Quando maduros, os ovos deixam o bico, já ressecado, e são posteriormente expelidos junto às fezes do hospedeiro. Em regiões com uma grande população de Beija-Bundas, é comum que os habitantes utilizem rolhas anais para proteger seus corpos desses animais. Essas rolhas costumam ser ornamentadas com joias e metais preciosos, podendo também funcionar como demonstração do prestígio social de seu portador."
+                    "texto": "Os Beija-Bundas são pássaros coprófagos. Geralmente introduzem seu bico adaptado no ânus de outros seres para se alimentar dos resíduos fecais ali presentes, pois preferem as fezes enquanto ainda estão quentes pelo contato com o corpo de animais endotérmicos."
+                },
+                {
+                    "titulo": "Limpeza anal",
+                    "texto": "Dizem que, em algumas culturas orientais, Beija-Bundas são amplamente utilizados em banheiros para limpeza anal."
+                },
+                {
+                    "titulo": "Reprodução parasitária",
+                    "texto": "Os Beija-Bundas também costumam colocar seus ovos no interior de outros seres. Para isso, desacoplam o bico e as duas estruturas brancas características de seu corpo no interior do hospedeiro. Os ovos ficam alojados dentro do bico e utilizam os nutrientes armazenados nessas estruturas brancas para se desenvolver. Quando maduros, os ovos deixam o bico, já ressecado, e são posteriormente expelidos junto às fezes do hospedeiro."
+                },
+                {
+                    "titulo": "Rolhas anais",
+                    "texto": "Em regiões com uma grande população de Beija-Bundas, é comum que os habitantes utilizem rolhas anais para proteger seus corpos desses animais. Essas rolhas costumam ser ornamentadas com joias e metais preciosos, podendo também funcionar como demonstração do prestígio social de seu portador."
                 }
             ],
             "som": []
@@ -560,6 +627,7 @@
             "imagem": {
                 "principal": "assets/criaturas/barao-das-nozes/barao-das-nozes.png",
                 "galeria": [
+                    "assets/criaturas/barao-das-nozes/barao-das-nozes2.png",
                     "assets/criaturas/barao-das-nozes/barao-das-nozes2.png"
                 ]
             },
@@ -601,13 +669,27 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Barões-das-Nozes são aves castanheiras majestosas. Seus lábios e seus olhos verdes são muito almejados por observadores e caçadores ilegais. A caça aos Barões-das-Nozes é estritamente proibida, devido à sua baixa taxa de reprodução e à grande estima que recebem entre as pessoas. Um grande rei e filósofo, Phillip III, chamava seus discípulos de Barões-das-Nozes, pois em muitas culturas nobres esse animal é símbolo de sabedoria e do ensino pedagógico. Essas aves são conhecidas por se alimentarem de nozes e outras castanhas, o que deu origem ao seu nome; também costumam, raramente, predar pequenas criaturas. Se ameaçados, os Barões-das-Nozes tendem a furar o olho de seus algozes com suas garras afiadas para poderem fugir em segurança."
-                }
-            ],
-            "subespecies": [
+                    "texto": "Os Barões-das-Nozes são aves castanheiras majestosas. Seus lábios e seus olhos verdes são muito almejados por observadores e caçadores ilegais."
+                },
                 {
-                    "nome": "Barão-das-Nozes do Norte",
-                    "descricao": "Uma subespécie de Barão-das-Nozes adaptada aos climas gélidos do Norte. Em vez de comer nozes, alimenta-se de neve. Seus ninhos são feitos de gelo e ficam no alto de araucárias polares, sendo conhecidos como Iglus Suspensos."
+                    "titulo": "Alimentação",
+                    "texto": "Essas aves são conhecidas por se alimentarem de nozes e outras castanhas, o que deu origem ao seu nome; também costumam, raramente, predar pequenas criaturas."
+                },
+                {
+                    "titulo": "Proteção e caça",
+                    "texto": "A caça aos Barões-das-Nozes é estritamente proibida, devido à sua baixa taxa de reprodução e à grande estima que recebem entre as pessoas."
+                },
+                {
+                    "titulo": "Simbolismo e Phillip III",
+                    "texto": "Um grande rei e filósofo, Phillip III, chamava seus discípulos de Barões-das-Nozes, pois em muitas culturas nobres esse animal é símbolo de sabedoria e do ensino pedagógico."
+                },
+                {
+                    "titulo": "Defesa",
+                    "texto": "Se ameaçados, os Barões-das-Nozes tendem a furar o olho de seus algozes com suas garras afiadas para poderem fugir em segurança."
+                },
+                {
+                    "titulo": "Conde-das-Neves",
+                    "texto": "Uma subespécie de Barão-das-Nozes, adaptada aos climas gélidos do Norte. Ao invés de comer nozes, eles comem neve. Seus ninhos são feitos de gelo e ficam no alto de araucárias polares; São conhecidos como Iglus Suspensos."
                 }
             ],
             "som": []
@@ -661,7 +743,27 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "As Beijoqueiras são animais inofensivos que bebem suor. Elas fazem isso fazendo biquinho e \"beijando\" seus alvos. Os beijos desses animais são agradáveis, pois são quentinhos e molhados na medida certa. Seus beijos aplicam uma dose de dopamina e, quando dados em excesso, podem provocar um inchaço temporário nos lábios do beijado. São muito utilizadas em clínicas de estética conhecidas como \"Barracas do Beijo\", onde mulheres nobres costumam aplicar mensalmente essas \"beijocas\" para fins de beleza. Algumas pessoas viciadas em \"Beijocas\" são conhecidas como Lambe-Beiços e são facilmente identificadas por seus lábios divinos e enormes. As Beijoqueiras são muito comuns em épocas de festivais esportivos e são vistas como bons presságios. Seus lábios são tão sensíveis que muitas vezes são utilizados para realizar testes antidoping em atletas, identificando o uso da poção de Charrébolona ou determinadas alterações mágicas."
+                    "texto": "As Beijoqueiras são animais inofensivos que bebem suor. Elas fazem isso fazendo biquinho e \"beijando\" seus alvos. Os beijos desses animais são agradáveis, pois são quentinhos e molhados na medida certa."
+                },
+                {
+                    "titulo": "Beijocas",
+                    "texto": "Seus beijos aplicam uma dose de dopamina e, quando dados em excesso, podem provocar um inchaço temporário nos lábios do beijado."
+                },
+                {
+                    "titulo": "Barracas do Beijo",
+                    "texto": "São muito utilizadas em clínicas de estética conhecidas como \"Barracas do Beijo\", onde mulheres nobres costumam aplicar mensalmente essas \"beijocas\" para fins de beleza."
+                },
+                {
+                    "titulo": "Lambe-Beiços",
+                    "texto": "Algumas pessoas viciadas em \"Beijocas\" são conhecidas como Lambe-Beiços e são facilmente identificadas por seus lábios divinos e enormes."
+                },
+                {
+                    "titulo": "Festivais esportivos",
+                    "texto": "As Beijoqueiras são muito comuns em épocas de festivais esportivos e são vistas como bons presságios."
+                },
+                {
+                    "titulo": "Testes antidoping",
+                    "texto": "Seus lábios são tão sensíveis que muitas vezes são utilizados para realizar testes antidoping em atletas, identificando o uso da poção de Charrébolona ou determinadas alterações mágicas."
                 }
             ],
             "som": []
@@ -965,10 +1067,13 @@
                 "principal": "assets/criaturas/hortensio/hortensio.png",
                 "galeria": [
                     "assets/criaturas/hortensio/hortensio2.png",
-                    "assets/criaturas/hortensio/hortensio3.png"
+                    "assets/criaturas/hortensio/hortensio3.png",
+                    "assets/criaturas/hortensio/hortensio4.png",
+                    "assets/criaturas/hortensio/hortensio5.png",
+                    "assets/criaturas/hortensio/hortensio6.png"
                 ]
             },
-            "hp": 40,
+            "hp": 60,
             "ce": 12,
             "mov": 6,
             "ca": 2,
@@ -979,22 +1084,58 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Campos Floridos",
+                    "Áreas de Vegetação Abundante",
+                    "Brejos",
+                    "Florestas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Desconhecida"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Solitário, acompanhado de Impetúnios",
+                    "quantidade": "1 indivíduo"
                 },
                 "reproducao": "Desconhecida",
                 "expectativaDeVida": null
             },
-            "habilidades": [],
-            "descricao": [],
+            "habilidades": [
+                {
+                    "nome": "Garrada",
+                    "descricao": "Por ser um animal grande, possui uma força sobre-humana. Suas garras podem causar 1d10 de dano cortante."
+                },
+                {
+                    "nome": "Espirro de Pólen",
+                    "descricao": "O Hortênsio espirra uma enorme nuvem de pólen que poliniza as flores ao redor e prejudica os inimigos próximos. Criaturas em um raio de 4 metros devem passar em um Teste de Resistência (CD 13) ou ficam com desvantagem em ataques por 1 turno."
+                },
+                {
+                    "nome": "Enxame de Impetúnios",
+                    "descricao": "Quando uma criatura invade seu território, o Hortênsio comanda um enxame de Impetúnios contra ela. O alvo sofre 1d4 de dano por turno enquanto estiver dentro do enxame, além de diminuir sua CE em 3. O enxame dura 3 turnos e o Hortênsio pode comandá-lo a se mover até 6 metros por turno."
+                },
+                {
+                    "nome": "Camuflagem Florida",
+                    "descricao": "Quando parado, o Hortênsio pode ser confundido com um arbusto florido. +4 em testes de furtividade enquanto estiver em sua área de habitat natural."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Hortênsios são grandes animais territorialistas, com cerca de três metros de altura. Flores crescem em seus corpos, e as espécies variam conforme a região em que vivem. São importantes polinizadores, responsáveis pela dispersão e reprodução dessas flores, e os locais onde habitam são sempre muito floridos."
+                },
+                {
+                    "titulo": "Impetúnios",
+                    "texto": "Os Hortênsios têm uma relação simbiótica mutualística estrita com pequenos insetos chamados Impetúnios, que, de alguma forma desconhecida, nascem a partir deles. Os insetos ajudam a polinizar as flores e, em troca, são protegidos. Quando uma criatura invade o território, o Hortênsio comanda um enxame de Impetúnios contra o invasor."
+                },
+                {
+                    "titulo": "Guardião dos Pequenos",
+                    "texto": "Os Hortênsios são agressivos com invasores, mas nunca atacam crianças nem filhotes de nenhuma espécie. Quando acham que uma criança ou um filhote está em perigo, passam a protegê-los. Por isso, é comum ouvir histórias de crianças perdidas que foram encontradas dormindo entre as flores de um Hortênsio."
+                },
+                {
+                    "titulo": "Convivência",
+                    "texto": "Os Hortênsios desprezam as Alanzelhas. Elas consomem o néctar das flores que crescem em seus corpos e arredores e, depois de se alimentarem, pisoteiam as flores. Por isso, costumam expulsá-las de seus territórios com enxames de Impetúnios, mas nunca atacam os filhotes delas. Toleram os Corneteiros, que gostam de deitar sobre os lírios do chão e saem das manadas impregnados de pólen, ajudando a espalhá-lo pelas estepes. Também aceitam os Caciques, pequenos besouros que bebem o orvalho das pétalas sem danificá-las. A única espécie a qual os Hortênsios não toleram os filhotes são os Pentorrões, com seus Pentis, que são pragas para as flores e para os Impetúnios. Por isso, os Hortênsios atacam Pentorrões adultos e expulsam seus filhotes de seus territórios."
+                }
+            ],
             "som": []
         },
         "jorrenilotre": {
@@ -1327,7 +1468,7 @@
                     "Regiões de Alta Concentração Populacional"
                 ],
                 "dieta": [
-                    "Desconhecida"
+                    "Testosterona"
                 ],
                 "atividade": "Variável",
                 "organizacao": {
@@ -1340,11 +1481,11 @@
             "habilidades": [
                 {
                     "nome": "Síndrome do Valquíria",
-                    "descricao": "O Nosfernando pode transmitir uma praga que afeta o encéfalo de determinados indivíduos, causando alterações comportamentais associadas à chamada Síndrome do Valquíria. Mulheres e indivíduos naturalmente afeminados não são afetados."
+                    "descricao": "O Nosfernando pode transmitir uma praga que afeta o encéfalo de determinados indivíduos, causando alterações comportamentais e fisiológicas associadas à chamada Síndrome do Valquíria."
                 },
                 {
                     "nome": "Atração por Testosterona",
-                    "descricao": "Nosfernandos são especialmente atraídos por indivíduos com altos níveis de testosterona, podendo persegui-los ou se concentrar em locais frequentados por eles."
+                    "descricao": "Nosfernandos são especialmente atraídos por indivíduos com que aparentam ter altos níveis de testosterona, podendo persegui-los ou se concentrar em locais frequentados por eles. Para evitar ataques, é recomendado que homens finjam ser afeminados."
                 },
                 {
                     "nome": "Garras Afiadas",
@@ -1354,7 +1495,7 @@
             "descricao": [
                 {
                     "titulo": "Visão geral",
-                    "texto": "Os Nosfernandos são pragas nojentas e repugnantes. Podem transmitir uma praga devastadora que causa a Síndrome do Valquíria. Essa síndrome afeta o encéfalo do indivíduo, tornando-o afeminado. Não afeta mulheres nem homens que já sejam afeminados. Esses insetos são atraídos por indivíduos com altos níveis de testosterona. Possuem pequenas garras extremamente afiadas, que utilizam quando ameaçados ou ao atacar. Costumam entrar em calçados para fazer seus ninhos. Por isso, é recomendado sempre olhar dentro dos calçados em regiões de alta concentração de Nosfernandos."
+                    "texto": "Os Nosfernandos são pragas nojentas e repugnantes. Podem transmitir uma praga que causa a Síndrome do Valquíria. Essa síndrome afeta o encéfalo do indivíduo, tornando-o impossibilitado de produzir testosterona. Não afeta mulheres. Esses insetos são atraídos por indivíduos que aparentam ter altos níveis de testosterona. Possuem pequenas garras extremamente afiadas, que utilizam quando ameaçados ou ao atacar. Costumam entrar em calçados para fazer seus ninhos. Por isso, é recomendado sempre olhar dentro dos calçados em regiões de alta concentração de Nosfernandos."
                 }
             ],
             "som": []
@@ -1379,22 +1520,65 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Brejos",
+                    "Áreas Alagadas",
+                    "Canais",
+                    "Margens de Lagos",
+                    "Regiões Habitadas"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Néctar",
+                    "Sangue Regurgitado",
+                    "Suor"
                 ],
-                "atividade": "Diurna",
+                "atividade": "Crepuscular",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Enxame",
+                    "quantidade": "Dezenas a centenas de indivíduos"
                 },
-                "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "reproducao": "Ovípara. Depositam os ovos em águas paradas e poças dos brejos, onde as larvas se desenvolvem.",
+                "expectativaDeVida": "2 a 3 meses"
             },
-            "habilidades": [],
-            "descricao": [],
+            "habilidades": [
+                {
+                    "nome": "Picada Inversa",
+                    "descricao": "Em vez de sugar, o Nosquito injeta sangue desconhecido na vítima. Causa 1 de dano, e o alvo deve passar em um Teste de Resistência (CD 12) ou contrai a Sangria Alheia."
+                },
+                {
+                    "nome": "Ataque em Enxame",
+                    "descricao": "Para cada 5 Nosquitos adjacentes ao alvo, o enxame ganha +1 nos ataques (máximo +4)."
+                },
+                {
+                    "nome": "Antena Plumosa",
+                    "descricao": "Detecta calor, suor e respiração de criaturas vivas. +4 em testes de percepção para localizar alvos, mesmo no escuro."
+                },
+                {
+                    "nome": "Aversão à Citronela",
+                    "descricao": "Incenso de citronela afasta os Nosquitos: em um raio de 6 metros, eles têm desvantagem nos ataques e tendem a fugir."
+                },
+                {
+                    "nome": "Corpo Frágil",
+                    "descricao": "Qualquer dano mata um Nosquito. Ataques em área são muito eficazes contra enxames."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Nosquitos são pequenos insetos voadores de corpo listrado, com uma longa probóscide e uma antena plumosa. Atacam em enxames, principalmente ao pôr do sol."
+                },
+                {
+                    "titulo": "Picada e Sangria Alheia",
+                    "texto": "Ao picar humanos, seres sencientes e alguns outros animais, os Nosquitos injetam um sangue desconhecido em vez de sugar. A reação causa febre, vômito de sangue e hematidrose, uma doença chamada Sangria Alheia. A origem do sangue ainda é um mistério."
+                },
+                {
+                    "titulo": "Proteção",
+                    "texto": "São contidos com nosquiteiros e telas em portas e janelas, e afastados com incensos de citronela. Em cidades como Brejeiro, esses itens são indispensáveis, até nas residências mais elegantes, onde recebem bordados e ornamentos."
+                },
+                {
+                    "titulo": "Convivência",
+                    "texto": "Os territórios de Hortênsios têm poucos Nosquitos, pois os Impetúnios os afastam das áreas floridas."
+                }
+            ],
             "som": []
         },
         "pentis": {
