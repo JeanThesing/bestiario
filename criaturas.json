@@ -182,7 +182,7 @@
                 ],
                 "dieta": [
                     "Restos de Alimentos",
-                    "Néctar"
+                    "Frutas"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
@@ -195,13 +195,17 @@
             "habilidades": [
                 {
                     "nome": "Reclamar",
-                    "descricao": "Reclamas-reclamas reclamam de tudo, desde o clima até a comida. Elas podem ser irritantes, mas não são agressivas."
+                    "descricao": "Reclamas-reclamas reclamam de tudo, fazendo um barulho ininterrupto e irritante."
                 }
             ],
             "descricao": [
                 {
-                    "titulo": "Visão Geral",
-                    "texto": "O Reclama-Reclama é um pequeno ser voador que se alimenta de restos de alimentos e néctar. É conhecido por ser pacífico, mas pode ser irritante quando se sente ameaçado."
+                    "titulo": "Visão geral",
+                    "texto": "Os Reclamas-Reclamas são pequenos insetos voadores que reclamam de tudo, com sons constantes e queixosos. São inofensivos, mas muito irritantes."
+                },
+                {
+                    "titulo": "Comportamento",
+                    "texto": "Seguem pessoas e animais que estejam comendo e se alimentam das sobras, reclamando todo o tempo. Quando alimentados, param de reclamar por alguns instantes."
                 }
             ],
             "som": []
