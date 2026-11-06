@@ -704,7 +704,8 @@
             "imagem": {
                 "principal": "assets/criaturas/beijoqueira/beijoqueira.png",
                 "galeria": [
-                    "assets/criaturas/beijoqueira/beijoqueira2.png"
+                    "assets/criaturas/beijoqueira/beijoqueira2.png",
+                    "assets/criaturas/beijoqueira/beijoqueira3.png"
                 ]
             },
             "hp": 1,
@@ -1107,11 +1108,11 @@
             "habilidades": [
                 {
                     "nome": "Garrada",
-                    "descricao": "Por ser um animal grande, possui uma força sobre-humana. Suas garras podem causar 1d10 de dano cortante."
+                    "descricao": "Por ser um animal grande, possui uma força sobre-humana. Suas garras podem causar 1d10+2 de dano cortante."
                 },
                 {
                     "nome": "Espirro de Pólen",
-                    "descricao": "O Hortênsio espirra uma enorme nuvem de pólen que poliniza as flores ao redor e prejudica os inimigos próximos. Criaturas em um raio de 4 metros devem passar em um Teste de Resistência (CD 13) ou ficam com desvantagem em ataques por 1 turno."
+                    "descricao": "O Hortênsio espirra uma enorme nuvem de pólen que poliniza as flores ao redor e prejudica os inimigos próximos. Criaturas em um raio de 4 metros devem passar em um Teste de Resistência (CD 13) ou ficam com desvantagem em ataques por 1 turno. (Ação Bônus)"
                 },
                 {
                     "nome": "Enxame de Impetúnios",
@@ -2080,7 +2081,7 @@
                 },
                 {
                     "titulo": "Musicalidade",
-                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para se expressar as mais diversas situações. Ao amanhecer, acontece a Trombeta da Alvorada, um coro grave e ressonante entoado por toda a manada, que declara que o dia começou. Em contrapartida, ao anoitecer, apenas um Corneteiro canta uma longa nota solitária, anunciando o fim do dia. Durante tempestades, dzenas de corneteiros respondem simultaneamente aos barulhos dos trovões, como se tentassem se comunicar com as núvens. "
+                    "texto": "Os Corneteiros são animais movidos a musicalidade, e utilizam suas cornetas para se expressar as mais diversas situações. Ao amanhecer, acontece a Trombeta da Manhã, um coro grave e ressonante entoado por toda a manada, que declara que o dia começou. Em contrapartida, ao anoitecer, apenas um Corneteiro canta uma longa nota solitária, anunciando o fim do dia. Durante tempestades, dezenas de corneteiros respondem simultaneamente aos barulhos dos trovões, como se tentassem se comunicar com as nuvens. "
                 },
                 {
                     "titulo": "Comportamento",
@@ -2654,6 +2655,86 @@
             },
             "habilidades": [],
             "descricao": [],
+            "som": []
+        },
+        "procopio": {
+            "id": "procopio",
+            "nome": "Procópio",
+            "imagem": {
+                "principal": "assets/criaturas/procopio/procopio.png",
+                "galeria": [
+                    "assets/criaturas/procopio/procopio2.png",
+                    "assets/criaturas/procopio/procopio3.png",
+                    "assets/criaturas/procopio/procopio4.png",
+                    "assets/criaturas/procopio/procopio5.png"
+                ]
+            },
+            "hp": 45,
+            "ce": 13,
+            "mov": 7,
+            "ca": 3,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Grande",
+                "temperamento": "Hostil"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Brejos",
+                    "Áreas Alagadas"
+                ],
+                "dieta": [
+                    "Cérebros de animais e seres sencientes",
+                    "Ossos cranianos"
+                ],
+                "atividade": "Matutina",
+                "organizacao": {
+                    "tipo": "Solitário",
+                    "quantidade": "1 indivíduo"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "10 a 17 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Emboscada",
+                    "descricao": "Quando ataca uma criatura que ainda não percebeu sua presença, sua rolagem de ataque recebe +4."
+                },
+                {
+                    "nome": "Camuflagem do Brejo",
+                    "descricao": "Enterrado na lama ou agarrado entre os galhos com neblina ao redor, o Procópio fica quase invisível. +6 em testes de furtividade em brejos e áreas alagadas pela manhã."
+                },
+                {
+                    "nome": "Agarrar",
+                    "descricao": "Ao acertar um ataque, o Procópio pode agarrar o alvo com seus membros longos. Para escapar, o alvo deve passar em um teste de FOR (CD 14). (Ação Bônus)"
+                },
+                {
+                    "nome": "Torcer Pescoço",
+                    "descricao": "Contra um alvo agarrado, o Procópio tenta torcer ou arrancar sua cabeça, causando 2d8 de dano. Se o alvo chegar a 0 PV por esse ataque, é morto instantaneamente."
+                },
+                {
+                    "nome": "Garras",
+                    "descricao": "Seus dedos longos e afiados causam 1d8 de dano."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Procópios são grandes predadores de emboscada dos brejos e margens de rios e lagos. Têm quatro membros longos, pescoço comprido, olhos em hastes e boca circular. São solitários e territorialistas."
+                },
+                {
+                    "titulo": "Emboscada",
+                    "texto": "Caçam escondidos na lama ou agarrados aos galhos, com só os olhos de fora, e saltam sobre a presa para prendê-la com os membros. Só atacam ao amanhecer, aproveitando a neblina, e passam o resto do dia imóveis e escondidos."
+                },
+                {
+                    "titulo": "Dieta",
+                    "texto": "Alimentam-se principalmente de cérebros das presas que caça. Tentam arrancar a cabeça ou torcer o pescoço da presa e deixam o resto do corpo. Corpos sem cabeça ou com o crânio aberto indicam que há um por perto."
+                },
+                {
+                    "titulo": "Ninhos e ovos",
+                    "texto": "Constroem o ninho com ossos da cabeça das vítimas, como dentes e mandíbulas. Também comem parte desses ossos para produzir ovos de casca muito calcificada, que resistem enquanto o Procópio caça."
+                }
+            ],
             "som": []
         }
     }
