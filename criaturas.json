@@ -1150,13 +1150,12 @@
                 "principal": "assets/criaturas/jorrenilotre/jorrenilotre.png",
                 "galeria": [
                     "assets/criaturas/jorrenilotre/jorrenilotre2.png",
-                    "assets/criaturas/jorrenilotre/jorrenilotre3.png",
-                    "assets/criaturas/jorrenilotre/jorrenilotre4.png"
+                    "assets/criaturas/jorrenilotre/jorrenilotre3.png"
                 ]
             },
-            "hp": 13,
+            "hp": 20,
             "ce": 5,
-            "mov": 10,
+            "mov": 6,
             "ca": 0,
             "classificacao": {
                 "tipagem": "Terrestre",
@@ -1165,22 +1164,44 @@
             },
             "ecologia": {
                 "habitat": [
-                    "Qualquer Lugar"
+                    "Vales Rochosos",
+                    "Palácios e Castelos"
                 ],
                 "dieta": [
-                    "Pólen",
-                    "Néctar"
+                    "Frutas Frescas"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Colônia",
-                    "quantidade": "6 a 20 indivíduos"
+                    "tipo": "Solitário",
+                    "quantidade": "1 indivíduo"
                 },
                 "reproducao": "Desconhecida",
-                "expectativaDeVida": null
+                "expectativaDeVida": "20 a 30 anos"
             },
-            "habilidades": [],
-            "descricao": [],
+            "habilidades": [
+                {
+                    "nome": "Prestígio Social",
+                    "descricao": "Estar acompanhado de um Jorrenilotre ou estar vestido com a sua pele concede +4 em testes de Carisma (CAR) ao lidar com nobres e burgueses, pois sua posse é associada à riqueza e ao prestígio social."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão Geral",
+                    "texto": "Os Jorrenilotres são animais extremamente raros, considerados símbolos de riqueza e prestígio entre a aristocracia. Costumam ser mantidos em palácios, onde recebem aposentos próprios, joias e retratos em sua homenagem."
+                },
+                {
+                    "titulo": "Reprodução",
+                    "texto": "Ninguém sabe como ou em quais circunstâncias os Jorrenilotres se reproduzem. Todas as tentativas de reprodução em cativeiro fracassaram."
+                },
+                {
+                    "titulo": "Presentes Diplomáticos",
+                    "texto": "Oferecer um Jorrenilotre é uma demonstração extraordinária de riqueza e estima, frequentemente utilizada para selar acordos entre nobres. Entretanto, sua manutenção exige despesas consideráveis, tornando o presente também uma obrigação financeira."
+                },
+                {
+                    "titulo": "Peles Valiosas",
+                    "texto": "A pelagem dos Jorrenilotres é utilizada na confecção de mantos e vestimentas extremamente luxuosos. Uma única peça pode valer tanto quanto uma propriedade, e sua procedência é motivo de prestígio entre colecionadores."
+                }
+            ],
             "som": []
         },
         "los_pes": {
@@ -1680,11 +1701,19 @@
             "habilidades": [
                 {
                     "nome": "Ataque em Bando",
-                    "descricao": "Pentorrões tornam-se mais perigosos quando atacam em grupo, cercando suas vítimas e avançando de diferentes direções."
+                    "descricao": "Pentorrões tornam-se mais perigosos quando atacam em grupo, cercando suas vítimas e avançando de diferentes direções. Quando um Pentorrão ataca uma criatura que já está sendo atacada por outro de sua espécie, ele recebe +2 em seus ataques."
                 },
                 {
-                    "nome": "Colecionador de Brilhos",
-                    "descricao": "Pentorrões são fortemente atraídos por objetos brilhantes e tendem a roubá-los e levá-los para seus ninhos."
+                    "nome": "Garrada",
+                    "descricao": "Suas garras causam 1d6 de dano cortante."
+                },
+                {
+                    "nome": "Mordida",
+                    "descricao": "Sua mordida causa 1d8 de dano perfurante."
+                },
+                {
+                    "nome": "Estruturalmente Desproporcionais",
+                    "descricao": "Pentorrões possuem um tórax grande e braços curtos. O que os impedem de escalar árvores ou locais elevados."
                 }
             ],
             "descricao": [
@@ -2371,38 +2400,77 @@
                     "assets/criaturas/carniceiro/carniceiro2.png",
                     "assets/criaturas/carniceiro/carniceiro3.png",
                     "assets/criaturas/carniceiro/carniceiro4.png",
-                    "assets/criaturas/carniceiro/carniceiro5.png"
+                    "assets/criaturas/carniceiro/carniceiro5.png",
+                    "assets/criaturas/carniceiro/carniceiro6.png"
                 ]
             },
-            "hp": 30,
+            "hp": 40,
             "ce": 10,
             "mov": 4,
-            "ca": 0,
+            "ca": 2,
             "classificacao": {
                 "tipagem": "Terrestre",
                 "tamanho": "Grande",
-                "temperamento": "Pacífico"
+                "temperamento": "Hostil"
             },
             "ecologia": {
                 "habitat": [
-                    "Lagos e Rios",
-                    "Lagos de Vitórias-Régias"
+                    "Estepes",
+                    "Terrenos Pedregosos",
+                    "Vales Rochosos"
                 ],
                 "dieta": [
-                    "Carnívoro",
-                    "Tenébrios",
-                    "Pequenos Animais"
+                    "Carniça",
+                    "Carne"
                 ],
                 "atividade": "Diurna",
                 "organizacao": {
-                    "tipo": "Grupos Grandes",
-                    "quantidade": "40 a 60 indivíduos"
+                    "tipo": "Solitário",
+                    "quantidade": "1 indivíduo"
                 },
                 "reproducao": "Desconhecida",
-                "expectativaDeVida": "2 a 7 anos"
+                "expectativaDeVida": "50 a 70 anos"
             },
-            "habilidades": [],
-            "descricao": [],
+            "habilidades": [
+                {
+                    "nome": "Bicada Cortante",
+                    "descricao": "O Carniceiro ataca com seu bico grande e afiado, causando 2d6 de dano."
+                },
+                {
+                    "nome": "Garras",
+                    "descricao": "Suas garras afiadas causam 1d8 de dano. O Carniceiro pode fazer um ataque de bico e um de garras por turno."
+                },
+                {
+                    "nome": "Vômito Conservante",
+                    "descricao": "O Carniceiro regurgita formol sobre uma criatura a até 3 metros. O alvo deve passar em um Teste de Resistência (CD 13) ou sofre 1d6 de dano de veneno e fica com desvantagem em ataques e testes de percepção por 1 minuto, pelo ardor nos olhos e na garganta. Pode ser usado novamente após 3 turnos."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Carniceiros são grandes animais carnívoros que vagam pelas estepes durante o dia. São extremamente agressivos, mas seu corpo pesado e sua pouca agilidade dificultam a captura de presas. Por isso, alimentam-se principalmente de carcaças abandonadas por outros predadores."
+                },
+                {
+                    "titulo": "Vômito Conservante",
+                    "texto": "Os Carniceiros conseguem regurgitar um líquido tóxico e extremamente pungente, conhecido como formol, capaz de retardar a decomposição de tecidos biológicos. Costumam vomitá-lo sobre carcaças para conservá-las e afastar outros animais necrófagos interessados."
+                },
+                {
+                    "titulo": "Necrópoles",
+                    "texto": "As regiões habitadas por Carniceiros são frequentemente chamadas de Necrópoles, devido à grande quantidade de carcaças parcialmente devoradas e preservadas pelo formol. Como esses animais costumam esquecer onde deixaram seus alimentos, as carcaças podem permanecer conservadas por muito tempo, formando verdadeiros cemitérios a céu aberto."
+                },
+                {
+                    "titulo": "Odor das Carcaças",
+                    "texto": "O formol possui um cheiro químico forte e característico, que pode ser percebido a grandes distâncias. Seu odor costuma denunciar a presença de carcaças preservadas e de regiões frequentadas por Carniceiros."
+                },
+                {
+                    "titulo": "Caçadores de Oportunidade",
+                    "texto": "Embora se alimentem principalmente de carniça, os Carniceiros preferem carne fresca. Sua lentidão dificulta a caça, fazendo com que ataquem preferencialmente animais feridos, debilitados ou presos na lama."
+                },
+                {
+                    "titulo": "Caçadas na Neblina",
+                    "texto": "Os Carniceiros obtêm maior sucesso em suas caçadas durante períodos de neblina intensa, quando conseguem ocultar sua silhueta e se aproximar de presas desprevenidas. Atacam utilizando seu grande bico cortante e suas garras afiadas."
+                }
+            ],
             "som": []
         },
         "prima-dona": {
@@ -2656,6 +2724,163 @@
             "habilidades": [],
             "descricao": [],
             "som": []
+        },
+        "pimpolho": {
+            "id": "pimpolho",
+            "nome": "Pimpolho",
+            "imagem": {
+                "principal": "assets/criaturas/pimpolho/pimpolho.png",
+                "galeria": [
+                    "assets/criaturas/pimpolho/pimpolho2.png",
+                    "assets/criaturas/pimpolho/pimpolho3.png",
+                    "assets/criaturas/pimpolho/pimpolho4.png",
+                    "assets/criaturas/pimpolho/pimpolho5.png"
+                ]
+            },
+            "hp": 8,
+            "ce": 15,
+            "mov": 9,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Médio",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Regiões Arborizadas"
+                ],
+                "dieta": [
+                    "Frutas",
+                    "Castanhas",
+                    "Insetos"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Médios",
+                    "quantidade": "10 a 15 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "9 a 14 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Surrupiador de Chapéus",
+                    "descricao": "+4 para testes de Furtividade e Destreza para roubar chapéus e lenços de viajantes distraídos."
+                },
+                {
+                    "nome": "Esbofetador",
+                    "descricao": "Quando ameaçado, o Pimpolho pode usar seus quatro braços para desferir tapas rápidos e precisos, podendo desnortear o alvo, impedindo-o que ataque no próximo turno. Teste de Resistência (CD 12) para evitar o desnorteamento."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "Os Pimpolhos são animais arborícolas de quatro braços e uma cauda preênsil terminada em uma mão. São ágeis, curiosos e passam a maior parte da vida nas copas das árvores, raramente descendo ao solo."
+                },
+                {
+                    "titulo": "Fascínio por Tecidos",
+                    "texto": "Os Pimpolhos adoram roupas e tecidos, especialmente peças coloridas e bordadas. Costumam roubar roupas de viajantes distraídos, principalmente daqueles que deixam seus pertences nas margens dos rios enquanto tomam banho."
+                },
+                {
+                    "titulo": "Varais Suspensos",
+                    "texto": "Constroem seus abrigos entre os galhos das árvores, utilizando roupas e tecidos encontrados ou roubados. Suas moradias lembram enormes varais, com peças penduradas por todos os lados."
+                },
+                {
+                    "titulo": "Vestimentas",
+                    "texto": "Frequentemente tentam vestir as roupas que encontram, mesmo quando não possuem o tamanho adequado. Também demonstram interesse por chapéus, lenços e outros acessórios."
+                },
+                {
+                    "titulo": "Comportamento Social",
+                    "texto": "Vivem em grupos e costumam catar parasitas da pelagem uns dos outros. Quando percebem alguma ameaça, emitem vocalizações estridentes para alertar os demais."
+                },
+                {
+                    "titulo": "Territorialidade",
+                    "texto": "Embora sejam relativamente pacíficos, os Pimpolhos são bastante apegados às suas coleções de tecidos. Podem reagir agressivamente quando alguém tenta recuperar uma peça roubada de seus varais."
+                },
+                {
+                    "titulo": "Locomoção",
+                    "texto": "Utilizam seus quatro braços e a mão na extremidade da cauda para se pendurar, escalar e saltar entre galhos. Conseguem até dormir suspensos, mantendo os membros recolhidos junto ao corpo."
+                }
+            ],
+            "som": [
+                {
+                    "link": "https://youtu.be/5OO8VNLrUAM",
+                    "descricao": "Som Ambiente"
+                },
+                {
+                    "link": "https://www.youtube.com/shorts/eAeawGoVn_8",
+                    "descricao": "Som de Chamado"
+                }
+            ]
+        },
+        "piremafu": {
+            "id": "piremafu",
+            "nome": "Piremafu",
+            "imagem": {
+                "principal": "assets/criaturas/piremafu/piremafu.png",
+                "galeria": [
+                    "assets/criaturas/piremafu/piremafu2.png",
+                    "assets/criaturas/piremafu/piremafu3.png",
+                    "assets/criaturas/piremafu/piremafu4.png"
+                ]
+            },
+            "hp": 5,
+            "ce": 14,
+            "mov": 5,
+            "ca": 0,
+            "classificacao": {
+                "tipagem": "Terrestre",
+                "tamanho": "Pequeno",
+                "temperamento": "Pacífico"
+            },
+            "ecologia": {
+                "habitat": [
+                    "Estepes Pedregosas"
+                ],
+                "dieta": [
+                    "Castanhas",
+                    "Frutinhas Fermentadas",
+                    "Insetos"
+                ],
+                "atividade": "Diurna",
+                "organizacao": {
+                    "tipo": "Grupos Pequenos",
+                    "quantidade": "3 a 6 indivíduos"
+                },
+                "reproducao": "Desconhecida",
+                "expectativaDeVida": "4 a 7 anos"
+            },
+            "habilidades": [
+                {
+                    "nome": "Dispara-Castanhas",
+                    "descricao": "Quando ameaçado, o Piremafu pode expelir as castanhas e sementes guardadas em sua bolsa anatômica interna através de seu umbigo. O alvo deve passar em um teste de Destreza (CD 10) ou ficará Cego por 1 turno, caso o alimento atinja seus olhos."
+                }
+            ],
+            "descricao": [
+                {
+                    "titulo": "Visão geral",
+                    "texto": "São pequenos animais dóceis, frequentemente domesticados e utilizados como animais de companhia."
+                },
+                {
+                    "titulo": "Frutas Fermentadas",
+                    "texto": "Adoram comer frutas fermentadas, principalmente os fisales, buscando propositalmente a sensação de embriaguez. É comum encontrá-los cambaleando após consumir grandes quantidades."
+                },
+                {
+                    "titulo": "Umbigo Armazenador",
+                    "texto": "Possuem uma bolsa interna conectada ao umbigo, utilizada para armazenar alimentos secos, como nozes, castanhas e sementes. Conseguem sugá-los pelo umbigo e expeli-los posteriormente para consumo."
+                },
+                {
+                    "titulo": "Domesticação",
+                    "texto": "Por seu temperamento dócil e pequeno porte, são muito apreciados como animais de estimação. Costumam ser transportados em cestos e bolsas durante viagens."
+                }
+            ],
+            "som": [
+                {
+                    "link": "https://www.youtube.com/shorts/aXCKsGmKkv0",
+                    "descricao": "Som Ambiente"
+                }
+            ]
         },
         "procopio": {
             "id": "procopio",
